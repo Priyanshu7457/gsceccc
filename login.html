@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <!-- <link rel="stylesheet" href="./CSS/style.css" /> -->
+  <link rel="stylesheet" href="./CSS/test.css" />
+  <link rel="stylesheet" href="./CSS/login.css">
+  <link rel="website icon" type="jpg" href="../Image/logo.jpg" />
+  <title>CCC-Course</title>
+  <style>
+    .frame-box {
+      margin-top: 0px;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="load-box" class="hide"></div>
+  <div id="login-box">
+    <center>
+      <h1>Login Form</h1>
+    </center>
+    <form>
+      <div class="container1">
+        <label>User-Id : </label>
+        <input type="text" id="fetch" name="username" placeholder="Enter Your User-Id" />
+        <input type="submit" id="button" value="Login" />
+        <div class="register">
+          <a href="./registration.html">Registration</a>
+        </div>
+        <input type="checkbox" /> Remember me Forgot
+        <a href="#">UserId</a>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="home-box" hidden>
+    <div class="box">
+      <span class="topic">
+        <br />
+        <br />
+        <b>Key Aspects of CCC Course:</b>
+        <br />
+        <br />
+        <b>Basic Computer Skills:</b>
+        <br />
+        CCC covers fundamental computer concepts, including hardware, software, operating
+        systems, and peripheral devices. Participants learn about computer applications and their practical
+        usage.
+        <br />
+        <b>Internet and Email:</b>
+        <br />
+        The course provides insights into internet basics, web browsing, online
+        communication, and email usage. Participants learn how to effectively use internet services for research
+        and communication.
+        <br />
+        <b>Microsoft Office Suite:</b>
+        <br />
+        CCC often includes training on popular office applications like Microsoft Word,
+        Excel, and PowerPoint. Participants gain hands-on experience in creating documents, spreadsheets, and
+        presentations.
+        <br />
+        <b>Data Security and Ethics:</b>
+        <br />The course emphasizes the importance of data security, privacy, and ethical
+        practices in the digital world. Participants learn about malware, online threats, and methods to
+        safeguard personal and professional data.
+        <br />
+        <b>Government Job Requirements:</b>
+        <br />Many government jobs in India require candidates to possess a CCC
+        certificate. Hence, the course is popular among job seekers aiming to meet eligibility criteria for
+        government positions.
+        <br />
+        <b>Flexible Learning:</b>
+        <br />CCC courses are often structured to accommodate both beginners and those with some
+        prior computer knowledge. The flexible learning approach ensures that participants can grasp the
+        concepts at their own pace.
+        <br />
+        <b>Certification:</b>
+        <br />
+        Upon successful completion of the CCC course and passing the examination, participants
+        receive a certificate recognized by the Government of India. This certification can significantly
+        enhance employment opportunities.
+        <br />
+        <b>Digital Empowerment:</b>
+        <br /> CCC plays a crucial role in bridging the digital divide by empowering individuals
+        with essential computer skills. It enables people from various backgrounds to participate confidently in
+        the digital age.
+
+        <br />
+
+
+        <span class="topic">
+          <center>For Online Test Click Below</center>
+          <br />
+
+          <center>
+            <div class="button">
+              <p><button class="test-btn" onclick="run()">NIELIT-CCC Chapter-Wise Test Series</button></p>
+            </div>
+          </center>
+        </span>
+
+        <br />
+        <span class="topic">
+          <center>For Online Test Click Below</center>
+          <br />
+
+          <center>
+            <div class="button">
+              <p><button class="test-btn" onclick="run2()">NIELIT-CCC Booster Test Series</button></p>
+            </div>
+          </center>
+        </span>
+
+        <br />
+        <span class="topic">
+          <center>For NIELIT CCC Notes Click Below</center>
+          <br />
+
+          <center>
+            <div class="button">
+              <p>
+                <button onclick="pdfstart('Notes-1/ccc-notes.html')" class="test-btn">CCC-Notes-1</button>
+              </p>
+            </div>
+          </center>
+
+          <center>
+            <div class="button">
+
+              <p>
+                <button onclick="pdfstart('Notes-2/ccc-notes.html')" class="test-btn">CCC-Notes-2</button>
+              </p>
+            </div>
+          </center>
+
+        </span>
+    </div>
+    </span>
+  </div>
+
+
+  <!-- Chapter Wise Questions -->
+
+  <div class="box box1" style="text-align: justify; margin-top: 0;" hidden>
+    <button class="logout-btn" onclick="logout()">Log Out</button>
+    <button class="btns" onclick="aboutccc()">About CCC</button>
+    <br>
+    <span class="topic">
+      <button onclick="test('ch-1.html')" class="test-btn">Ch-1 Introduction Of Computer</button>
+      <br /><br />
+      <button onclick="test('ch-2.html')" class="test-btn">Ch-2 Introduction to Operating System</button>
+      <br /><br />
+      <button onclick="test('ch-3.html')" class="test-btn">Ch-3 Libre Office Writter</button>
+      <br /><br />
+      <button onclick="test('ch-4.html')" class="test-btn">Ch-4 Libre Office Calc</button>
+      <br /><br />
+      <button onclick="test('ch-5.html')" class="test-btn">Ch-5 Libre Office Impress</button>
+      <br /><br />
+      <button onclick="test('ch-6.html')" class="test-btn">Ch-6 Introduction of Internet and WWW</button>
+      <br /><br />
+      <button onclick="test('ch-7.html')" class="test-btn">Ch-7 Email,Social Networking and E-Governance</button>
+      <br /><br />
+      <button onclick="test('ch-8.html')" class="test-btn">Ch-8 Digital Finance Tools and Applications</button>
+      <br /><br />
+      <button onclick="test('ch-9.html')" class="test-btn">Ch-9 Overview of Cyber Security</button>
+      <br /><br />
+      <button onclick="test('ch-10.html')" class="test-btn">Ch-10 Overview of Future Skills and Artificial
+        Intelligence</button>
+      <br /><br />
+    </span>
+  </div>
+
+
+
+
+
+
+
+  <!-- Random Questions Test Series -->
+  <div class="box box2" style="text-align: justify; margin-top: 0;" hidden>
+    <button class="logout-btn" onclick="logout()">Log Out</button>
+    <button class="btns" onclick="aboutccc()">About CCC</button>
+    <br>
+    <span class="topic">
+      <button onclick="random_test('ch-1.html')" class="test-btn">Question Set-1</button>
+      <br /><br />
+      <button onclick="random_test('ch-2.html')" class="test-btn">Question Set-2</button>
+      <br /><br />
+      <button onclick="random_test('ch-3.html')" class="test-btn">Question Set-3</button>
+      <br /><br />
+      <button onclick="random_test('ch-4.html')" class="test-btn">Question Set-4</button>
+      <br /><br />
+      <button onclick="random_test('ch-5.html')" class="test-btn">Question Set-5</button>
+      <br /><br />
+      <button onclick="random_test('ch-6.html')" class="test-btn">Question Set-6</button>
+      <br /><br />
+      <button onclick="random_test('ch-7.html')" class="test-btn">Question Set-7</button>
+      <br /><br />
+      <button onclick="random_test('ch-8.html')" class="test-btn">Question Set-8</button>
+      <br /><br />
+      <button onclick="random_test('ch-9.html')" class="test-btn">Question Set-9</button>
+      <br /><br />
+      <button onclick="random_test()" class="test-btn">Question Set-10</button>
+      <br /><br />
+    </span>
+  </div>
+
+
+
+
+  <div class="frame-box" hidden>
+    <button class="btns" onclick="run()">NIELIT-CCC Test Series</button>
+    <center>
+      <h1>NIELIT-CCC</h1>
+      <iframe src="" style="height: 450px;"></iframe>
+    </center>
+  </div>
+
+
+  <div class="pdf-box" hidden>
+    <center>
+      <h1>NIELIT-CCC</h1>
+      <iframe src="" class="pdf-frame"></iframe>
+      <button class="logout-btn" onclick="logout()">Log Out</button>
+      <button class="btns" onclick="run()">NIELIT-CCC Test Series</button>
+    </center>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth-compat.js"></script>
+  <script src="./Js/login.js"></script>
+</body>
+
+</html>

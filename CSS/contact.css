@@ -1,0 +1,162 @@
+.container1 {
+    padding: 20px;
+}
+
+.light-bg {
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font: bold;
+    font-size: 25px;
+}
+
+.contact-details {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.light-text {
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 25px;
+    border: 2px solid crimson;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid crimson;
+}
+
+table th {
+    text-align: left;
+    background-color: #eaeaea;
+}
+
+td a {
+    color: blue;
+}
+
+.fa {
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.fa-instagram {
+    background-color: rgb(212, 24, 55);
+    color: white;
+
+}
+
+.fa-instagram:hover {
+    color: rgb(212, 24, 55);
+    background-color: white;
+}
+
+.fa-facebook {
+    background-color: rgb(96, 96, 204);
+    color: white;
+}
+
+.fa-facebook:hover {
+    color: rgb(96, 96, 204);
+    background-color: white;
+}
+
+.fa-youtube {
+    background-color: red;
+    color: white;
+}
+
+.fa-youtube:hover {
+    color: red;
+    background-color: white;
+}
+
+
+.fa-whatsapp {
+    background-color: lime;
+    color: white;
+}
+
+.fa-whatsapp:hover {
+    color: lime;
+    background-color: white;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    .contact-details {
+        padding: 10px;
+    }
+
+    table th,
+    table td {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container1 {
+        padding: 10px;
+    }
+
+    .contact-details {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    table th,
+    table td {
+        font-size: 14px;
+    }
+}
+
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    border-radius: 20px;
+}
+
+.card-content button:hover {
+    background-color: #0056b3;
+}

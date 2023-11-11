@@ -1,0 +1,17 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+.countdown {
+    font-size: 20px;
+    height: 18px;
+}
+
+#timer {
+    background: linear-gradient(lime, yellow, red);
+    border: 2px solid red;
+}

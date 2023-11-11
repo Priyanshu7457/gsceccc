@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./CSS/registration.css" />
+  <link rel="website icon" type="png" href="./Image/logo.jpeg" />
+  <title>Registration</title>
+</head>
+
+<body>
+  <div id="load-box" class="hide"></div>
+
+  <div class="payment">
+    <div>
+      <h2>QR Code:</h2>
+      <div class="img_qr">
+
+        <img src="./Image/QR.jpeg" id="qr_code" alt="" /><br />
+      </div>
+      <div class="pay_btn">
+        <h2>UPI ID:</h2>
+        <input type="text" value="vermagaurav1985@okicici" class="pay_id" disabled />
+        <a href="https://wa.link/08cnqg" class="confirm" target="/">Send ScreenShot</a>
+      </div>
+    </div>
+    <div class="form-control security-key">
+      <label for="name">Security Key</label>
+      <input type="text" id="key-input" placeholder="Enter The Security Key" />
+      <button id="confirm">Confirm</button>
+    </div>
+  </div>
+
+  <div id="login-box" style="margin-top: 20px" class="hide">
+    <div class="container">
+      <form class="form" id="form">
+        <h2>Registration Form</h2>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter Your Name" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter Email" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Contact Number</label>
+          <input type="text" id="number" placeholder="Enter Mobile Number" inputmode="numeric" />
+          <small>Error Message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="final-box"></div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth-compat.js"></script>
+<script src="./Js/registration.js"></script>
+
+</html>

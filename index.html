@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./CSS/contact.css">
+  <link rel="website icon" type="png" href="./Image/logo.jpeg" />
+  <title>My-WebSite</title>
+
+  <style>
+    .frame-box {
+      display: none;
+    }
+
+    .popup-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0px;
+    }
+
+    .popup-container.active {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #closePopupButton {
+      background-color: #ff0000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    iframe {
+      margin-top: 10px;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+
+</head>
+
+<body style="scroll-behavior: smooth;">
+  <nav class="navbar background">
+    <ul class="nav-list v-class">
+      <div class="logo"><img src="./Image/logo.jpeg" alt="Logo" /></div>
+      <li><a href="#home" onclick="toggle()">Home</a></li>
+      <li><a href="#about" onclick="toggle()">About</a></li>
+      <li><a href="#contact" onclick="toggle()">Contact Us</a></li>
+      <li><a href="#service" onclick="toggle()">Services</a></li>
+    </ul>
+    <div class="burger" onclick="toggle()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+
+  <section class="background firstSection" id="home">
+    <div class="box-main">
+      <div class="firstHalf">
+        <p class="bigger">Gaurav Sir Computer Education</p>
+        <p class="smaller">Power Up Your Carrier With Computer Skills</p>
+        <div class="buttons">
+          <button class="btn">
+            <a href=""><i class="fa fa-youtube"></i></a>
+          </button>
+          <button class="btn">
+            <a href=""><i class="fa fa-instagram"></i></a>
+          </button>
+          <button class="btn">
+            <a href=""><i class="fa fa-whatsapp"></i></a>
+          </button>
+        </div>
+      </div>
+      <div class="secondHalf">
+        <img src="./Image/logo.jpeg" alt="Logo" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="para about-box">
+      <p class="sectag1 bigger"> <b> Welcome to G.S Computer Education</b>,
+      </p>
+      <p class="sectag2 smaller ">
+        <br />
+        <br />
+      <h4>Our Mission</h4>
+      <br />
+      At G.S Computer Education, our mission is to empower individuals and businesses with the knowledge and tools
+      they need to thrive in the digital age. We believe that technology should be accessible to all, and we're
+      here to make that a reality.
+      <br />
+      <br />
+      <h4>Our Team</h4>
+      <br />
+      Our team consists of highly skilled and experienced professionals who are dedicated to excellence. From
+      computer
+      technicians to software developers, our experts are here to assist you with a wide range of services.
+      <br />
+      <br />
+      <h4>What We Offer</h4>
+      <br />
+      Computer Repair and Maintenance: Whether you have a hardware issue or need software troubleshooting, our
+      technicians are here to help you get your computer running smoothly.
+      <br />
+      <br />
+      <h4>Software Development:</h4>
+      <br /> Need custom software solutions for your business? Our developers are ready to create
+      tailored applications that meet your specific needs.
+      <br />
+      <br />
+      <h4>IT Consultation:</h4>
+      <br />
+      Looking for advice on IT infrastructure, cybersecurity, or technology strategy? Our
+      consultants are here to provide expert guidance.
+      <br /><br />
+      <h4>Training and Workshops:</h4> <br /> Stay ahead in the digital world with our training programs and
+      workshops. From basic
+      computer skills to advanced programming, we offer courses for all levels.
+      <br /><br />
+      <h4>Why Choose Us</h4>
+      <br />
+      <h4> Expertise:</h4><br /> Our team consists of certified professionals who are passionate about technology and
+      continuously
+      update their skills.
+      <br /> <br />
+      <h4>Customer-Centric:</h4> <br /> Your satisfaction is our priority. We work closely with you to understand your
+      needs and
+      provide personalized solutions.
+      <br /> <br />
+      <h4>Affordable Pricing:</h4>
+      <br /> We believe that quality technology services should be accessible without breaking the
+      bank.
+      Our competitive pricing reflects this commitment.
+      <br /> <br />
+      <h4>Community Engagement: </h4> <br />We're not just a business; we're part of the community. We actively engage
+      in local
+      initiatives to promote technology literacy.
+      <br /> <br />
+      <h4>Get in Touch</h4> <br />
+      Ready to experience the best in technology services? Contact us today to schedule an appointment or inquire
+      about our offerings. We look forward to being your trusted technology partner.
+      </p>
+    </div>
+  </section>
+  <h2 class="text-center" id="service">Services</h2>
+  <section class="section">
+    <div class="para">
+      <p class="sectag1 bigger text-center">
+        <b>NEILIT CCC</b>
+      </p>
+      <p class="sectag2">
+        <b>Note:</b>This Course Will Be avaliable at Rs-999,and have lifetime Access<br />
+        <b> The Course on Computer Concepts (CCC) is a fundamental computer literacy program designed to impart
+          basic knowledge about computers and information technology. Offered by the National Institute of
+          Electronics & Information Technology (NIELIT) in India, CCC is aimed at individuals who wish to
+          acquire
+          essential computer skills for various purposes, including personal use, office work, and government
+          jobs.</b>
+        The computer literacy programme of the Society is an outcome of the recommendation of National Task Force on
+        Information
+        Technology and Software Development. This course is designed to aim at imparting a basic level IT Literacy
+        programme for
+        the common man. This programme has essentially been conceived with an idea of giving an opportunity to the
+        common man to
+        attain computer literacy thereby contributing to increased and speedy PC penetration in different walks of life.
+        After
+        completing the course the incumbent should be able to the use the computer for basic purposes of preparing
+        his/her personal/business letters, viewing information on internet (the web), receiving and sending mails,
+        preparing his
+        business presentations, preparing small databases etc. This helps the small business communities, housewives,
+        etc.
+      </p>
+    </div>
+    <div class="thumbnail">
+
+      <div class="card">
+        <img src="./Image/ccc.jpg" alt="Sample Image" class="card-image">
+        <div class="card-content">
+          <h2>NEILIT CCC</h2><br />
+          <h2>Course Price-₹999</h2>
+          <h3>This Course is valid for lifetime</h3>
+          <button id="cardButton" class="ccc-btn">Start</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup-container">
+      <button id="closePopupButton">Close</button>
+      <iframe class="frame-box" src="./login.html"></iframe>
+    </div>
+  </section>
+
+
+  <section class="section section-left">
+    <div class="para">
+      <p class="sectag1 bigger text-center">
+        <b>O-Level</b>
+      </p>
+      <p class="sectag2">
+        O Level stands for ordinary level. It is the first half part of the General Certificate of Education (GCE), the
+        second
+        part being Advanced Level (A Level) which students enter after the completion of O Level. It is an
+        internationally
+        recognised qualification and is considered to be the equivalent of Cambridge IGCSE and UK GCSE.
+
+        O Level is usually taken up either in the 11th year (17 years) or between the age group of 14-16. It is the
+        final
+        certification for secondary school and once a student has completed it, they are considered to have completed
+        formal
+        education.
+
+      </p>
+    </div>
+    <div class="thumbnail">
+      <div class="card">
+        <img src="./Image/olevel.jpg" alt="Sample Image" class="card-image">
+        <div class="card-content">
+          <h2>O-Level</h2>
+          <button id="cardButton" onclick="comingSoon()">Click Me</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="section">
+    <div class="para">
+      <p class="sectag1 bigger text-center">
+        <b>Python</b>
+      </p>
+      <p class="sectag2">
+        Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its
+        high-level built
+        in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid
+        Application
+        Development, as well as for use as a scripting or glue language to connect existing components together.
+        Python's
+        simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance.
+        Python
+        supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and
+        the
+        extensive standard library are available in source or binary form without charge for all major platforms, and
+        can be
+        freely distributed.
+
+      </p>
+    </div>
+    <div class="thumbnail">
+      <div class="card">
+        <img src="./Image/python.png" alt="Sample Image" class="card-image">
+        <div class="card-content">
+          <h2>Python</h2>
+          <button id="cardButton" onclick="comingSoon()">Click Me</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-left">
+    <div class="para">
+      <p class="sectag1 bigger text-center">
+        <b>MY-SQL</b>
+      </p>
+      <p class="sectag2">
+        MySQL is a relational database management system (RDBMS) developed by Oracle that is based on structured query
+        language
+        (SQL).
+
+        A database is a structured collection of data. It may be anything from a simple shopping list to a picture
+        gallery or a
+        place to hold the vast amounts of information in a corporate network. In particular, a relational database is a
+        digital
+        store collecting data and organizing it according to the relational model. In this model, tables consist of rows
+        and
+        columns, and relationships between data elements all follow a strict logical structure. An RDBMS is simply the
+        set of
+        software tools used to actually implement, manage, and query such a database.
+      </p>
+    </div>
+    <div class="thumbnail">
+      <div class="card">
+        <img src="./Image/mysql.png" alt="Sample Image" class="card-image">
+        <div class="card-content">
+          <h2>MYSQL</h2>
+          <button id="cardButton" onclick="comingSoon()">Click Me</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container1 light-bg section" id="contact">
+    <div class="contact-details">
+      <h2 class="light-text">Contact Details</h2>
+      <table>
+        <tr>
+          <th>Institute Name</th>
+          <td>Gaurav Sir Computer Education</td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td>ByPaas Road Bhagwati Vihar ,Chandausi,Dis:Sambhal (U.P) Pin- 244412</td>
+        </tr>
+        <tr>
+          <th>Phone</th>
+          <td>
+            <a href="tel:+919718209781">+919718209781</a>,
+            <a href="tel:+919045347787">+919045347787</a>
+          </td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>
+            <a href="mailto:vermagaurav1985@gmail.com">vermagaurav1985@gmail.com</a>
+          </td>
+        </tr>
+
+        <tr>
+          <th>Follow Us</th>
+          <td>
+
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+
+          </td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <p class="text-footer background">
+      CopyRight &copy; 2023 www.mywebsite.com-All Right Reserved
+    </p>
+  </footer>
+
+  <script src="./Js/resp.js"></script>
+</body>
+<script src="./Js/script.js"></script>
+<script src="./Js/test.js"></script>
+<script src="./Js/security.js"></script>
+
+</html>

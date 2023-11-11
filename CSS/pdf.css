@@ -1,0 +1,52 @@
+#my_pdf_viewer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#canvas_container {
+    width: 100%;
+    overflow: auto;
+}
+
+#pdf_renderer {
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#navigation_controls,
+#zoom_controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+#current_page {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Media Query for screens 600 pixels and below */
+@media only screen and (max-width: 600px) {
+
+    #navigation_controls,
+    #zoom_controls {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+}

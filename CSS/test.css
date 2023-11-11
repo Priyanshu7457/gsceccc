@@ -1,0 +1,93 @@
+#load-box {
+  margin-top: 20px;
+}
+
+.pdf-box {
+  padding: 20px 0px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite;
+  /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hide {
+  display: none;
+}
+
+
+.home-box .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-box .float {
+  animation: text .6s infinite;
+  animation-direction: alternate;
+  width: 75px;
+  margin-right: 80px;
+}
+
+
+@keyframes text {
+  from {
+    margin-left: 50%;
+
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.pdf-box iframe {
+  min-height: 650px;
+  min-width: 600px;
+}
+
+.btns {
+  background-color: aqua;
+  color: black;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btns:hover {
+  background-color: rgb(5, 5, 85);
+  color: white;
+}
+
+
+.box {
+  margin-top: 300px;
+}
