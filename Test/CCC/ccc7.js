@@ -202,7 +202,7 @@ const quizData = [
   {
     question: "Command 'echo www.sanfoundary.com>/proc/sys/kernel/hostname' will",
     options: ["Do nothing", "Change host name", "www.sanfoundary.com", "None of these"],
-    correctAnswer: "www.sanfoundary.com"
+    correctAnswer: "Change host name"
   },
   {
     question: "Length of IPv4 address?",
@@ -232,12 +232,8 @@ const quizData = [
   {
     question: "Unwanted E-mail is called as",
     options: ["Trash", "Spam", "Both A & B", "None of these"],
-    correctAnswer: "Both A & B"
+    correctAnswer: "Spam"
   },
-
-
-
-
 
   {
     question: "What is the maximum limit of characters in a tweet on Twitter?",
