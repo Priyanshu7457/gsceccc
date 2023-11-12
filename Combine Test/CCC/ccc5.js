@@ -314,7 +314,7 @@ const quizData = [
   {
     question: "Command 'echo www.sanfoundary.com>/proc/sys/kernel/hostname' will",
     options: ["Do nothing", "Change host name", "www.sanfoundary.com", "None of these"],
-    correctAnswer: "www.sanfoundary.com"
+    correctAnswer: "Change host name"
   },
   {
     question: "Length of IPv4 address?",
@@ -347,7 +347,7 @@ const quizData = [
   {
     question: "Default font size in LibreOffice Calc?",
     options: ["12", "11", "10", "13"],
-    correctAnswer: "12"
+    correctAnswer: "10"
   },
   // Q2
   {
