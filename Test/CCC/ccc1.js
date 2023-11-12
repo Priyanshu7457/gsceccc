@@ -117,7 +117,7 @@ const quizData = [
     {
         question: "Apple company used chips from which company for its computer?",
         options: ["Motorola", "Intel", "Both a & b", "None of these"],
-        correctAnswer: "Both a & b"
+        correctAnswer: "Motorola"
     },
     // Q16
     {
@@ -171,7 +171,7 @@ const quizData = [
     {
         question: "Which of the following devices can be used to convert characters of printed text into an image?",
         options: ["OCR", "MICR", "OMR", "All of the options"],
-        correctAnswer: "All of the options"
+        correctAnswer: "OCR"
     },
     // Q25
     {
@@ -195,7 +195,7 @@ const quizData = [
     {
         question: "Which memory is called non-volatile memory?",
         options: ["RAM", "ROM", "Both RAM and ROM", "None of these"],
-        correctAnswer: "Both RAM and ROM"
+        correctAnswer: "ROM"
     },
     // Q29
     {
