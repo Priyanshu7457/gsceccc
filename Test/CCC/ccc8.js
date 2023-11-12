@@ -336,207 +336,207 @@ const quizData = [
     {
         question: "USSD is available in how many languages?",
         options: ["10", "11", "12", "13"],
-        answer: "12"
+        correctAnswer: "12"
     },
     {
         question: "Prepaid Debit cards are also called:",
         options: ["Reloadable debit cards", "Loadable debit cards", "Relational debit cards", "None of these"],
-        answer: "Reloadable debit cards"
+        correctAnswer: "Reloadable debit cards"
     },
     {
         question: "Which digital company payment announced a new feature QR code on its app?",
         options: ["Payu", "Paypal", "Paytm", "Payoneer"],
-        answer: "Paytm"
+        correctAnswer: "Paytm"
     },
     {
         question: "POS stands for:",
         options: ["Point of Service", "Point of Sale", "Point of Satisfaction", "None of The Above"],
-        answer: "Point of Sale"
+        correctAnswer: "Point of Sale"
     },
     {
         question: "RuPay debit card is similar to:",
         options: ["Singapore's NETS", "China's UnionPay", "Both of The Above", "None of The Above"],
-        answer: "Both of The Above"
+        correctAnswer: "Both of The Above"
     },
     {
         question: "The prepaid bank card is also called:",
         options: ["Convenience Gift Card", "Bank Gift Card", "Suitable Gift Card", "None of The Above"],
-        answer: "Bank Gift Card"
+        correctAnswer: "Bank Gift Card"
     },
     {
         question: "QR code often do not contain data for...",
         options: ["Tracker", "Locator", "Person", "Identifier"],
-        answer: "Person"
+        correctAnswer: "Person"
     },
     {
         question: "NABARD was established on the recommendations of which Committee?",
         options: ["B. Sivaramman", "Ram Manohar Lohiya", "Narasimham", "None of these"],
-        answer: "B. Sivaramman"
+        correctAnswer: "B. Sivaramman"
     },
     {
         question: "Which is considered as a repository of Aadhaar number?",
         options: ["NPCI LOGGER", "NPCI FISHER", "NPCI MAPPER", "NPCI REDUCER"],
-        answer: "NPCI MAPPER"
+        correctAnswer: "NPCI MAPPER"
     },
     {
         question: "Which is not required for online banking?",
         options: ["Bank interface", "Transaction password", "Customer ID", "ATM password"],
-        answer: "ATM password"
+        correctAnswer: "ATM password"
     },
     {
         question: "Which of the following is not related to e-banking?",
         options: ["Electronic clearing system", "Demand draft", "ATM", "E-challan"],
-        answer: "Demand draft"
+        correctAnswer: "Demand draft"
     },
     {
         question: "Which of the following cannot be tracked using POS?",
         options: ["Pricing accuracy", "Gross revenue", "Inventory charges", "Promotions"],
-        answer: "Promotions"
+        correctAnswer: "Promotions"
     },
     {
         question: "The eligible criteria for banks participating in UPI is approval from RBI for mobile banking service and also being live on...",
         options: ["AEPS", "BBPS", "CT", "IMPS"],
-        answer: "IMPS"
+        correctAnswer: "IMPS"
     },
     {
         question: "Which information component is not part of an e-wallet?",
         options: ["Encryption of the data", "User name", "Amount to be paid", "User debit card details"],
-        answer: "User debit card details"
+        correctAnswer: "User debit card details"
     },
     {
         question: "What is the transaction charge for RTGS amounts between 2 lakh to 5 lakhs?",
         options: ["100", "30", "50", "25"],
-        answer: "25"
+        correctAnswer: "25"
     },
     {
         question: "In the context of DigiLocker, what is the role of the issuer?",
         options: ["Issue printed documents to citizen", "Issue e-documents to citizens", "Issue e-document to government", "None of these"],
-        answer: "Issue e-documents to citizens"
+        correctAnswer: "Issue e-documents to citizens"
     },
     {
         question: "Which is not required for accessing the service of POS system?",
         options: ["Internet", "PIN", "Debit/credit card", "Account number"],
-        answer: "Account number"
+        correctAnswer: "Account number"
     },
     {
         question: "Which one is not a finance company?",
         options: ["IRDA", "Loan companies", "Mutual benefits finance companies", "Hire purchase finance company"],
-        answer: "IRDA"
+        correctAnswer: "IRDA"
     },
     {
         question: "QR is the trademark for a type of...",
         options: ["Pin", "Scratch code", "Barcode", "Pattern"],
-        answer: "Barcode"
+        correctAnswer: "Barcode"
     },
     {
         question: "On smartphones, OTP can never be delivered directly through...",
         options: ["Authy", "Duo Mobile", "IM Swap", "Google Authenticator"],
-        answer: "Google Authenticator"
+        correctAnswer: "Google Authenticator"
     },
     {
         question: "In UPI, ______ is an Address which uniquely identifies a person’s bank account.",
         options: ["Primary Address", "Unique Address", "Bank Address", "Payment Address"],
-        answer: "Payment Address"
+        correctAnswer: "Payment Address"
     },
     {
         question: "Which of the following terms is used for sending money in UPI?",
         options: ["PULL", "PUSH", "TRANSFER", "PUT"],
-        answer: "PUSH"
+        correctAnswer: "PUSH"
     },
     {
         question: "Which of the following terms is used for receiving money in UPI?",
         options: ["PULL", "PUSH", "TRANSFER", "PUT"],
-        answer: "PULL"
+        correctAnswer: "PULL"
     },
     {
         question: "What does 'S' stand for in PSP with respect to UPI?",
         options: ["Software", "Service", "System", "Synchronized"],
-        answer: "Service"
+        correctAnswer: "Service"
     },
     {
         question: "RTGS stands for...",
         options: ["Real Time Gross Sale", "Real Time Gross Settlement", "Real Time Growth Settlement", "Real Time Group Service"],
-        answer: "Real Time Gross Settlement"
+        correctAnswer: "Real Time Gross Settlement"
     },
     {
         question: "Credit card is also called...",
         options: ["Plastic money", "Debit money", "Postpaid money", "None of these"],
-        answer: "Plastic money"
+        correctAnswer: "Plastic money"
     },
     {
         question: "Which of the following is not a money market security?",
         options: ["Treasury bills", "Certificates of deposits", "Commercial paper", "National saving certificates"],
-        answer: "National saving certificates"
+        correctAnswer: "National saving certificates"
     },
     {
         question: "Which of the following services is not available on UMANG app?",
         options: ["ePathshala", "eMigrate safe employment services aboard", "e-Tuition", "EPFO"],
-        answer: "e-Tuition"
+        correctAnswer: "e-Tuition"
     },
     {
         question: "OTP is also known as...",
         options: ["Stable password", "Dynamic password", "Static password", "Fixed password"],
-        answer: "Dynamic password"
+        correctAnswer: "Dynamic password"
     },
     {
         question: "Which banking facility is not provided by USSD?",
         options: ["Checking account balance", "Mobile pin management", "Checking Aadhaar linked overdraft status", "Requesting internet banking password"],
-        answer: "Requesting internet banking password"
+        correctAnswer: "Requesting internet banking password"
     },
     {
         question: "PNR status is available to the user through...",
         options: ["UMANG", "RAIL SAARTHI", "IRCTC", "CRIS"],
-        answer: "IRCTC"
+        correctAnswer: "IRCTC"
     },
     {
         question: "Inputs required during AEPS transaction is...",
         options: ["IIN + Aadhaar number + biometric data", "Account number + bank number + bank IFSC code", "PIN + Aadhaar card + account number", "IIN + Aadhaar card + biometric data"],
-        answer: "IIN + Aadhaar number + biometric data"
+        correctAnswer: "IIN + Aadhaar number + biometric data"
     },
     {
         question: "Phones that offer advanced features not typically found in cellular phones are...",
         options: ["DSLs", "Notebook", "Smartphones", "Tablets"],
-        answer: "Smartphones"
+        correctAnswer: "Smartphones"
     },
     {
         question: "Credit cards are a convenient substitute for...",
         options: ["Cash", "Cheque", "Both cash & cheque", "None of the options"],
-        answer: "Both cash & cheque"
+        correctAnswer: "Both cash & cheque"
     },
     {
         question: "How many daily settlement batches are there in NEFT during a weekday?",
         options: ["24", "12", "23", "11"],
-        answer: "12"
+        correctAnswer: "12"
     },
     {
         question: "NEFT operates in how many batches in a day?",
         options: ["Hourly basis", "Half hourly basis", "Two hourly basis", "Quarterly basis"],
-        answer: "Half hourly basis"
+        correctAnswer: "Half hourly basis"
     },
     {
         question: "What is the code of USSD?",
         options: ["*99#", "*#99", "#*99", "None of these"],
-        answer: "*99#"
+        correctAnswer: "*99#"
     },
     {
         question: "Which of the following is not a sub-module of an e-wallet?",
         options: ["Digital cash", "Profile manager", "Transaction manager", "Communication manager"],
-        answer: "Digital cash"
+        correctAnswer: "Digital cash"
     },
     {
         question: "NPCI was launched in which year?",
         options: ["2008", "2010", "2006", "2015"],
-        answer: "2008"
+        correctAnswer: "2008"
     },
     {
         question: "Which one is not a key stakeholder of Digilocker?",
         options: ["Citizens", "Requesters", "Issuers", "Government"],
-        answer: "Issuers"
+        correctAnswer: "Issuers"
     },
     {
         question: "The correct combination of e-wallet components is...",
         options: ["Software and hardware", "Software and information", "Hardware and internet", "Hardware and information"],
-        answer: "Software and information"
+        correctAnswer: "Software and information"
     }
 ];
 
