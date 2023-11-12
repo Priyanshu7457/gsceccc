@@ -448,7 +448,7 @@ const quizData = [
   {
     question: "By default, how many sheets in LibreOffice Calc?",
     options: ["2", "1", "4", "6"],
-    correctAnswer: "3"
+    correctAnswer: "1"
   },
 
   {
