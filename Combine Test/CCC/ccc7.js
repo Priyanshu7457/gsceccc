@@ -2,7 +2,7 @@ const quizData = [
   {
     question: "What is the code of USSD?",
     options: ["*99#", "*#99", "#*99", "None of these"],
-    answer: "*99#"
+    correctAnswer: "*99#"
   },
 
   {
@@ -470,7 +470,7 @@ const quizData = [
   {
     question: "Which of the following is not a sub-module of an e-wallet?",
     options: ["Digital cash", "Profile manager", "Transaction manager", "Communication manager"],
-    answer: "Digital cash"
+    correctAnswer: "Digital cash"
   },
   {
     question: "Is it safe to click on links in promotional emails, open attachments and to share personal information?",
@@ -480,7 +480,7 @@ const quizData = [
   {
     question: "NPCI was launched in which year?",
     options: ["2008", "2010", "2006", "2015"],
-    answer: "2008"
+    correctAnswer: "2008"
   },
   {
     question: "DHCP stands for?",
@@ -490,11 +490,8 @@ const quizData = [
   {
     question: "Which one is not a key stakeholder of Digilocker?",
     options: ["Citizens", "Requesters", "Issuers", "Government"],
-    answer: "Issuers"
+    correctAnswer: "Issuers"
   },
-
-
-
 
   {
     question: "What is S/MIME?",
@@ -526,7 +523,7 @@ const quizData = [
   {
     question: "The correct combination of e-wallet components is...",
     options: ["Software and hardware", "Software and information", "Hardware and internet", "Hardware and information"],
-    answer: "Software and information"
+    correctAnswer: "Software and information"
   },
   // Q31
   {
