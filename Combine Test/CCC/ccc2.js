@@ -146,15 +146,6 @@ const quizData = [
     },
 
 
-
-
-
-
-
-
-
-
-
     {
         question: "Maximum number of sheet limit in LibreOffice Calc?",
         options: ["10000", "36000", "32000", "Option 4"],
