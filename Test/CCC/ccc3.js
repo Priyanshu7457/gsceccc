@@ -414,7 +414,7 @@ const quizData = [
   {
     question: "Shortcut key for formatting marks in LibreOffice Writer:",
     options: ["crtl+shift+r", "ctrl+shift+c", "crtl+f10", "ctrl+f11"],
-    correctAnswer: "ctrl+f11",
+    correctAnswer: "crtl+f10",
   },
   //   Q59
   {
@@ -426,7 +426,7 @@ const quizData = [
   {
     question: "Shortcut key for styles or manage styles in LibreOffice Writer:",
     options: ["crtl+shift+f11", "shift+f11", "f11", "f12"],
-    correctAnswer: "crtl+shift+f11",
+    correctAnswer: "f11",
   },
   // Q61
   {
@@ -468,13 +468,13 @@ const quizData = [
   {
     question: "Shortcut key of bullet list in LibreOffice Writer:",
     options: ["crtl+m", "shift+f12", "ctrl+k", "f5"],
-    correctAnswer: "crtl+m",
+    correctAnswer: "shift+f12",
   },
   // Q68
   {
     question: "Shortcut key of number list in LibreOffice Writer:",
     options: ["crtl+m", "shift+f12", "ctrl+k", "f12"],
-    correctAnswer: "crtl+m",
+    correctAnswer: "f12",
   },
   // Q69
   {
@@ -492,7 +492,7 @@ const quizData = [
   {
     question: "Shortcut key of superscript in LibreOffice Writer:",
     options: ["crtl+shift+B", "shift+f12", "ctrl+shift+P", "f12"],
-    correctAnswer: "crtl+shift+B",
+    correctAnswer: "ctrl+shift+P",
   },
   // Q72
   {
