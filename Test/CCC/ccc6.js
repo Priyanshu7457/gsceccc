@@ -226,7 +226,7 @@ const quizData = [
   {
     question: "Internet started in which year in India?",
     options: ["1990", "1995", "1996", "1999"],
-    correctAnswer: "1990"
+    correctAnswer: "1995"
   },
   {
     question: "What is the code used for IMEI number?",
