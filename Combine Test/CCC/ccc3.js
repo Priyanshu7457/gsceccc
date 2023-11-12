@@ -112,12 +112,6 @@ const quizData = [
     options: ["1999", "1982", "1985", "1991"],
     correctAnswer: "1982"
   },
-  // Q30
-  {
-    question: "Which of the following is true?",
-    options: ["An eight-digit binary number is called a bit.", "A byte is a single digit in a binary number.", "A bit represents a grouping of digital numbers.", "Option 4", "Option 5"],
-    correctAnswer: "Option 4"
-  },
   // Q31
   {
     question: "How many bits and characters are there in ASCII?",
@@ -254,7 +248,7 @@ const quizData = [
   {
     question: "Which memory is called non-volatile memory?",
     options: ["RAM", "ROM", "Both RAM and ROM", "None of these"],
-    correctAnswer: "Both RAM and ROM"
+    correctAnswer: "ROM"
   },
   {
     question: "Shortcut key of subscript in LibreOffice Writer:",
