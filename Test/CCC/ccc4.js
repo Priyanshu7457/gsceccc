@@ -3,7 +3,7 @@ const quizData = [
     {
         question: "Default font size in LibreOffice Calc?",
         options: ["12", "11", "10", "13"],
-        correctAnswer: "12"
+        correctAnswer: "10"
     },
     // Q2
     {
@@ -20,7 +20,7 @@ const quizData = [
     {
         question: "Minimum zoom in LibreOffice Calc?",
         options: ["10%", "20%", "30%", "5%"],
-        correctAnswer: "10%"
+        correctAnswer: "20%"
     },
     {
         question: "Shortcut key for edit in LibreOffice Calc?",
@@ -35,7 +35,7 @@ const quizData = [
     {
         question: "How many chart types are there in LibreOffice Calc?",
         options: ["10", "11", "20", "12"],
-        correctAnswer: "11"
+        correctAnswer: "10"
     },
     {
         question: "By default, legend shows on which side in a chart?",
@@ -89,8 +89,8 @@ const quizData = [
     },
     {
         question: "Maximum number of sheet limit in LibreOffice Calc?",
-        options: ["10000", "36000", "32000", "Option 4"],
-        correctAnswer: "10000"
+        options: ["10000", "36000", "32000", "20000"],
+        correctAnswer: "32000"
     },
     {
         question: "Shortcut key to increase column width in LibreOffice Calc?",
