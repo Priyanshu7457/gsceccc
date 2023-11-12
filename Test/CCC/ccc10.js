@@ -239,7 +239,7 @@ const quizData = [
     {
         question: "What is the benefits of HTTP over MQTT.",
         options: ["More Secure", "Lightweight", "Both A and B", "None"],
-        correctAnswer: "Both A and B"
+        correctAnswer: "Lightweight"
     },
     {
         question: "Mostly used protocols in IoT are?",
