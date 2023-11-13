@@ -12,8 +12,8 @@ const quizData = [
 
     {
         question: "Data encryption is used for",
-        options: [" Security", "Performance", "Storage", "All of above - ऊपर के सभी"],
-        correctAnswer: " Security"
+        options: ["Security", "Performance", "Storage", "All of above - ऊपर के सभी"],
+        correctAnswer: "Security"
     },
     {
         question:
@@ -38,8 +38,8 @@ const quizData = [
     },
     {
         question: "Computer viruses are man made",
-        options: [" TRUE", "FALSE"],
-        correctAnswer: " TRUE"
+        options: ["TRUE", "FALSE"],
+        correctAnswer: "TRUE"
     },
 
     {
@@ -305,8 +305,8 @@ const quizData = [
     },
     {
         question: "Which one is least Secure?",
-        options: [" Password", "Keycard", "Retina", "Fingerprint"],
-        correctAnswer: " Keycard"
+        options: ["Password", "Keycard", "Retina", "Fingerprint"],
+        correctAnswer: "Keycard"
     },
     {
         question: "Which command is used to show process hierarchy in tree format?",
@@ -550,27 +550,27 @@ const quizData = [
     },
     {
         question: "What is the full form of NUUP?",
-        options: [" National Unified USSD Platform", "National Unifier USSD Platform", "National Universal USSD Platform", "None"],
-        correctAnswer: " National Unified USSD Platform"
+        options: ["National Unified USSD Platform", "National Unifier USSD Platform", "National Universal USSD Platform", "None"],
+        correctAnswer: "National Unified USSD Platform"
     },
     {
         question: "How many digits are in IMEI?",
-        options: [" 15", "17", "12", "13"],
-        correctAnswer: " 15"
+        options: ["15", "17", "12", "13"],
+        correctAnswer: "15"
     },
     {
         question: "Full form of IMEI?",
-        options: [" International mobile equipment identify", "Internet mobile equipment identify", "International mobile equipment identity", "None"],
+        options: ["International mobile equipment identify", "Internet mobile equipment identify", "International mobile equipment identity", "None"],
         correctAnswer: "International mobile equipment identity"
     },
     {
         question: "How many digits is the MMID number?",
-        options: [" 7", "5", "12", "11"],
-        correctAnswer: " 7"
+        options: ["7", "5", "12", "11"],
+        correctAnswer: "7"
     },
     {
         question: "What is the full form of IVR?",
-        options: [" Inter voice response", "interactive voice response", "interactive violet response", "interactive voice respect"],
+        options: ["Inter voice response", "interactive voice response", "interactive violet response", "interactive voice respect"],
         correctAnswer: "interactive voice response"
     },
 ];
@@ -610,19 +610,6 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 1000);
 
-
-
-
-
-
-
-
-
-
-
-
-
-//This code uses the shuffleArray function to shuffle the elements in the data array.It then creates a new array(shuffledArray) by using the spread operator (...). The shuffled array is printed to the console, but you can modify the code based on your specific requirements.
 
 
 
