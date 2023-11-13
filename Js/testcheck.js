@@ -74,9 +74,100 @@ class Quiz {
     showFinalScore(data) {
         const totalQuestions = this.quizData.length;
         const percentage = (this.correctAnswers / totalQuestions) * 100;
-        document.querySelector('.alert-content').innerHTML = `<span class="close-btn" onclick="closeCustomAlert()">&times;</span><br/>${data}<br/>You answered ${this.correctAnswers} out of ${totalQuestions} questions correctly!<br/>Percentage: ${percentage.toFixed(2)}%`;
+        // let c = data;
+        let grade;
+        console.log(typeof percentage);
+        if (percentage < 50) {
+            data = 'You Are Fail';
+            grade = null;
+            Quiz.output(data, percentage, totalQuestions, this.correctAnswers, grade);
+
+        } else if (percentage >= 50 && percentage <= 54) {
+            grade = 'D';
+            Quiz.output(data, percentage, totalQuestions, this.correctAnswers, grade);
+        } else if (percentage >= 55 && percentage <= 64) {
+            grade = 'C';
+            Quiz.output(data, percentage, totalQuestions, this.correctAnswers, grade);
+        } else if (percentage >= 65 && percentage <= 74) {
+            grade = 'B';
+            Quiz.output(data, percentage, totalQuestions, this.correctAnswers, grade);
+        } else if (percentage >= 75 && percentage <= 84) {
+            grade = 'A';
+            Quiz.output(data, percentage, totalQuestions, this.correctAnswers, grade);
+        } else if (percentage >= 85 && percentage <= 100) {
+            grade = 'S';
+            Quiz.output(data, percentage, totalQuestions, this.correctAnswers, grade);
+        }
+        // document.querySelector('.alert-content').innerHTML = `<span class="close-btn" onclick="closeCustomAlert()">&times;</span><br/>${data}<br/>You answered ${this.correctAnswers} out of ${totalQuestions} questions correctly!<br/>Percentage: ${percentage.toFixed(2)}%`;
+    }
+
+    static output(data, percentage, totalQuestions, correctAnswer, grade) {
+        document.querySelector('.alert-content').innerHTML = `<span class="close-btn" onclick="closeCustomAlert()">&times;</span><br/>${data}<br/> You Obtain Grade:${grade} <br/>You answered ${correctAnswer} out of ${totalQuestions} questions correctly!<br/>Percentage: ${percentage.toFixed(2)}%    <br/>
+        
+        <div class='table-box'>
+        Grading System <br/>
+         <table>
+         <tr>
+         <td>
+         Marks
+         </td>
+         <td>
+         Grade
+         </td>
+         </tr>
+         <tr>
+         <td>
+         >=85%
+         </td>
+         <td>
+         S-Grade
+         </td>
+         </tr>
+         <tr>
+         <td>
+         >=75%
+         </td>
+         <td>
+         A-Grade
+         </td>
+         </tr>
+          <tr>
+         <td>
+         >=65%
+         </td>
+         <td>
+         B-Grade
+         </td>
+         </tr>
+          <tr>
+         <td>
+         >=55%
+         </td>
+         <td>
+         C-Grade
+         </td>
+         </tr>
+          <tr>
+         <td>
+         >=50%
+         </td>
+         <td>
+         D-Grade
+         </td>
+         </tr>
+          <tr>
+         <td>
+         <50%
+         </td>
+         <td>
+        Fail
+         </td>
+         </tr>
+         </table>
+         </div>`;
     }
 
 
 }
+
 
