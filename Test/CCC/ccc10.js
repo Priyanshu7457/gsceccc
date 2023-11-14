@@ -94,8 +94,6 @@ const quizData = [
         options: ["Data Analytics", "Descriptive Analytics", "In-memory Analytics", "Predictive Analytics"],
         correctAnswer: "Data Analytics"
     },
-
-
     {
         question: "The ......... cloud infrastructure is operated for the exclusive use of an organization?",
         options: ["Public", "Private", "Community", "All of the mentioned"],
@@ -239,7 +237,7 @@ const quizData = [
     {
         question: "What is the benefits of HTTP over MQTT.",
         options: ["More Secure", "Lightweight", "Both A and B", "None"],
-        correctAnswer: "Lightweight"
+        correctAnswer: "Both A and B"
     },
     {
         question: "Mostly used protocols in IoT are?",
@@ -507,8 +505,6 @@ const quizData = [
         options: ["Dartmouth University", "Stanford University", "Massachusetts Institute of Technology", "Harvard University"],
         correctAnswer: "Harvard University"
     }
-
-
 ];
 
 function shuffleArray(array) {
