@@ -1,282 +1,173 @@
 const quizData = [
     {
-        question: "Which computers operate essentially by counting?",
-        options: ["Digital computers", "Analog computers", "Portable computers", "Hybrid computers"],
-        correctAnswer: "Digital computers"
-    },
-    // Q51
-
-    {
-        question: "What is minimum zoom percentage in libreoffice impress",
-        options: ["20%", "5%", "2%", "10%"],
-        correctAnswer: "5%",
+        question: "The conference that launched the AI revolution in 1956 was held at?",
+        options: ["Dartmouth", "Harvard", "New York", "Stanford"],
+        correctAnswer: "Dartmouth"
     },
     {
-        question: "Libre office impress is called….",
-        options: ["word processor", "writer", "calc", "presentation"],
-        correctAnswer: "presentation",
+        question: "Bitcoin is based on ............ blockchain?",
+        options: ["Private", "Public", "Public permissioned", "Permissioned"],
+        correctAnswer: "Public"
     },
     {
-        question: "The ......... cloud infrastructure is operated for the exclusive use of an organization?",
-        options: ["Public", "Private", "Community", "All of the mentioned"],
-        correctAnswer: "Private"
+        question: "In blockchain, blocks are linked........ ?",
+        options: ["Backward to the previous block", "Forward to the next block", "Not linked with each other", "Both directions"],
+        correctAnswer: "Backward to the previous block"
     },
-
+    {
+        question: "Where do you store your cryptocurrency?",
+        options: ["Bank account", "Floppy disk", "Crypto Wallet", "In your pocket"],
+        correctAnswer: "Crypto Wallet"
+    },
+    {
+        question: "What is Meghdoot?",
+        options: ["Mobile Seva", "Govt. Cloud Service", "Online seva", "Cloud center service"],
+        correctAnswer: "Govt. Cloud Service"
+    },
+    {
+        question: "Atulya App is related to?",
+        options: ["Tourism", "Business", "Naukari", "Nota"],
+        correctAnswer: "Tourism"
+    },
+    {
+        question: "Startup is started for whom?",
+        options: ["Doctors", "Entrepreneurs", "Students", "Youngsters"],
+        correctAnswer: "Entrepreneurs"
+    },
+    {
+        question: "Who invented the term Internet of Things?",
+        options: ["Bill Gates", "Kevin Ashton", "Steve Jobs", "McDonald"],
+        correctAnswer: "Kevin Ashton"
+    },
+    {
+        question: "Cloud in cloud computing means ....?",
+        options: ["Wireless", "Hard-drive", "People", "Internet"],
+        correctAnswer: "Internet"
+    },
+    {
+        question: "What are the two main sections of the Cloud Computing System?",
+        options: ["Terminal and Nodes", "Front and Back", "Network and Server", "None of these"],
+        correctAnswer: "Front and Back"
+    },
+    {
+        question: "How many digits are in IMEI?",
+        options: ["15", "17", "12", "13"],
+        correctAnswer: "15"
+    },
+    {
+        question: "Full form of IMEI?",
+        options: ["International mobile equipment identify", "Internet mobile equipment identify", "International mobile equipment identity", "None"],
+        correctAnswer: "International mobile equipment identity"
+    },
+    {
+        question: "Full form of MMID?",
+        options: ["Mobile Money Identifier", "Mobile making identifier", "Money mobile identifier", "Mobile money immediate"],
+        correctAnswer: "Mobile Money Identifier"
+    },
+    {
+        question: "How many digits is the MMID number?",
+        options: ["7", "5", "12", "11"],
+        correctAnswer: "7"
+    },
     {
         question: "What is the full form of IVR?",
-        options: [" Inter voice response", "interactive voice response", "interactive violet response", "interactive voice respect"],
-        correctAnswer: "interactive voice response"
+        options: ["Inter voice response", "Interactive voice response", "Interactive violet response", "Interactive voice respect"],
+        correctAnswer: "Interactive voice response"
     },
     {
         question: "Data encryption is used for",
-        options: [" Security", "Performance", "Storage", "All of above - ऊपर के सभी"],
-        correctAnswer: " Security"
+        options: ["Security", "Performance", "Storage", "All of above"],
+        correctAnswer: "Security"
     },
     {
-        question:
-            "Which one of the following is not an option in the drop down menu of header in libre office writer.",
-        options: [
-            "insert page number",
-            "delete header",
-            "format header",
-            "create header",
-        ],
-        correctAnswer: "create header",
+        question: "Which one is least Secure?",
+        options: ["Password", "Keycard", "Retina", "Fingerprint"],
+        correctAnswer: "Keycard"
     },
     {
-        question: "What is ARPANET?",
-        options: ["ADVANCE RESEARCH PRIVATE AGENCY NETWORK", "ADVANCE RESEARCH PROJECT AGENCY NETWORK", "ADVANCED RESEARCH PUBLIC AGENCY NETWORK", "NONE OF THESE"],
-        correctAnswer: "ADVANCE RESEARCH PROJECT AGENCY NETWORK"
+        question: "Computer viruses are man-made",
+        options: ["TRUE", "FALSE"],
+        correctAnswer: "TRUE"
     },
     {
-        question: "The ________ is the message after transformation.",
-        options: ["Plaintext", "Secret-text", "Ciphertext", "None of the above"],
-        correctAnswer: "Ciphertext"
+        question: "A firewall is a security device deployed at the boundary of corporate intranet to protect it from unauthorized access",
+        options: ["TRUE", "FALSE"],
+        correctAnswer: "TRUE"
     },
     {
-        question: "Computer viruses are man made",
-        options: [" TRUE", "FALSE"],
-        correctAnswer: " TRUE"
-    },
-
-    {
-        question: "A process that is repeated, evaluated, and refined is called __________",
-        options: ["Diagnostic", "Descriptive", "Interpretive", "Iterative"],
-        correctAnswer: "Iterative"
+        question: "Which of the following options is not best described about industry 4.0",
+        options: ["Smart factory", "Speed", "Analytics", "None of above"],
+        correctAnswer: "Speed"
     },
     {
-        question: "What does the term 'Malware' stand for?",
-        options: ["Malfunctioning Software", "Malicious Firmware", "Malfunctioning Hardware", "Malicious Software"],
-        correctAnswer: "Malicious Software"
+        question: "ATM means",
+        options: ["Any Time Money", "Auto Truck of Mahindra", "Automated Teller Machine", "None of above"],
+        correctAnswer: "Automated Teller Machine"
     },
     {
-        question: "............ Shortcut key is used for slide show from current slide.",
-        options: ["F5", "Shift+F5", "Ctrl+F5", "None of the Above"],
-        correctAnswer: "Shift+F5",
+        question: "What is the validity period of a cheque?",
+        options: ["4 months from date of issue", "3 months from date of issue", "1 month from date of issue", "Unlimited"],
+        correctAnswer: "3 months from date of issue"
     },
     {
-        question: "Which memory is called as a volatile memory?",
-        options: ["RAM", "ROM", "BOTH a & b", "none of these"],
-        correctAnswer: "RAM"
+        question: "What is the full meaning of N in UMANG App?",
+        options: ["New", "National", "New-age", "None"],
+        correctAnswer: "New-age"
     },
     {
-        question: "What is the internet?",
-        options: ["NETWORK OF NETWORKS.", "WIRELESS NETWORK.", "HYPERTEXT DOCUMENTS.", "VIRTUAL NETWORK."],
-        correctAnswer: "NETWORK OF NETWORKS."
+        question: "Bank having the maximum number of branches in India",
+        options: ["Reserve Bank of India", "State Bank of India", "Punjab National Bank", "Bank of Baroda"],
+        correctAnswer: "State Bank of India"
     },
     {
-        question: "Which is not a non-impact printer?",
-        options: ["Thermal Printer", "Dot Matrix Printer", "Inkjet Printer", "Laser Printer"],
-        correctAnswer: "Dot Matrix Printer"
+        question: "What is the full form of IMPS?",
+        options: ["Immediate Payment Service", "Immediate fund transfer service", "Interested Payment Service", "A & B both"],
+        correctAnswer: "Immediate Payment Service"
     },
     {
-        question: "How many sections in the sidebar of impress",
-        options: ["9", "5", "3", "7"],
-        correctAnswer: "7",
+        question: "What is the full form of PMSBY?",
+        options: ["Pradhan Mantri Secure Bima Yojna", "Pradhan Mantri Security Bima Yojna", "Pradhan Mantri Suraksha Bima Yojna", "None"],
+        correctAnswer: "Pradhan Mantri Suraksha Bima Yojna"
     },
     {
-        question: "Rehearse time will start counting in units.",
-        options: ["Mini seconds", "Hours", "Minutes", "Seconds"],
-        correctAnswer: "Seconds",
-    },
-
-
-    {
-        question: "What is Artificial Intelligence?",
-        options: ["Putting your intelligence into Computer", "Programming with your own intelligence", "Making a Machine intelligent", "Playing a Game"],
-        correctAnswer: "Making a Machine intelligent"
-    },
-
-    {
-        question: "Shortcut key for position and size in libreoffice impress",
-        options: ["F1", "F3", "F2", "F4"],
-        correctAnswer: "F4",
+        question: "When did RTGS start?",
+        options: ["2005", "2004", "2008", "2007"],
+        correctAnswer: "2004"
     },
     {
-        question: "What is optimal zoom percentage in libreoffice impress",
-        options: ["95%", "125%", "100%", "91%"],
-        correctAnswer: "95%",
+        question: "When did NEFT start?",
+        options: ["2005", "2004", "2008", "2007"],
+        correctAnswer: "2005"
     },
     {
-        question: "What are slide transition variant options.",
-        options: ["Inside and common slide", "Most slide and least slide", "Outside and most side", "Outside and inside"],
-        correctAnswer: "Outside and inside",
-    },
-
-
-    {
-        question: "Who creates 123d design?",
-        options: ["shapeways", "autodesk", "makeware", "ethereum"],
-        correctAnswer: "autodesk"
-    },
-
-
-
-    {
-        question: "In computer security, what means that the information in a computer system can only be accessible by authorized parties?",
-        options: ["Confidentiality", "Integrity", "Availability", "Authenticity"],
-        correctAnswer: "Confidentiality"
+        question: "PIN stands for",
+        options: ["Personal Identification Number", "Permanent Identification Number", "Primary Identification Number", "None of these"],
+        correctAnswer: "Personal Identification Number"
     },
     {
-        question: "Shortcut key to decrease column width in LibreOffice Calc?",
-        options: ["Alt+Right Arrow", "Alt+Up Arrow", "Alt+Left Arrow", "Alt+Down Arrow"],
-        correctAnswer: "Alt+Left Arrow"
+        question: "QR Code stands for",
+        options: ["Quick Result Code", "Quadratic Response Code", "Quick Response Code", "Quick Rely Code"],
+        correctAnswer: "Quick Response Code"
     },
     {
-        question: "What is the maximum zoom percentage in LibreOffice Impress?",
-        options: ["300%", "450%", "500%", "3000%"],
-        correctAnswer: "3000%",
+        question: "In which year was the first email sent?",
+        options: ["1971", "1982", "1990", "1969"],
+        correctAnswer: "1971"
     },
     {
-        question: "Shortcut key of update new style in LibreOffice Writer:",
-        options: ["ctrl+C", "ctrl+shift+f11", "CTRL+f7", "shift+f11"],
-        correctAnswer: "ctrl+shift+f11",
+        question: "Which protocol is used to send the mail?",
+        options: ["SMTP", "HTTP", "TCP/IP", "FTP"],
+        correctAnswer: "SMTP"
     },
     {
-        question: "Which of the following command is used to see the content of the tar(backup.tar) file without extracting it?",
-        options: ["tar -xvf backup.tar", "tar -svf backup.tar", "tar -tvf backup.tar", "none of these"],
-        correctAnswer: "tar -tvf backup.tar"
+        question: "SMTP stands for",
+        options: ["Simple Mail Transfer Protocol", "Simplex Mail Transport Protocol", "Super Mail Transfer Protocol", "None of these"],
+        correctAnswer: "Simple Mail Transfer Protocol"
     },
     {
-        question: "In which menu option digital signature in libre office writer",
-        options: ["file", "edit", "insert", "help"],
-        correctAnswer: "file",
-    },
-    {
-        question: "Shortcut key of save as in libre office writer",
-        options: ["crtl+shift+s", "ctrl+s", "crtl+n", "ctrl+y"],
-        correctAnswer: "crtl+shift+s",
-    },
-    {
-        question: "What are the two main types of Virtual Reality?",
-        options: ["Fully immersive and non-immersive", "VR and AR", "Reality and Unreality", "Oculus Rift and HTC Vive"],
-        correctAnswer: "Fully immersive and non-immersive"
-    },
-    {
-        question:
-            "What is the correct sequence of steps required to insert the footer in libre office writer document.",
-        options: [
-            "insert > footer >default style",
-            "insert > footer",
-            "insert > header & footer > footer >default style",
-            "header & footer > footer",
-        ],
-        correctAnswer: "insert > header & footer > footer >default style",
-    },
-    //   Q24
-    {
-        question:
-            "Which feature in libre office write remove extra spaces between pages.",
-        options: [
-            "Edit -> Hide White space",
-            "view -> Hide White space",
-            "file -> Hide White space",
-            "tools -> Hide White space",
-        ],
-        correctAnswer: "view -> Hide White space",
-    },
-
-    {
-        question: "................. represents raw facts, whereas ................... is data made meaningful.",
-        options: ["Information, bits", "Information, reporting", "Records, bytes", "Data, information"],
-        correctAnswer: "Data, information"
-    },
-
-
-    {
-        question: "Shortcut key insert textbox in libreoffice impress.",
-        options: ["F5", "F2", "F3", "F4"],
-        correctAnswer: "F2",
-    },
-    //   Q26
-    {
-        question:
-            "There are six rows in an inserted table in a document of libre office writer.Height of the third row and fourth row are 1 cm and 2 cm if the updated heights of both rows if you choose the option distribute rows evenly of size subme.",
-        options: [
-            "height of both rows will be 2 cm",
-            "height of both rows will be 1.5 cm",
-            "height of both rows will be 1 cm",
-            "height of both rows will be 3 cm",
-        ],
-        correctAnswer: "height of both rows will be 1.5 cm",
-    },
-
-    {
-        question: "A/an ________ algorithm transforms ciphertext to plaintext.",
-        options: ["Encryption", "Decryption", "Both (A) and (B)", "None of the above"],
-        correctAnswer: "Decryption"
-    },
-    {
-        question: "A/an ________ algorithm transforms plaintext to ciphertext.",
-        options: ["Encryption", "Decryption", "Both (A) and (B)", "None of the above"],
-        correctAnswer: "Encryption"
-    },
-
-
-    {
-        question: "What is the purpose of the id command?",
-        options: ["Print effective and real UID", "Print effective and real GID", "Print effective and real UID and GID", "None of these"],
-        correctAnswer: "Print effective and real UID and GID"
-    },
-    // Q3
-    {
-        question: "Which is not an impact printer?",
-        options: ["Dot Matrix Printer", "Drum Printer", "Chain Printer", "Laser Printer"],
-        correctAnswer: "Laser Printer"
-    },
-    {
-        question: "The default name of the Impress presentation is ................",
-        options: ["Calc", "Slide 1", "Writer", "Untitled 1"],
-        correctAnswer: "Untitled 1",
-    },
-
-    {
-        question: "The shell used for Single user mode shell is:",
-        options: ["bash", "Csh", "ksh", "sh"],
-        correctAnswer: "sh"
-    },
-
-    // Q78
-    {
-        question: "Shortcut key of new style in LibreOffice Writer:",
-        options: ["ctrl+C", "shift+12", "CTRL+f7", "shift+f11"],
-        correctAnswer: "shift+f11",
-    },
-
-    {
-        question: "Which of these is not a major type of cloud computing usage?",
-        options: ["Hardware as a service", "Platform as a service", "Software as a service", "Infrastructure as a service"],
-        correctAnswer: "Hardware as a service"
-    },
-    {
-        question: "The initial state and successor function implicitly define the state space of the problem.",
-        options: ["Initial state", "State-space", "problem space", "problem place"],
-        correctAnswer: "State-space"
-    },
-    {
-        question: "Shortcut key of open new document in libre office writer",
-        options: ["crtl+z", "ctrl+m", "crtl+n", "ctrl+y"],
-        correctAnswer: "crtl+n",
+        question: "Which protocol is used to receive mail in the mailbox?",
+        options: ["SMTP", "TCP/IP", "HTTP", "POP3"],
+        correctAnswer: "POP3"
     },
     {
         question: "Which of these should be avoided in an E-mail?",
@@ -284,305 +175,330 @@ const quizData = [
         correctAnswer: "Writes a wrong e-mail address"
     },
     {
-        question: "E-payments can be done through",
-        options: ["Wallets", "Digital Wallets", "Cash", "None of the above"],
-        correctAnswer: "Digital Wallets"
+        question: "How many parts in E-mail?",
+        options: ["3", "2", "4", "None of these"],
+        correctAnswer: "2"
     },
-
     {
-        question: "Is email case sensitive?",
+        question: "Is email case-sensitive?",
         options: ["True", "False"],
         correctAnswer: "False"
     },
     {
-        question: "What is HTTP?",
-        options: ["HYPER TEXT TRANSMISSION PROTOCOL.", "HIGH TEXT TRANSMISSION PROTOCOL.", "HYPER TEXT TRANSFER PROTOCOL.", "NONE OF THESE"],
-        correctAnswer: "HYPER TEXT TRANSFER PROTOCOL."
+        question: "What is the port number of SMTP?",
+        options: ["80", "25", "30", "21"],
+        correctAnswer: "25"
     },
     {
-        question: "In which menu option export as pdf in libre office write",
-        options: ["file", "format", "tools", "edit"],
-        correctAnswer: "file",
+        question: "Command `echo www.sanfoundary.com>/proc/sys/kernel/hostname` will",
+        options: ["Do nothing", "Change host name", "www.sanfoundary.com", "None of these"],
+        correctAnswer: "Change host name"
     },
     {
-        question: "Which one is least Secure?",
-        options: [" Password", "Keycard", "Retina", "Fingerprint"],
-        correctAnswer: " Keycard"
+        question: "Length of IPv4 address?",
+        options: ["40-60 bytes", "20-40 bytes", "0-20 bytes", "20-60 bytes"],
+        correctAnswer: "20-60 bytes"
     },
     {
-        question: "Which command is used to show process hierarchy in tree format?",
-        options: ["ps –tree", "pstree", "ps –t", "none of these"],
-        correctAnswer: "pstree",
+        question: "In a network, participating computers are referred to as?",
+        options: ["Nodes", "Client", "Server", "All of the above"],
+        correctAnswer: "Nodes"
     },
     {
-        question: "The ________ is the original message before transmission.",
-        options: ["Ciphertext", "Plaintext", "Secret-text", "None of the above"],
-        correctAnswer: "Plaintext"
-    },
-
-    {
-        question: "Maximum number of sheet limit in LibreOffice Calc?",
-        options: ["10000", "36000", "32000", "20000"],
-        correctAnswer: "10000",
+        question: "In a network with 25 computers, which topology would require?",
+        options: ["Bus", "Mesh", "Ring", "Hybrid"],
+        correctAnswer: "Mesh"
     },
     {
-        question: "ECB stands for",
-        options: ["electronic code book", "electronic cipher book", "C electronic clear book", "none of these"],
-        correctAnswer: "electronic code book"
+        question: "Full screen in Google Chrome used by key?",
+        options: ["F11", "F5", "F8", "F12"],
+        correctAnswer: "F11"
     },
     {
-        question: "How many digits is the MMID number?",
-        options: [" 7", "5", "12", "11"],
-        correctAnswer: " 7"
+        question: "Open a new tab in Google Chrome by pressing which key?",
+        options: ["CTRL + R", "CTRL + N", "CTRL + T", "CTRL + M"],
+        correctAnswer: "CTRL + T"
     },
     {
-        question: "Which bar is used to access the command and tools",
-        options: ["menu", "bar", "tools", "status"],
-        correctAnswer: "tools",
-    },
-    //   Q29
-    {
-        question: "Which is on the left side of the status bar?",
-        options: [
-            "zoom slider",
-            "digital signature",
-            "information area",
-            "cursor position",
-        ],
-        correctAnswer: "information area",
+        question: "Open downloads in Google Chrome by pressing which key?",
+        options: ["CTRL + R", "CTRL + J", "CTRL + T", "CTRL + M"],
+        correctAnswer: "CTRL + J"
     },
     {
-        question: "Shortcut key to increase column width in LibreOffice Calc?",
-        options: ["Alt+Right Arrow", "Alt+Up Arrow", "Alt+Left Arrow", "Alt+Down Arrow"],
-        correctAnswer: "Alt+Right Arrow",
-    },
-
-    {
-        question: "Shortcut key of text body in LibreOffice Writer:",
-        options: ["ctrl+C", "ctrl+E", "CTRL+2", "CTRL+0"],
-        correctAnswer: "CTRL+0",
-    },
-
-
-    {
-        question: "What is notes view in Libre office impress?",
-        options: ["notes view", "outline view", "both a & b", "none of these"],
-        correctAnswer: "outline view",
+        question: "Modem stands for?",
+        options: ["Modulator-Demodulator", "Modify-Demodify", "Manipulator-Demanipulator", "None of these"],
+        correctAnswer: "Modulator-Demodulator"
     },
     {
-        question: "What is the shortcut key for slide show in Libre office impress?",
-        options: ["f5", "f7", "f8", "f1"],
-        correctAnswer: "f5",
+        question: "OSI stands for?",
+        options: ["Open System Interconnection", "Open Source Initiative", "Open Source Interconnection", "None of these"],
+        correctAnswer: "Open System Interconnection"
     },
     {
-        question: "What is restarting a previously started computer called?",
-        options: ["Booting", "Clotting", "Warm booting", "Cold booting"],
-        correctAnswer: "Warm booting"
-    },
-
-
-    {
-        question: "which of the following is not one of libreoffice impress views.",
-        options: ["outline view", "impress view", "slide shorter view", "slide view"],
-        correctAnswer: "impress view",
-    },
-
-
-    {
-        question: "AADHAR is a unique identity number issued by____?",
-        options: ["UBI", "UIAI", "UIDAI", "UBDAI"],
-        correctAnswer: "UIDAI"
-    },
-
-    {
-        question: "a set of pre-designed formats of text or color scheme is called…..",
-        options: ["template", "slide", "schema", "presentation scheme"],
-        correctAnswer: "template",
+        question: "How many layers in OSI reference model?",
+        options: ["7", "6", "9", "8"],
+        correctAnswer: "7"
     },
     {
-        question: "in open office, impress comes under whivh menu.",
-        options: ["Tools", "Project", "Application", "office"],
-        correctAnswer: "Tools",
+        question: "Size of IPV6 address.",
+        options: ["32 BIT", "128 BIT", "255 BIT", "130 BIT"],
+        correctAnswer: "128 BIT"
     },
     {
-        question: "In vi editor, which command reads the content of another file?",
-        options: ["read", "r", "ex", "none of the mentioned"],
-        correctAnswer: "ex"
+        question: "MAC stands for",
+        options: ["MEDIA ACCESS CONTROL", "MAIN ACCESS CONTROL", "BOTH A AND B", "NONE OF THESE"],
+        correctAnswer: "MEDIA ACCESS CONTROL"
     },
     {
-        question: "an electronic page in presentation is called as….",
-        options: ["page", "e- page", "slide", "e-slide"],
-        correctAnswer: "slide",
+        question: "Template is a ready-made style that you can use for your LibreOffice Impress presentations.",
+        options: ["True", "False"],
+        correctAnswer: "True"
     },
     {
-        question: "...... provides virtual machines, virtual storage, virtual infrastructure, and other hardware assets?",
-        options: ["IaaS", "SaaS", "PaaS", "All of the mentioned"],
-        correctAnswer: "IaaS"
-    },
-
-    {
-        question: "__________ programs can be used to accomplish functions indirectly that an unauthorized user could not accomplish directly.",
-        options: ["Zombie", "Worm", "Trojan Horses", "Logic Bomb"],
-        correctAnswer: "Trojan Horses"
+        question: "Is Ctrl+5 used for a slide show?",
+        options: ["Yes", "No"],
+        correctAnswer: "Yes"
     },
     {
-        question: "which one of the following is presentation graphics software.",
-        options: ["word processor", "writer", "calc", "impress"],
-        correctAnswer: "impress",
+        question: "Can we set a custom slide show in LibreOffice Impress?",
+        options: ["True", "False"],
+        correctAnswer: "True"
     },
     {
-        question: "The maximum number of slide can be printed on A4 Size page in LibreOffice Impress is ...............",
-        options: ["1", "4", "5", "9"],
-        correctAnswer: "9",
+        question: "The shortcut key to move to the first slide of a presentation is...",
+        options: ["Ctrl+Home", "Ctrl+End", "Ctrl+Enter", "None of the above"],
+        correctAnswer: "Ctrl+Home"
     },
     {
-        question: "Which Menu of LibreOffice Impress found slide transition command available?",
-        options: ["File", "view", "Format", "Edit"],
-        correctAnswer: "view",
+        question: "How many menus are found in LibreOffice Impress?",
+        options: ["3", "5", "8", "10"],
+        correctAnswer: "10"
     },
     {
-        question: "How many parts are there in an E-mail?",
-        options: ["3", "2", "4", "None of these"],
+        question: "The keyboard combination that can be used to open a presentation file is...",
+        options: ["Ctrl+Q", "Ctrl+O", "Ctrl+P", "Ctrl+S"],
+        correctAnswer: "Ctrl+O"
+    },
+    {
+        question: "__________ is used to go to the previous slide in LibreOffice Impress.",
+        options: ["Ctrl+Page Up", "Ctrl+Page Down", "Ctrl+Page Left", "Ctrl+Page Right"],
+        correctAnswer: "Ctrl+Page Up"
+    },
+    {
+        question: "__________ is used to move the cursor with selection to the left.",
+        options: ["Shift+Arrow Left", "Shift+Arrow Right", "Shift+Arrow Up", "Shift+Arrow Down"],
+        correctAnswer: "Shift+Arrow Left"
+    },
+    {
+        question: "In Impress presentation for animation, we select slide object and click Format menu > animation.",
+        options: ["True", "False"],
+        correctAnswer: "True"
+    },
+    {
+        question: "What is the file extension of LibreOffice Impress?",
+        options: [".odt", ".ods", ".odp", ".pptx"],
+        correctAnswer: ".odp"
+    },
+    {
+        question: "In LibreOffice, which format cannot be added?",
+        options: ["XML", "BIP", "HTML", "EXML"],
+        correctAnswer: "EXML"
+    },
+    {
+        question: "Which one of the following is not an option available in the drop-down menu of line type while inserting a line chart in LibreOffice Calc?",
+        options: ["Stepped", "Smooth", "Straight", "Curved"],
+        correctAnswer: "Stepped"
+    },
+    {
+        question: "Which one of the following is not a valid operator type in LibreOffice Calc?",
+        options: ["Arithmetic", "Comparative", "Text", "Referential"],
+        correctAnswer: "Referential"
+    },
+    {
+        question: "What is the default height of a cell in LibreOffice Calc?",
+        options: ["4.4 inch", "0.45 inch", "4.5 cm", "0.45 cm"],
+        correctAnswer: "0.45 cm"
+    },
+    {
+        question: "If a variable is missing from the formula, then the error message displayed is?",
+        options: ["510", "511", "576", "566"],
+        correctAnswer: "510"
+    },
+    {
+        question: "What is the result of the formula '=PRODUCT(2,SUM(5,7))' in LibreOffice Calc?",
+        options: ["14", "24", "12", "17"],
+        correctAnswer: "24"
+    },
+    {
+        question: "ceiling(97,7) displays the result in LibreOffice Calc",
+        options: ["98", "99", "97", "#num"],
+        correctAnswer: "98"
+    },
+    {
+        question: "product(5, 2) displays the result in LibreOffice Calc",
+        options: ["11", "10", "12", "7"],
+        correctAnswer: "10"
+    },
+    {
+        question: "quotient(5, 2) displays the result in LibreOffice Calc",
+        options: ["1", "2", "10", "7"],
         correctAnswer: "2"
-    },  // Q49
-
-    {
-        question: "Which menu command is used to create a text box on a slide?",
-        options: ["Tool/Text box", "View/Text box", "Insert/Text box", "Format/Text box"],
-        correctAnswer: "Insert/Text box",
     },
     {
-        question: "The command chmod 761 letter is equivalent to",
-        options: ["chmod 4=7, g = 6, o = 1 letter", "chmod a = 761 letter", "chmod u = rwx, g = rw, o = x letter", "chmod 167 letter"],
-        correctAnswer: "chmod u = rwx, g = rw, o = x letter"
-    },
-
-    {
-        question: "We use ............... in our slides to hold text, clip art and charts.",
-        options: ["Text box", "Drawing box", "Placeholders", "Window"],
-        correctAnswer: "Placeholders",
+        question: "count(5, 0, 0, 0, 0) displays the result in LibreOffice Calc",
+        options: ["1", "4", "5", "6"],
+        correctAnswer: "5"
     },
     {
-        question: "In which menu master slide function available?",
-        options: ["Slide Show", "Slide", "view", "Tools"],
-        correctAnswer: "view",
+        question: "Which of the following options is not an option in the print dialog box?",
+        options: ["Print the selected pages", "Set the paper orientation", "Collate copies", "Print selected text"],
+        correctAnswer: "Print the selected pages"
     },
     {
-        question: "which option is not available during print handouts",
-        options: ["per page six slide", "per page two slide", "per page three slide", "per page five slide"],
-        correctAnswer: "per page five slide",
-    },
-
-
-
-    {
-        question: "Which of the following will be the full form of IRCTC?",
-        options: ["Indian Railway Catering and Tourism Corporation", "Indian Railway Corporation and Tourism Catering", "Indian Railway Catering and Travel Corporation", "None of These"],
-        correctAnswer: "Indian Railway Catering and Tourism Corporation"
-    },
-
-    {
-        question: "If a robot is able to change its own trajectory as per the external conditions, then the robot is considered as the__",
-        options: ["Mobile", "Non-Servo", "Open Loop", "Intelligent"],
-        correctAnswer: "Intelligent"
+        question: "In which menu option find and replace in LibreOffice Writer?",
+        options: ["File", "Format", "Edit", "Insert"],
+        correctAnswer: "Edit"
     },
     {
-        question: "User threads are supported above the kernel and managed without",
-        options: ["kernel support", "memory", "registers", "operating system"],
-        correctAnswer: "kernel support"
+        question: "In which menu option wizard in LibreOffice Writer?",
+        options: ["File", "Format", "Edit", "Insert"],
+        correctAnswer: "File"
     },
     {
-        question: "Which language is used in the fifth generation?",
-        options: ["Assembly language", "High-level language", "Artificial language", "None of these"],
-        correctAnswer: "Artificial language"
-    },
-
-    {
-        question: "What is the function of an Artificial Intelligence 'Agent'?",
-        options: ["Mapping of goal sequence to an action", "Work without the direct interference of the people", "Mapping of percept sequence to an action", "Mapping of environment sequence to an action"],
-        correctAnswer: "Mapping of percept sequence to an action"
-    },
-
-    {
-        question: "Which of the following machine requires input from the humans but can interpret the outputs themselves?",
-        options: ["Actuators", "Sensor", "Agents", "AI system"],
-        correctAnswer: "AI system"
+        question: "In which menu option mail merge in LibreOffice Writer?",
+        options: ["File", "Format", "Edit", "Tools"],
+        correctAnswer: "Tools"
     },
     {
-        question: "In normal view, the cursor changes from the arrow to?",
-        options: ["I-beam", "U-beam", "Shift+F4", "L-beam"],
-        correctAnswer: "I-beam"
+        question: "In which menu option word count in LibreOffice Writer?",
+        options: ["Tools", "Format", "Edit", "Insert"],
+        correctAnswer: "Tools"
     },
     {
-        question: "In which menu option push button in libre office writer",
-        options: ["form", "help", "window", "tools"],
-        correctAnswer: "form",
-    },
-
-    {
-        question: "Who invented IC?",
-        options: ["Charles Babbage", "JS Kilby and Robert Noyce", "Mark Waugh", "None of these"],
-        correctAnswer: "JS Kilby and Robert Noyce"
-    },
-
-
-    {
-        question: "How many types of service models are mainly present in the cloud?",
-        options: ["1", "2", "3", "4"],
-        correctAnswer: "3"
+        question: "In which menu option macros in LibreOffice Writer?",
+        options: ["File", "Tools", "Edit", "Insert"],
+        correctAnswer: "Tools"
     },
     {
-        question: "Which of the following are the approaches to Artificial Intelligence?",
-        options: ["Applied approach", "Strong approach", "Weak approach", "All of the mentioned"],
-        correctAnswer: "All of the mentioned"
+        question: "In which menu option new window in LibreOffice Writer?",
+        options: ["File", "Tools", "Window", "Insert"],
+        correctAnswer: "Window"
     },
     {
-        question: "Face Recognition system is based on which type of approach?",
-        options: ["Weak AI approach", "Applied AI approach", "Cognitive AI approach", "Strong AI approach"],
-        correctAnswer: "Applied AI approach"
+        question: "In which menu option donate to LibreOffice in LibreOffice Writer?",
+        options: ["File", "Tools", "Window", "Help"],
+        correctAnswer: "Help"
     },
     {
-        question: "Which of the following is an advantage of artificial intelligence?",
-        options: ["Reduces the time taken to solve the problem", "Helps in providing security", "Has the ability to think hence makes the work easier", "All of the above"],
-        correctAnswer: "All of the above"
-    }, {
-        question: "What was the old name of Twitter?",
-        options: ["Twter", "Twttr", "Twiter", "None of these"],
-        correctAnswer: "Twttr"
-    },
-
-
-    {
-        question: "What is the full form of NUUP?",
-        options: [" National Unified USSD Platform", "National Unifier USSD Platform", "National Universal USSD Platform", "None"],
-        correctAnswer: " National Unified USSD Platform"
+        question: "In which menu option restart in safe mode in LibreOffice Writer?",
+        options: ["File", "Tools", "Window", "Help"],
+        correctAnswer: "Help"
     },
     {
-        question: "How many digits are in IMEI?",
-        options: [" 15", "17", "12", "13"],
-        correctAnswer: " 15"
+        question: "In which menu option push button in LibreOffice Writer?",
+        options: ["File", "Form", "Window", "Help"],
+        correctAnswer: "Form"
     },
     {
-        question: "Full form of IMEI?",
-        options: [" International mobile equipment identify", "Internet mobile equipment identify", "International mobile equipment identity", "None"],
-        correctAnswer: "International mobile equipment identity"
+        question: "Which of the following options is used to connect a Windows 10 computer to a printer?",
+        options: ["Bluetooth and Other Device", "Printer", "Printers and Scanners", "Scanner"],
+        correctAnswer: "Printers and Scanners"
     },
     {
-        question:
-            "Which of the following options is not an option in the print dialog box?",
-        options: [
-            "print the selected pages",
-            "set the paper orientation",
-            "collate copies",
-            "print selected text",
-        ],
-        correctAnswer: "print selected text",
+        question: "Which command is used to get a print of a file in Linux?",
+        options: ["Mv", "Cp", "Ipr", "Pt"],
+        correctAnswer: "Ipr"
     },
     {
-        question: "Which of the following is an independent malicious program that needs no host program?",
-        options: ["Trap doors", "Trojan horse", "Virus", "Worm"],
-        correctAnswer: "Worm"
+        question: "A(n) __________ is a set of instructions that a computer follows to perform a task.",
+        options: ["Compiler", "Software", "Interpreter", "Programming Language"],
+        correctAnswer: "Software"
     },
+    {
+        question: "Which of the following does not fall under the category of open source?",
+        options: ["Open Office", "Linux", "Ubuntu", "Windows 10"],
+        correctAnswer: "Windows 10"
+    },
+    {
+        question: "What is the shortcut key to open 'File Explorer' in Windows 10?",
+        options: ["Window key + A", "Window key + F", "Window key + E", "Window key + D"],
+        correctAnswer: "Window key + E"
+    },
+    {
+        question: "Libre office belongs to OSI, and the full name of OSI is?",
+        options: ["Open Source Interchange", "Open Source Internet", "Open Source Initiative", "None of these"],
+        correctAnswer: "Open Source Initiative"
+    },
+    {
+        question: "Which command will give you information about how much disk space each file in the current directory uses?",
+        options: ["Is-1", "ls -la", "du", "ls –a"],
+        correctAnswer: "du"
+    },
+    {
+        question: "Process or task in Linux is represented by?",
+        options: ["Task build", "Task struct", "Task construct", "Task domain"],
+        correctAnswer: "Task struct"
+    },
+    {
+        question: "A true statement about 'chown' command in Linux is",
+        options: ["Creates a thread", "Creates a child process", "Changes the mode of operation to kernel mode", "Changes the users and/or group ownership of each given file"],
+        correctAnswer: "Changes the users and/or group ownership of each given file"
+    },
+    {
+        question: "Which command is used to check the Linux version?",
+        options: ["uname -a", "uname-n", "uname-s", "kernel"],
+        correctAnswer: "uname -a"
+    },
+    {
+        question: "Which is the first artificial language?",
+        options: ["High level", "Low and high", "LISP", "None of these"],
+        correctAnswer: "LISP"
+    },
+    {
+        question: "In which type of computer are data represented as discrete signals?",
+        options: ["Digital computer", "Analog computer", "Both digital and analog", "Hybrid computer"],
+        correctAnswer: "Digital computer"
+    },
+    {
+        question: "Fourth-generation language(4GL) is a:",
+        options: ["Procedural language", "Structural language", "Non-procedural language", "All of the above"],
+        correctAnswer: "Non-procedural language"
+    },
+    {
+        question: "The fast and expensive storage device is:",
+        options: ["Electronic disk", "Magnetic disk", "Register", "Optical disk"],
+        correctAnswer: "Register"
+    },
+    {
+        question: "Which memory is called volatile as well as non-volatile?",
+        options: ["RAM", "ROM", "Both RAM and ROM", "None of these"],
+        correctAnswer: "ROM"
+    },
+    {
+        question: "Who is the father of the computer?",
+        options: ["Ray Tomilson", "Charles Babbage", "Khen Thomson", "JS Kilby"],
+        correctAnswer: "Charles Babbage"
+    },
+    {
+        question: "Full form of ALU is:",
+        options: ["Any Long Unit", "Arithmetic Logic Unit", "All Level Unit", "None of these"],
+        correctAnswer: "Arithmetic Logic Unit"
+    },
+    {
+        question: "Programs that are easily understandable are known as:",
+        options: ["Word processing", "User-friendly", "Information", "Icon"],
+        correctAnswer: "User-friendly"
+    },
+    {
+        question: "A device that converts a digital signal to an analog signal is:",
+        options: ["DAC", "P2M", "ADC", "PWM"],
+        correctAnswer: "DAC"
+    },
+    {
+        question: "In the latest generation computers, instructions are executed:",
+        options: ["Sequentially", "Sequentially and parallel", "Parallel only", "In random manner"],
+        correctAnswer: "Sequentially and parallel"
+    }
 ];
 
 function shuffleArray(array) {
