@@ -142,16 +142,11 @@ const quizData = [
     options: ["LAN", "WAN", "MAN", "PAN"],
     correctAnswer: "WAN"
   },
-
-
-
   {
     question: "Data communication system within a building or campus is",
     options: ["LAN", "WAN", "MAN", "PAN"],
     correctAnswer: "LAN"
   },
-
-
   {
     question: "Which topology combines two or more topologies?",
     options: ["Ring", "Bus", "Hybrid", "All of the above"],
@@ -271,7 +266,7 @@ const quizData = [
   },
   {
     question: "WLAN stands for ",
-    options: ["Wireless Local Area Network", "Wired Local Area Network", "Wireless Local Ambiguity Network", " Wired Latent Area Network"],
+    options: ["Wireless Local Area Network", "Wired Local Area Network", "Wireless Local Ambiguity Network", "Wired Latent Area Network"],
     correctAnswer: "Wireless Local Area Network"
   },
 
@@ -316,6 +311,21 @@ const quizData = [
     options: ["Ring", "Bus", "Star", "Mesh"],
     correctAnswer: "Star"
   },
+  {
+    question: "How many values in one byte?",
+    options: ["256", "255", "258", "260"],
+    correctAnswer: "256"
+  },
+  {
+    question: "BHIM app launched in which year?",
+    options: ["2014", "2015", "2016", "2017"],
+    correctAnswer: "2016"
+  },
+  {
+    question: "Among the following NICS clients, which finds & stores information about an NIS server?",
+    options: ["Ypbind", "Ypcat", "Ypwhich", "Yppoll"],
+    correctAnswer: "Ypbind"
+  }
 ];
 
 function shuffleArray(array) {
