@@ -1,518 +1,532 @@
 const quizData = [
     {
-        question: "Allows user to send a file with email.",
-        options: ["Draft", "Messenger", "Sent", "Attachments"],
-        correctAnswer: "Attachments"
+        question: "Which of the following is not an 'Open Source'?",
+        options: ["Open Office", "Linux", "Ubuntu", "Windows 10"],
+        correctAnswer: "Windows 10"
     },
     {
-        question: "Which is not type of e-commerce?",
-        options: ["Business to Business (B2B)", "Business to Customer (B2C)", "Alpha-commerce (A2A)", "Consumer-to-business (C2B)"],
-        correctAnswer: "Alpha-commerce (A2A)"
+        question: "Transaction ID and reference number are the same?",
+        options: ["true", "false"],
+        correctAnswer: "false"
+    },
+    {
+        question: "Which of the following is not hardware?",
+        options: ["Punch card reader", "Magnetic tape reader", "Printer", "Assembler"],
+        correctAnswer: "Assembler"
+    },
+    {
+        question: "What characteristics of read-only memory (ROM) makes it useful?",
+        options: [
+            "ROM information can be easily updated",
+            "ROM provides very large amounts of inexpensive data storage",
+            "ROM chips are easily swapped between different brands of computers",
+            "Data in ROM is non-volatile, that is, it remains there even without electrical power"
+        ],
+        correctAnswer: "Data in ROM is non-volatile, that is, it remains there even without electrical power"
+    },
+    {
+        question: "Inputs required during AEPS transaction are?",
+        options: ["IIN + Aadhaar number + Biometric data", "Account number + Bank number + Bank IFSC code", "Pin + Aadhar card + Account number", "IIN + Aadhaar card + Biometric data"],
+        correctAnswer: "IIN + Aadhaar number + Biometric data"
+    },
+    {
+        question: "What are the input devices?",
+        options: ["Printer", "Hard disk", "Keyboard, Mouse", "Monitor"],
+        correctAnswer: "Keyboard, Mouse"
+    },
+    {
+        question: "A bar that informs you of the available options in your computer, opened applications, background running applications and can be used to switch between applications quickly is",
+        options: ["Menu bar", "Tool bar", "Status bar", "Task bar"],
+        correctAnswer: "Task bar"
+    },
+    {
+        question: "Which of the following is the class of computer threat",
+        options: ["Phishing", "Soliciting", "Dos attacks", "Stalking"],
+        correctAnswer: "Dos attacks"
+    },
+    {
+        question: "Which Printer Is Commonly Used For Desktop Publishing?",
+        options: ["Daisy Wheel Printer", "Dot-matrix Printer", "Laser Printer", "Ink-jet Printer"],
+        correctAnswer: "Laser Printer"
+    },
+    {
+        question: "What is Meghdoot?",
+        options: ["Mobile Seva", "Govt. Cloud Service", "Online seva", "Cloud center service"],
+        correctAnswer: "Govt. Cloud Service"
+    },
+    {
+        question: "Who can edit sent mail?",
+        options: ["Sender", "Receiver", "None", "Both A & B"],
+        correctAnswer: "None"
+    },
+    {
+        question: "Which operation is not performed by a computer?",
+        options: ["Inputting", "Processing", "Controlling", "Understanding"],
+        correctAnswer: "Understanding"
+    },
+    {
+        question: "Line spacing refers to.",
+        options: ["The space between the lines of text.", "The height of lines.", "The length of lines.", "Both (a) and (c)"],
+        correctAnswer: "The space between the lines of text."
+    },
+    {
+        question: "LibreOffice Calc is a powerful.",
+        options: ["Word processing software", "Spreadsheet package", "DBMS package", "Communication package"],
+        correctAnswer: "Spreadsheet package"
+    },
+    {
+        question: "A dedicated computer.",
+        options: ["Is used by one person only.", "Is assigned one and only one task.", "Uses only one kind of software.", "Is meant for application software"],
+        correctAnswer: "Is assigned one and only one task."
+    },
+    {
+        question: "MAC address is a ……… byte address.",
+        options: ["6", "4", "8", "2"],
+        correctAnswer: "6"
+    },
+    {
+        question: "The term bit is short for.",
+        options: ["Megabyte", "Binary language", "Binary digit", "Binary number"],
+        correctAnswer: "Binary digit"
+    },
+    {
+        question: "The keystrokes Ctrl+ I is used to.",
+        options: ["Increase font size", "Insert a line break", "Indicate the text show should be bold", "Applies italic format to the selected text"],
+        correctAnswer: "Applies italic format to the selected text"
+    },
+    {
+        question: "Credit cards are a convenient substitute for …………. ",
+        options: ["Cash", "Cheque", "Both cash & cheque", "None of the options"],
+        correctAnswer: "Both cash & cheque"
+    },
+    {
+        question: "How many daily settlement batches are there in NEFT during a weekday",
+        options: ["24", "12", "23", "11"],
+        correctAnswer: "12"
+    },
+    {
+        question: "NEFT operates in how many batches in a day",
+        options: ["Hourly basis", "Half-hourly basis", "Two-hourly basis", "Quarterly basis"],
+        correctAnswer: "Half-hourly basis"
+    },
+    {
+        question: "Face Recognition system is based on which type of approach?",
+        options: ["Weak AI approach", "Applied AI approach", "Cognitive AI approach", "Strong AI approach"],
+        correctAnswer: "Applied AI approach"
+    },
+    {
+        question: "Which of the following is an advantage of artificial intelligence?",
+        options: ["Reduces the time taken to solve the problem", "Helps in providing security", "Has the ability to think hence makes the work easier", "All of the above"],
+        correctAnswer: "All of the above"
+    },
+    {
+        question: "Which of the following can improve the performance of an AI agent?",
+        options: ["Perceiving", "Learning", "Observing", "All of the mentioned"],
+        correctAnswer: "Learning"
+    },
+    {
+        question: "Which of the following is/are the composition for AI agents?",
+        options: ["Program only", "Architecture only", "Both Program and Architecture", "None of the mentioned"],
+        correctAnswer: "Both Program and Architecture"
+    },
+    {
+        question: "On which of the following approaches is a basic line-following robot based?",
+        options: ["Applied approach", "Weak approach", "Strong approach", "Cognitive approach"],
+        correctAnswer: "Weak approach"
+    },
+    {
+        question: "Artificial Intelligence has evolved extremely in all fields except for _________",
+        options: ["Web mining", "Construction of plans in real-time dynamic systems", "Understanding natural language robustly", "All of the mentioned"],
+        correctAnswer: "All of the mentioned"
+    },
+    {
+        question: "Which of the following is an example of artificial intelligent agent/agents?",
+        options: ["Autonomous Spacecraft", "Human", "Robot", "All of the mentioned"],
+        correctAnswer: "All of the mentioned"
+    },
+    {
+        question: "Which of the following is an expansion of Artificial Intelligence application?",
+        options: ["Game Playing", "Planning and Scheduling", "Diagnosis", "All of the mentioned"],
+        correctAnswer: "All of the mentioned"
+    },
+    {
+        question: "Which of the following environments is strategic?",
+        options: ["Rational", "Deterministic", "Partial", "Stochastic"],
+        correctAnswer: "Deterministic"
+    },
+    {
+        question: "Which of the following is the branch of Artificial Intelligence?",
+        options: ["Machine Learning", "Cyber forensics", "Full-Stack Developer", "Network Design"],
+        correctAnswer: "Machine Learning"
+    },
+    {
+        question: "In how many categories is the process of Artificial Intelligence categorized?",
+        options: ["Categorized into 5 categories", "Processes are categorized based on the input provided", "Categorized into 3 categories", "Process is not categorized"],
+        correctAnswer: "Categorized into 3 categories"
+    },
+    {
+        question: "Based on which of the following parameters is Artificial Intelligence categorized?",
+        options: ["Based on functionality only", "Based on capabilities only", "Based on capabilities and functionality", "It is not categorized"],
+        correctAnswer: "Based on capabilities and functionality"
+    },
+    {
+        question: "Which of the following is a component of Artificial Intelligence?",
+        options: ["Learning", "Training", "Designing", "Puzzling"],
+        correctAnswer: "Learning"
+    },
+
+
+    {
+        question: "round(1780,-2) displays the result in LibreOffice Calc",
+        options: ["1700", "1780", "1800", "None of these"],
+        correctAnswer: "1800"
+    },
+    {
+        question: "round(18964,-5) displays the result in LibreOffice Calc",
+        options: ["0", "1", "2", "5"],
+        correctAnswer: "0"
+    },
+    {
+        question: "quotient(509.8, 7) displays the result in LibreOffice Calc",
+        options: ["72", "73", "74", "75"],
+        correctAnswer: "72"
+    },
+    {
+        question: "power(5, 2) displays the result in LibreOffice Calc",
+        options: ["25", "10", "7", "None of these"],
+        correctAnswer: "25"
+    },
+    {
+        question: "Shortcut key for date in LibreOffice Calc",
+        options: ["Ctrl+Shift+;", "Ctrl+;", "Ctrl++", "Ctrl+Shift+:"],
+        correctAnswer: "Ctrl+;"
+    },
+    {
+        question: "Shortcut key for time in LibreOffice Calc",
+        options: ["Ctrl+Shift+;", "Ctrl+;", "Ctrl++", "Ctrl+Shift+:"],
+        correctAnswer: "Ctrl+Shift+;"
+    },
+    {
+        question: "Which is not the maximum zoom size in LibreOffice Calc",
+        options: ["200", "300", "400", "500"],
+        correctAnswer: "500"
+    },
+    {
+        question: "floor(123, 11) displays the result in LibreOffice Calc",
+        options: ["121", "120", "135", "125"],
+        correctAnswer: "121"
+    },
+    {
+        question: "Which formula result shows that 16% of A1 in LibreOffice Calc",
+        options: ["A1*16%", "A1%16", "A1#16%", "A1%*16"],
+        correctAnswer: "A1*16%"
+    },
+    {
+        question: "Shortcut key for reaching the first column cell in LibreOffice Calc",
+        options: ["Ctrl+Home", "Home", "Alt+Home", "None of these"],
+        correctAnswer: "Ctrl+Home"
+    },
+    {
+        question: "What is the function of an Artificial Intelligence “Agent”?",
+        options: ["Mapping of goal sequence to an action", "Work without the direct interference of the people", "Mapping of precept sequence to an action", "Mapping of environment sequence to an action"],
+        correctAnswer: "Mapping of precept sequence to an action"
+    },
+    {
+        question: "Which of the following is not a type of Artificial Intelligence agent?",
+        options: ["Learning AI agent", "Goal-based AI agent", "Simple reflex AI agent", "Unity-based AI agent"],
+        correctAnswer: "Unity-based AI agent"
+    },
+    {
+        question: "Which of the following is not the commonly used programming language for Artificial Intelligence?",
+        options: ["Perl", "Java", "PROLOG", "LISP"],
+        correctAnswer: "Perl"
+    },
+    {
+        question: "Which of the following is not an application of artificial intelligence?",
+        options: ["Face recognition system", "Chatbots", "LIDAR", "DBMS"],
+        correctAnswer: "DBMS"
+    },
+    {
+        question: "Which of the following machines requires input from humans but can interpret the outputs themselves?",
+        options: ["Actuators", "Sensor", "Agents", "AI system"],
+        correctAnswer: "AI system"
+    },
+    {
+        question: "Which of the following are the approaches to Artificial Intelligence?",
+        options: ["Applied approach", "Strong approach", "Weak approach", "All of the mentioned"],
+        correctAnswer: "All of the mentioned"
+    },
+
+
+    {
+        question: "In blockchain, blocks are linked........ ?",
+        options: ["Backward to the previous block", "Forward to the next block", "Not linked with each other", "Both directions"],
+        correctAnswer: "Backward to the previous block"
+    },
+    {
+        question: "Where do you store your cryptocurrency?",
+        options: ["Bank account", "Floppy disk", "Crypto Wallet", "In your pocket"],
+        correctAnswer: "Crypto Wallet"
+    },
+    {
+        question: "What is Meghdoot?",
+        options: ["Mobile Seva", "Govt. Cloud Service", "Online seva", "Cloud center service"],
+        correctAnswer: "Govt. Cloud Service"
+    },
+    {
+        question: "Atulya App is related to?",
+        options: ["Tourism", "Business", "Naukari", "Nota"],
+        correctAnswer: "Tourism"
     },
 
     {
-        question: "CEO and founder of Facebook is",
-        options: ["Mark Zuckerberg", "Mark Saverin and Andrew McCollum", "Dustin Biden and Chris Hughes", "None of the above"],
-        correctAnswer: "Mark Zuckerberg"
-    },
-
-    {
-        question: "______ is used to send an email to some other person in addition to the main subject receiver without disclosing details to all.",
-        options: ["Carbon Copy", "Blind Carbon Copy", "Double carbon copy", "Xerox Copy"],
-        correctAnswer: "Blind Carbon Copy"
+        question: "DigiLocker cannot be used to?",
+        options: ["Share documents", "Store documents", "Verify documents", "Buy documents"],
+        correctAnswer: "Buy documents"
     },
     {
-        question: "Choose the correct format for Gmail address",
-        options: ["abc@gmail.com", "abc@gmail-com", "abcgmail@com", "None of the above"],
-        correctAnswer: "abc@gmail.com"
+        question: "Which is not required for accessing the service of POS system?",
+        options: ["PIN", "Internet", "Debit/Credit Card", "Account Number"],
+        correctAnswer: "Account Number"
     },
     {
-        question: "What is the max size of attachment in Gmail?",
-        options: ["25 MB", "25 TB", "25 GB", "25 KB"],
-        correctAnswer: "25 MB"
+        question: "From what date did all banks start to share their ATM cost for the transaction?",
+        options: ["September 1, 2009", "January 1, 2009", "April 1, 2009", "July 1, 2009"],
+        correctAnswer: "April 1, 2009"
     },
     {
-        question: "What is blog?",
-        options: ["web browser", "Website OR weblog", "search engine", "none of the mentioned"],
-        correctAnswer: "Website OR weblog"
+        question: "Utility of e-wallet is not the same as to?",
+        options: ["RuPay Card", "Debit Card", "Credit Card", "Cash Card"],
+        correctAnswer: "Credit Card"
     },
     {
-        question: "Usually signature appears at which place in email?",
-        options: ["At the end", "In beginning", "In middle", "None of the above"],
-        correctAnswer: "At the end"
+        question: "Who started the ATM card first?",
+        options: ["SBI", "HSBC", "HDFC", "ICICI"],
+        correctAnswer: "HSBC"
     },
     {
-        question: "What is the minimum age to join Facebook?",
-        options: ["18 years", "15 years", "13 years", "10 years"],
-        correctAnswer: "13 years"
+        question: "How many digits are there in CVV of ATM and Credit Card?",
+        options: ["6 digits", "4 digits", "3 digits", "5 digits"],
+        correctAnswer: "3 digits"
     },
     {
-        question: "Email is elegant mail.",
-        options: ["TRUE", "FALSE"],
-        correctAnswer: "FALSE"
+        question: "What is meant by Aadhaar seeding?",
+        options: ["Linking of Aadhaar with Bank account", "Duplicate issuance of Aadhaar", "Transfer of Aadhaar", "None of above"],
+        correctAnswer: "Linking of Aadhaar with Bank account"
     },
     {
-        question: "Twitter is an example of",
-        options: ["E-mail System", "System application", "Social Networking", "Web URL"],
-        correctAnswer: "Social Networking"
+        question: "PPF means",
+        options: ["Pension Planning Funds", "Person having Pension Facilities", "Public Provident Fund", "Permanent Practitioners Forum"],
+        correctAnswer: "Public Provident Fund"
     },
     {
-        question: "Twitter is also known as",
-        options: ["microblogging", "System application", "browser", "Web URL"],
-        correctAnswer: "microblogging"
-    },
-    {
-        question: "CC in email stands for",
-        options: ["Carbon catch", "Carbon copy", "Consider copy", "Carbon coupon"],
-        correctAnswer: "Carbon copy"
-    },
-    {
-        question: "Instagram is a",
-        options: ["educational website", "search engine", "social networking website", "shopping website"],
-        correctAnswer: "social networking website"
-    },
-    {
-        question: "The Place Where All Types Of Email Messages Are Organized Is Called What?",
-        options: ["Inbox", "Mailbox", "Outbox", "None Of These"],
-        correctAnswer: "Mailbox"
+        question: "What is the timing of NEFT?",
+        options: ["8:00 am to .6:00 pm", "8:00 am to 7:00 pm", "6:30 am to 5:30 pm", "None"],
+        correctAnswer: "8:00 am to 7:00 pm"
     },
 
 
 
 
 
+
+
+
+
     {
-        question: "Which Of The Following Contains The Body Of The Email Message?",
-        options: ["Image", "Both Image And Text", "Only Image", "Only Text"],
-        correctAnswer: "Both Image And Text"
+        question: "Multiple desktops can be created using:",
+        options: ["Taskbar icon", "Task view icon", "Store icon", "Task review icon"],
+        correctAnswer: "Task view icon"
     },
     {
-        question: "Email addresses separate the user name from the ISP using the symbol",
-        options: ["&", "@", "$", "%"],
-        correctAnswer: "@"
+        question: "Full form of TFT?",
+        options: ["Tight film transistor", "Thin film transistor", "Think film transistor", "None of these"],
+        correctAnswer: "Thin film transistor"
     },
     {
-        question: "Can we send email without subject?",
-        options: ["TRUE", "FALSE"],
-        correctAnswer: "TRUE"
+        question: "What characteristics of read-only memory (ROM) makes it useful?",
+        options: [
+            "ROM information can be easily updated",
+            "ROM provides very large amounts of inexpensive data storage",
+            "ROM chips are easily swapped between different brands of computers",
+            "Data in ROM is non-volatile, that is, it remains there even without electrical power"
+        ],
+        correctAnswer: "Data in ROM is non-volatile, that is, it remains there even without electrical power"
     },
     {
-        question: "How many photos can be uploaded to Facebook simultaneously?",
-        options: ["10", "15", "25", "30"],
-        correctAnswer: "30"
+        question: "1000 gigabytes is equal to?",
+        options: ["1 PB", "1 ZB", "1 TB", "1 MB"],
+        correctAnswer: "1 TB"
     },
     {
-        question: "What is the maximum time limit of video that can be uploaded to twitter?",
-        options: ["30 Seconds", "1 Minute", "2 Minutes", "2 Minutes 20 Seconds"],
-        correctAnswer: "2 Minutes 20 Seconds"
+        question: "Apple company used chips from which company for its computer?",
+        options: ["Motorola", "Intel", "Both a & b", "None of these"],
+        correctAnswer: "Motorola"
     },
     {
-        question: "All received mails are deposited in:",
-        options: ["Inbox", "Draft", "Sent mail", "No where"],
-        correctAnswer: "Inbox"
+        question: "Default font size in LibreOffice Calc?",
+        options: ["12", "11", "10", "13"],
+        correctAnswer: "10"
     },
     {
-        question: "We can send through e-mail:",
-        options: ["File", "Picture", "Message", "All the above"],
-        correctAnswer: "All the above"
+        question: "Default font name in LibreOffice Calc?",
+        options: ["Liberation Sans", "Liberation Serif", "Times New Roman", "Calibri"],
+        correctAnswer: "Liberation Sans"
     },
     {
-        question: "LinkedIn is related to.",
-        options: ["employment", "e-commerce", "both a and b", "none of these"],
-        correctAnswer: "employment"
+        question: "Maximum zoom in LibreOffice Calc?",
+        options: ["600%", "300%", "100%", "400%"],
+        correctAnswer: "400%"
+    },
+    {
+        question: "Minimum zoom in LibreOffice Calc?",
+        options: ["10%", "20%", "30%", "5%"],
+        correctAnswer: "20%"
+    },
+    {
+        question: "Shortcut key for edit in LibreOffice Calc?",
+        options: ["F2", "F1", "F4", "F7"],
+        correctAnswer: "F2"
+    },
+    {
+        question: "Split window option is found in which menu in LibreOffice Calc?",
+        options: ["Edit", "Insert", "View", "Tools"],
+        correctAnswer: "View"
+    },
+    {
+        question: "How many chart types are there in LibreOffice Calc?",
+        options: ["10", "11", "20", "12"],
+        correctAnswer: "10"
+    },
+    {
+        question: "By default, legend shows on which side in a chart?",
+        options: ["Left", "Center", "Top", "Right"],
+        correctAnswer: "Right"
+    },
+    {
+        question: "Which of the following is a type of chart?",
+        options: ["Circle", "Bubble", "Square", "Right"],
+        correctAnswer: "Bubble"
+    },
+    {
+        question: "Which of the following is not a type of chart?",
+        options: ["Pie", "Bubble", "Column", "Square"],
+        correctAnswer: "Square"
+    },
+    {
+        question: "Which of the following is an essential file of an MS-DOS boot disk?",
+        options: ["COMMAND.COM", "START.COM", "TREE.COM", "VER.COM"],
+        correctAnswer: "COMMAND.COM"
+    },
+    {
+        question: "A software that is easy to use is considered to be",
+        options: ["User-happy", "User-simple", "User-friendly", "None of the above"],
+        correctAnswer: "User-friendly"
+    },
+    {
+        question: "Which type of command requires additional files to perform specific operations?",
+        options: ["Internal commands", "External commands", "Valuable commands", "Primary commands"],
+        correctAnswer: "External commands"
+    },
+    {
+        question: "Which command is used to see the version of the operating system?",
+        options: ["Vol", "Version", "Ver", "None of the above"],
+        correctAnswer: "Ver"
+    },
+    {
+        question: "Which of the following is not a multitasking operating system?",
+        options: ["Windows", "Linux", "Win NT", "DOS"],
+        correctAnswer: "DOS"
+    },
+    {
+        question: "Which language is not there?",
+        options: ["Low level language", "Medium level language", "High level language", "None"],
+        correctAnswer: "Medium level language"
     },
 
     {
-        question: "Who was the father of E-mail?",
-        options: ["Tim Berners Lee", "Ken Thomson", "Vint Cerf", "Ray Tomlinson"],
-        correctAnswer: "Ray Tomlinson"
+        question: "Startup is started for whom?",
+        options: ["Doctors", "Entrepreneurs", "Students", "Youngsters"],
+        correctAnswer: "Entrepreneurs"
     },
     {
-        question: "In which year was the first email sent?",
-        options: ["1971", "1982", "1990", "1969"],
-        correctAnswer: "1971"
+        question: "Who invented the term Internet of Things?",
+        options: ["Bill Gates", "Kevin Ashton", "Steve Jobs", "McDonald"],
+        correctAnswer: "Kevin Ashton"
     },
     {
-        question: "Which protocol is used to send the mail?",
-        options: ["SMTP", "HTTP", "TCP/IP", "FTP"],
-        correctAnswer: "SMTP"
+        question: "Cloud in cloud computing means ....?",
+        options: ["Wireless", "Hard-drive", "People", "Internet"],
+        correctAnswer: "Internet"
     },
     {
-        question: "SMTP stands for.",
-        options: ["Simple Mail Transfer Protocol", "Simplex Mail Transport Protocol", "Super Mail Transfer Protocol", "None of these"],
-        correctAnswer: "Simple Mail Transfer Protocol"
-    },
-    {
-        question: "Which protocol is used to receive a mail in the mailbox?",
-        options: ["SMTP", "TCP/IP", "HTTP", "POP3"],
-        correctAnswer: "POP3"
-    },
-
-    {
-        question: "Which of these should be avoided in an E-mail?",
-        options: ["Writes a wrong e-mail address", "Subject line", "Smiley’s", "Re-reading"],
-        correctAnswer: "Writes a wrong e-mail address"
-    },
-    {
-        question: "Out of IMAP and POP3, which one is more reliable?",
-        options: ["IMAP & POP3 both", "IMAP", "Both are unreliable", "POP3"],
-        correctAnswer: "POP3"
-    },
-    {
-        question: "Which of the following is not a type of POS?",
-        options: ["Restaurant POS", "ATM POS", "Tablet-based POS", "Reception Desk POS"],
-        correctAnswer: "Restaurant POS"
-    },
-    {
-        question: "When a hacker penetrates a network, this is a network _______ issue.",
-        options: ["Performance", "Reliability", "Security", "None of the above"],
-        correctAnswer: "Security"
-    },
-    {
-        question: "Where was the 22nd National e-Governance Conference held in 2019?",
-        options: ["Shillong", "Arunachal", "Uttar Pradesh", "None of these"],
-        correctAnswer: "Shillong"
-    },
-    {
-        question: "From which shortcut can we upload a document directly on Google Drive?",
-        options: ["Ctrl+U", "Ctrl+I", "Shift+U", "Shift+I"],
-        correctAnswer: "Shift+U"
-    },
-    {
-        question: "What is CRM?",
-        options: ["Company Relationship Management", "Customer Response Management", "Customer Relationship Management", "Company Response Management"],
-        correctAnswer: "Customer Relationship Management"
-    },
-
-    {
-        question: "Which of the following DDoS in mobile systems wait for the owner to trigger the cyber attack?",
-        options: ["botnets", "programs", "virus", "worms"],
-        correctAnswer: "botnets"
-    },
-    {
-        question: "Which of the following is the least strong security encryption standard?",
-        options: ["WPA3", "WPA2", "WPA", "WEP"],
-        correctAnswer: "WEP"
-    },
-    {
-        question: "Which of the following can diminish the chance of data leakage?",
-        options: ["Steganography", "Chorography", "Cryptography", "Authentication"],
-        correctAnswer: "Steganography"
-    },
-    {
-        question: "What is the full form of NUUP?",
-        options: [" National Unified USSD Platform", "National Unifier USSD Platform", "National Universal USSD Platform", "None"],
-        correctAnswer: " National Unified USSD Platform"
+        question: "What are the two main sections of the Cloud Computing System?",
+        options: ["Terminal and Nodes", "Front and Back", "Network and Server", "None of these"],
+        correctAnswer: "Front and Back"
     },
     {
         question: "How many digits are in IMEI?",
-        options: [" 15", "17", "12", "13"],
-        correctAnswer: " 15"
+        options: ["15", "17", "12", "13"],
+        correctAnswer: "15"
     },
     {
         question: "Full form of IMEI?",
-        options: [" International mobile equipment identify", "Internet mobile equipment identify", "International mobile equipment identity", "None"],
+        options: ["International mobile equipment identify", "Internet mobile equipment identify", "International mobile equipment identity", "None"],
         correctAnswer: "International mobile equipment identity"
     },
     {
         question: "Full form of MMID?",
-        options: [" Mobile Money Identifier", "Mobile making identifier", "Money mobile identifier", "Mobile money immediate"],
-        correctAnswer: " Mobile Money Identifier"
+        options: ["Mobile Money Identifier", "Mobile making identifier", "Money mobile identifier", "Mobile money immediate"],
+        correctAnswer: "Mobile Money Identifier"
     },
 
     {
-        question: "Which one is least Secure?",
-        options: [" Password", "Keycard", "Retina", "Fingerprint"],
-        correctAnswer: " Keycard"
+        question: "What is the name of Artificial Intelligence which allows machines to handle vague information with a deftness that mimics human intuition?",
+        options: ["Human intelligence", "Boolean logic", "Functional logic", "Fuzzy logic"],
+        correctAnswer: "Fuzzy logic"
     },
     {
-        question: "Computer viruses are man made",
-        options: [" TRUE", "FALSE"],
-        correctAnswer: " TRUE"
+        question: "What is the code of USSD.",
+        options: ["*99#", "*#99", "#*99", "None of these"],
+        correctAnswer: "*99#"
     },
     {
-        question: "In LibreOffice Calc, which is not a valid cell address?",
-        options: ["B6", "6B", "A1", "G7"],
-        correctAnswer: "6B"
+        question: "Which of the following is not a sub-module of an e-wallet.",
+        options: ["Digital cash", "Profile manager", "Transaction manager", "Communication manager"],
+        correctAnswer: "Digital cash"
     },
     {
-        question: "Shortcut key to apply currency format with two decimal places in LibreOffice Calc?",
-        options: ["Ctrl+Shift+$", "Ctrl+Shift+%", "Ctrl+Shift+&", "Ctrl+Shift+~"],
-        correctAnswer: "Ctrl+Shift+$"
+        question: "A company requires its users to change passwords every month. This improves the _______ of the network",
+        options: ["Performance", "Reliability", "Security", "None of the above"],
+        correctAnswer: "Security"
     },
     {
-        question: "What happens if you press Ctrl++ after selecting the second row in LibreOffice Calc spreadsheet?",
-        options: ["Second row will be deleted", "A new row will be inserted below the selected second row", "Second row will hide", "A new row will be inserted above the selected row"],
-        correctAnswer: "A new row will be inserted below the selected second row"
+        question: "A company buys a computer to serve as a backup to its main server. This will mainly affect the _______ of the network.",
+        options: ["Performance", "Reliability", "Security", "None of the above"],
+        correctAnswer: "Reliability"
     },
     {
-        question: "Summation is one of the functions in LibreOffice Calc to perform the summation of all the arguments passed in this function?",
-        options: ["True", "False"],
-        correctAnswer: "True"
+        question: "BIOS Stands for Basic Integrated Operating System",
+        options: ["true", "false"],
+        correctAnswer: "false"
     },
     {
-        question: "Shortcut key for duplicating shapes in LibreOffice?",
-        options: ["Shift+F2", "Shift+F3", "Shift+F4", "Shift+F1"],
-        correctAnswer: "Shift+F3"
+        question: "A company requires each employee to power off his computer at the end of the day. This rule was implemented to make the network _______",
+        options: ["Perform better", "More reliable", "More secure", "More error-free"],
+        correctAnswer: "More secure"
     },
     {
-        question: "In normal view, the cursor changes from the arrow to?",
-        options: ["I-beam", "U-beam", "Shift+F4", "L-beam"],
-        correctAnswer: "I-beam"
+        question: "What Security tradeoff occurs while using IDS (Intrusion Detection System)?",
+        options: ["Change in permission", "Login Failures", "Change in privilege", "Performance degradation"],
+        correctAnswer: "Performance degradation"
     },
     {
-        question: "Which one of the following in LibreOffice Calc is not a valid option in Paste Special submenu of Edit menu?",
-        options: ["Paste Only Numbers", "Paste Only Formula", "Paste Only Text", "Paste Only Alphabets"],
-        correctAnswer: "Paste Only Alphabets"
-    },
-    {
-        question: "In LibreOffice, which format cannot be added?",
-        options: ["XML", "BIP", "HTML", "EXML"],
-        correctAnswer: "BIP"
-    },
-    {
-        question: "Which one of the following is not an option available in the drop-down menu of line type while inserting a line chart in LibreOffice Calc?",
-        options: ["Stepped", "Smooth", "Straight", "Curved"],
-        correctAnswer: "Curved"
-    },
-    {
-        question: "The /proc directory contains",
-        options: ["numerical sub-directory for each running process", "sub-directories for installed buses", "a text listing of filesystems which are supported by the kernel", "all of the mentioned"],
-        correctAnswer: "all of the mentioned"
-    },
-    {
-        question: "The directory /srv contains",
-        options: ["site-specific data which is served by the system", "all the system files", "all the service files provided by the specific user", "none of the mentioned"],
-        correctAnswer: "site-specific data which is served by the system"
-    },
-    {
-        question: "Proc files are",
-        options: ["read-only files", "read-write files", "both read-write and read-only files", "none of the mentioned"],
-        correctAnswer: "both read-write and read-only files"
-    },
-    {
-        question: "The command “echo www.sanfoundry.com > /proc/sys/kernel/hostname” will",
-        options: ["change the hostname", "print “www.sanfoundry.com”", "do nothing", "none of the mentioned"],
-        correctAnswer: "change the hostname"
-    },
-    {
-        question: "Which command is used to bring the background process to forground?",
-        options: ["bg", "fg", "background", "forground"],
-        correctAnswer: "fg"
-    },
-    {
-        question: "How to run a process in the background?",
-        options: ["&", "*", "?", "|"],
-        correctAnswer: "&"
-    },
-    {
-        question: "Which signal is sent by the command “kill -9 ” ?",
-        options: ["INT", "TERM", "KILL", "STOP"],
-        correctAnswer: "KILL"
-    },
-    {
-        question: "Which of the following values for STAT column of ps command is not true:",
-        options: ["status R means running", "Status S means sleeping", "Status E means exited", "Status Z means zombie"],
-        correctAnswer: "Status E means exited"
-    },
-    {
-        question: "we can change the priority of a running process using",
-        options: ["nice", "renice", "priority cannot be changed for a running process", "only superuser can change the priority"],
-        correctAnswer: "renice"
-    },
-    {
-        question: "User’s Primary Group id is listed in which file, at the time of creation of the user (On a standard Unix system)",
-        options: ["/etc/passwd", "/etc/groups", "/etc/login", "/etc/profile"],
-        correctAnswer: "/etc/passwd"
-    },
-    {
-        question: "The encrypted password of a user is stored in",
-        options: ["/etc/shadow", "/etc/enpasswwd", "/etc/.passwd", "/etc/passwd"],
-        correctAnswer: "/etc/shadow"
-    },
-    {
-        question: "The /etc/passwd file doesn’t contain",
-        options: ["userid", "home directory for a user", "login shell name", "none of the mentioned"],
-        correctAnswer: "none of the mentioned"
-    },
-
-
-    {
-        question: "User id 0 is",
-        options: ["An innvalid user id", "The id of the root user", "The id of a user when the user’s account is deleted", "None of the mentioned"],
-        correctAnswer: "The id of the root user"
-    },
-    {
-        question: "Which of the following command can be used to change the user password?",
-        options: ["user can’t change the password", "passwd", "passd", "pwd"],
-        correctAnswer: "passwd"
-    },
-    {
-        question: "What does the following command do?\nwho | wc –l",
-        options: ["List the number of users logged in", "List the users", "List the number of users in the system", "Display the content of who command"],
-        correctAnswer: "List the number of users logged in"
-    },
-    {
-        question: "Which command prints the directory stack?",
-        options: ["cd", "dirs", "popd", "pushd"],
-        correctAnswer: "dirs"
-    },
-    {
-        question: "Which command removes a directory from the directory stack?",
-        options: ["dirs", "popd", "pushd", "rm"],
-        correctAnswer: "popd"
-    },
-    {
-        question: "Which command executes ‘command’ in place of the current process instead of creating a new process?",
-        options: ["exec", "command", "trap", "none of the mentioned"],
-        correctAnswer: "exec"
-    },
-    {
-        question: "Identify the command which is used to create Linux File systems.",
-        options: ["fsck", "mkfs", "fdisk", "mount"],
-        correctAnswer: "mkfs"
-    },
-    {
-        question: "GNU stands for ___________.",
-        options: ["Greek Needed Unix", "General Unix", "GNU’s Not Unix", "General Noble Unix"],
-        correctAnswer: "GNU’s Not Unix"
-    },
-    {
-        question: "Identify the OS which is not based on Linux.",
-        options: ["Ubuntu", "BSD", "CentOS", "Red Hat"],
-        correctAnswer: "BSD"
-    },
-    {
-        question: "Where is the user password stored?",
-        options: ["/etc/passwd", "/root/password", "/etc/password", "/root/passwd"],
-        correctAnswer: "/etc/passwd"
-    },
-    {
-        question: "RPM ________",
-        options: ["assigns a dynamic IP address", "is used to keep track of the users", "stands for Red Hat Package Manager", "None of the above"],
-        correctAnswer: "stands for Red Hat Package Manager"
-    },
-    {
-        question: "Linux Kernel was founded by?",
-        options: ["Richard Stallman", "Linus Torvalds", "Bill Gates", "Ben Thomas"],
-        correctAnswer: "Linus Torvalds"
-    },
-    {
-        question: "LILO stands for _____________-",
-        options: ["Linux Leveraging Order", "Linux loader", "Linux Low Order", "None of the above"],
-        correctAnswer: "Linux loader"
-    },
-    {
-        question: "__________ command is used to remove the directory.",
-        options: ["rdir", "rd", "rmdir", "None of the above"],
-        correctAnswer: "rmdir"
-    },
-    {
-        question: "FSF stand for –",
-        options: ["Free Software File", "Free Software Foundation", "First Serve First", "None of the above"],
-        correctAnswer: "Free Software Foundation"
-    },
-    {
-        question: "Hidden files can be viewed using...",
-        options: ["ls -a", "ls -l", "ls -h", "Is – k"],
-        correctAnswer: "ls -a"
-    },
-    {
-        question: "The dmesg command shows...",
-        options: ["Kernel log messages", "The daemon log messages", "The user login logoff attempts", "None of above"],
-        correctAnswer: "Kernel log messages"
-    },
-    {
-        question: "Which among the following is used to access an SMB share on Linux?",
-        options: ["smbclient", "smbserver", "smbstart", "None of the above"],
-        correctAnswer: "smbclient"
-    },
-    {
-        question: "What command do we use when we want to compare files in Linux?",
-        options: ["comp", "diff", "cmp", "comm."],
-        correctAnswer: "cmp"
-    },
-    {
-        question: "Which character is used to redirect output into an existing file in Linux?",
-        options: [">", ">>", "<", "<<"],
-        correctAnswer: ">>"
-    },
-    {
-        question: "______ founded the GNU project to create an alternative to UNIX operating system from scratch.",
-        options: ["Richard Stallman", "Linus Torvalds", "Dennis Ritchie", "Brian Kernighan"],
-        correctAnswer: "Richard Stallman"
-    },
-    {
-        question: "Which of the following is not a valid login shell in Linux?",
-        options: ["C shell", "Net Shell", "Bash Shell", "Z shell"],
-        correctAnswer: "Net Shell"
-    },
-    {
-        question: "In Linux, which of the following commands do you use to know the purpose of a command?",
-        options: ["Which", "Whatis", "What", "Purpose"],
-        correctAnswer: "Whatis"
-    },
-    {
-        question: "Which command is used to show process hierarchy in tree format?",
-        options: ["ps –tree", "pstree", "ps –t", "none of these"],
-        correctAnswer: "pstree"
-    },
-    {
-        question: "Which one of the following is not a valid operator type in LibreOffice Calc?",
-        options: ["Arithmetic", "Comparative", "Text", "Referential"],
-        correctAnswer: "Comparative"
-    },
-    {
-        question: "What is the default height of a cell in LibreOffice Calc?",
-        options: ["4.4 inch", "0.45 inch", "4.5 cm", "0.45 cm"],
-        correctAnswer: "0.45 cm"
-    },
-    {
-        question: "If a variable is missing from the formula, then the error message displayed is?",
-        options: ["510", "511", "576", "566"],
-        correctAnswer: "511"
-    },
-    {
-        question: "What is the result of the formula '=PRODUCT(2,SUM(5,7))' in LibreOffice Calc?",
-        options: ["14", "24", "12", "17"],
-        correctAnswer: "14"
-    },
-    {
-        question: "A firewall is a security device deployed at the boundary of corporate intranet to protect it from unauthorized access",
-        options: [" TRUE", "FALSE"],
-        correctAnswer: " TRUE"
-    },
-    {
-        question: "Which of the following option is not best described about industry 4.0",
-        options: [" Smart factory", "Speed", "Analytics", "None of above"],
-        correctAnswer: "Speed"
-    },
-    {
-        question: "The objective for industry 4.0 is",
-        options: [" Increase efficiency", "Reduced complexity", "Enabled self controlling", "All of above"],
-        correctAnswer: "All of above"
-    },
-    {
-        question: "How many parts are there in an E-mail?",
-        options: ["3", "2", "4", "None of these"],
-        correctAnswer: "2"
-    },
-    {
-        question: "Is email case sensitive?",
-        options: ["True", "False"],
-        correctAnswer: "False"
-    },
-    {
-        question: "What is the port number of SMTP?",
-        options: ["80", "25", "30", "21"],
-        correctAnswer: "25"
-    },
-    {
-        question: "Command 'echo www.sanfoundary.com>/proc/sys/kernel/hostname' will",
-        options: ["Do nothing", "Change host name", "www.sanfoundary.com", "None of these"],
-        correctAnswer: "Change host name"
+        question: "EDI (Electronic Data Interchange) uses",
+        options: ["Requires an extranet", "Requires value-added network", "Can be done on the internet", "Requires a corporate intranet"],
+        correctAnswer: "Can be done on the internet"
     },
 ];
+console.log(quizData.length);
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
