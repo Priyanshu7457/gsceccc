@@ -175,8 +175,8 @@ const quizData = [
     },
     {
         question: "A(n) __________ is a set of instructions that a computer follows to perform a task.",
-        options: ["Compiler", "software", "Interpreter", "Programming Language"],
-        correctAnswer: "Programming Language"
+        options: ["Compiler", "Software", "Interpreter", "Programming Language"],
+        correctAnswer: "Software"
     },
 
     {
@@ -369,8 +369,6 @@ const quizData = [
         options: ["less", "sed", "pause", "grep"],
         correctAnswer: "less"
     },
-
-
     {
         question: "Which of the following command output contains userid?",
         options: ["ls", "help", "date", "ls –l"],
@@ -511,8 +509,6 @@ const quizData = [
         options: ["userid", "home directory for a user", "login shell name", "none of the mentioned"],
         correctAnswer: "none of the mentioned"
     },
-
-
     {
         question: "User id 0 is",
         options: ["An innvalid user id", "The id of the root user", "The id of a user when the user’s account is deleted", "None of the mentioned"],
