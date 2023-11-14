@@ -506,7 +506,7 @@ const quizData = [
   // Q72
   {
     question: "Shortcut key of increase font size in LibreOffice Writer:",
-    options: ["crtl+]", "ctrl+[", "ctrl++", "ctrl+1"],
+    options: ["ctrl+]", "ctrl+[", "ctrl++", "ctrl+1"],
     correctAnswer: "ctrl+]",
   },
   // Q73
