@@ -1,356 +1,475 @@
 const quizData = [
   {
-    question: "What is the internet?",
-    options: ["NETWORK OF NETWORKS.", "WIRELESS NETWORK.", "HYPERTEXT DOCUMENTS.", "VIRTUAL NETWORK."],
-    correctAnswer: "NETWORK OF NETWORKS."
-  },
-
-  {
-    question: "Capital adequacy norms declared in the year 1996 is applicable to which type of banks?",
-    options: ["Foreign banks", "Co-operative banks", "Private sector banks", "Nationalized banks"],
-    correctAnswer: "Nationalized banks"
+    question: "Various applications and documents are displayed on the Windows desktop by?",
+    options: ["Mark", "Icon", "Label", "Graph"],
+    correctAnswer: "Icon"
   },
   {
-    question: "What does modem stand for?",
-    options: ["Modulator-Demodulator", "Modify-Demodify", "Manipulator-Demanipulator", "None of these"],
-    correctAnswer: "Modulator-Demodulator"
+    question: "Which of the following is not hardware?",
+    options: ["Punch card reader", "Magnetic tape reader", "Printer", "Assembler"],
+    correctAnswer: "Assembler"
   },
   {
-    question: "By default what is layout of slide in Libre office impress?",
-    options: ["Landscape", "portrait", "both a & b", "none of these"],
-    correctAnswer: "Landscape",
+    question: "Which of the following is the fastest, biggest, costliest computer?",
+    options: ["Notebook", "Personal computer", "Laptop", "Super computer"],
+    correctAnswer: "Super computer"
   },
   {
-    question: "How many digits are there in IFSC code?",
-    options: ["10", "12", "11", "13"],
-    correctAnswer: "11"
+    question: "What is the name of India’s first supercomputer?",
+    options: ["Saga 220", "PARAM 8000", "ENIAC", "EDVAC"],
+    correctAnswer: "PARAM 8000"
   },
   {
-    question: "Which is not a non-impact printer?",
-    options: ["Thermal Printer", "Dot Matrix Printer", "Inkjet Printer", "Laser Printer"],
-    correctAnswer: "Dot Matrix Printer"
+    question: "When a computer prints a report, it is called?",
+    options: ["Hard Copy", "Soft Copy", "System Copy", "None of these"],
+    correctAnswer: "Hard Copy"
   },
   {
-    question: "Email addresses separate the user name from the ISP using the symbol",
-    options: ["&", "@", "$", "%"],
-    correctAnswer: "@"
+    question: "India’s first supercomputer PARAM 8000 developed by which organization.",
+    options: ["C-DAC", "Microsoft", "Intel", "None of these"],
+    correctAnswer: "C-DAC"
   },
   {
-    question: "To open downloads in Google Chrome, which key combination is used?",
-    options: ["CTRL + R", "CTRL + Z", "CTRL + T", "CTRL + M"],
-    correctAnswer: "CTRL + J"
-  },
-
-
-  {
-    question: "How many menus are found in LibreOffice Impress?",
-    options: ["3", "5", "8", "10"],
-    correctAnswer: "10",
+    question: "Interrupts are sent by ________ and received by _________.",
+    options: ["CPU, I/O Devices", "I/O Devices, CPU", "Timer, I/O Devices", "CPU, ALU"],
+    correctAnswer: "I/O Devices, CPU"
   },
   {
-    question: "The ................ keyboard combination can be used to open a presentation file.",
-    options: ["Ctrl+Q", "Ctrl+O", "Ctrl+P", "Ctrl+S"],
-    correctAnswer: "Ctrl+O",
+    question: "Which among the following memories is used in Digital Camera?",
+    options: ["Virtual Memory", "Flash Memory", "Main Memory", "Cache Memory"],
+    correctAnswer: "Flash Memory"
   },
   {
-    question: "................ is used to go to the previous slide in LibreOffice Impress.",
-    options: ["Ctrl+Page Up", "Ctrl+Page Dowm", "Ctrl+Page Left", "Ctrl+Page Right"],
-    correctAnswer: "Ctrl+Page Up",
+    question: "Which Of The Following Structures Is Followed By A USB Device?",
+    options: ["List", "Tree", "Hash", "Huffman"],
+    correctAnswer: "Tree"
   },
   {
-    question: "Shortcut key to increase column width in LibreOffice Calc?",
-    options: ["Alt+Right Arrow", "Alt+Up Arrow", "Alt+Left Arrow", "Alt+Down Arrow"],
-    correctAnswer: "Alt+Right Arrow"
-  },
-
-  {
-    question: "Which memory is called as a volatile memory?",
-    options: ["RAM", "ROM", "BOTH a & b", "none of these"],
-    correctAnswer: "RAM"
+    question: "Who Among The Following Is The Founder Of 'ENIAC'?",
+    options: ["J. Presper Eckert", "John Mauchly", "A & B Both", "Hobby"],
+    correctAnswer: "A & B Both"
   },
   {
-    question: "Shortcut key to decrease column width in LibreOffice Calc?",
-    options: ["Alt+Right Arrow", "Alt+Up Arrow", "Alt+Left Arrow", "Alt+Down Arrow"],
-    correctAnswer: "Alt+Left Arrow"
+    question: "What is the full form of GUI?",
+    options: ["Graphical User Interface", "Geographical User of Internet", "Giga Uses Internet", "Graphical Unlimited Interface"],
+    correctAnswer: "Graphical User Interface"
   },
   {
-    question: "How many characters are there in the bank name in IFSC?",
+    question: "Select the Odd one",
+    options: ["Operating System", "Interpreter", "Compiler", "Assembler"],
+    correctAnswer: "Operating System"
+  },
+  {
+    question: "BOSS (Bharat Operating System Solutions) OS is developed in",
+    options: ["USA", "UK", "INDIA - India", "China"],
+    correctAnswer: "INDIA - India"
+  },
+  {
+    question: "What is the use of folders in a computer?",
+    options: ["Name your files", "Ensure the computer starts properly", "Organize the files on a disk", "Create a file allocation table"],
+    correctAnswer: "Organize the files on a disk"
+  },
+  {
+    question: "Software designed for a specific purpose is called as.",
+    options: ["System Software", "Application Software", "Specific Software", "Compiler"],
+    correctAnswer: "Application Software"
+  },
+  {
+    question: "A system that can process two or more programs is called Multiprogramming",
+    options: ["TRUE", "FALSE"],
+    correctAnswer: "TRUE"
+  },
+  {
+    question: "FAT means File allocation table.",
+    options: ["TRUE", "FALSE"],
+    correctAnswer: "TRUE"
+  },
+  {
+    question: "The task manager can be activated by the key combination.",
+    options: ["ALT+DEL", "CTRL+DEL", "CTRL+ALT+DEL", "SHIFT+ALT+DEL"],
+    correctAnswer: "CTRL+ALT+DEL"
+  },
+  {
+    question: "Access time is",
+    options: ["Seek time + latency time", "Seek time", "Seek time - latency time", "Latency time"],
+    correctAnswer: "Seek time + latency time"
+  },
+  {
+    question: "Types of Software includes",
+    options: ["Systems Software", "Application Software", "Both A and B", "None of These"],
+    correctAnswer: "Both A and B"
+  },
+  {
+    question: "Short cut key of exit LibreOffice in LibreOffice Writer",
+    options: ["CTRL+Q", "CTRL+N", "CTRL+P", "CTRL+Z"],
+    correctAnswer: "CTRL+Q"
+  },
+  {
+    question: "Short cut key of repeat in LibreOffice Writer",
+    options: ["CTRL+SHIFT+M", "CTRL+SHIFT+Y", "CTRL+SHIFT+P", "CTRL+SHIFT+O"],
+    correctAnswer: "CTRL+SHIFT+Y"
+  },
+  {
+    question: "Short cut key of redo in LibreOffice Writer",
+    options: ["CTRL+Q", "CTRL+N", "CTRL+P", "CTRL+Y"],
+    correctAnswer: "CTRL+Y"
+  },
+  {
+    question: "Short cut key of paste special in LibreOffice Writer",
+    options: ["CTRL+SHIFT+V", "CTRL+SHIFT+Y", "CTRL+SHIFT+P", "CTRL+SHIFT+O"],
+    correctAnswer: "CTRL+SHIFT+V"
+  },
+  {
+    question: "Short cut key of find & replace in LibreOffice Writer",
+    options: ["CTRL+H", "CTRL+N", "CTRL+P", "CTRL+Y"],
+    correctAnswer: "CTRL+H"
+  },
+  {
+    question: "Short cut key of go to page in LibreOffice Writer",
+    options: ["CTRL+H", "CTRL+N", "CTRL+G", "CTRL+Y"],
+    correctAnswer: "CTRL+G"
+  },
+  {
+    question: "Short cut key of track changes or record in LibreOffice Writer",
+    options: ["CTRL+SHIFT+V", "CTRL+SHIFT+Y", "CTRL+SHIFT+C", "CTRL+SHIFT+O"],
+    correctAnswer: "CTRL+SHIFT+C"
+  },
+  {
+    question: "Short cut key of ruler in LibreOffice Writer",
+    options: ["CTRL+SHIFT+V", "CTRL+SHIFT+Y", "CTRL+SHIFT+C", "CTRL+SHIFT+R"],
+    correctAnswer: "CTRL+SHIFT+R"
+  },
+  {
+    question: "Short cut key of formatting marks in LibreOffice Writer",
+    options: ["CTRL+F12", "CTRL+8", "CTRL+F10", "CTRL+F11"],
+    correctAnswer: "CTRL+F10"
+  },
+  {
+    question: "Short cut key of side bar in LibreOffice Writer",
+    options: ["CTRL+F12", "CTRL+F5", "CTRL+F10", "CTRL+F11"],
+    correctAnswer: "CTRL+F5"
+  },
+  {
+    question: "If cell width is not enough in LibreOffice Calc, display the result",
+    options: ["***", "$$$", "###", "@@@"],
+    correctAnswer: "###"
+  },
+  {
+    question: "The active cell is G7. If you press the HOME key, then you will reach at :",
+    options: ["G1", "A7", "G7", "None of these"],
+    correctAnswer: "A7"
+  },
+  {
+    question: "The active cell is G7. If you press the CTRL + HOME key, then you will reach at :",
+    options: ["G1", "A7", "A1", "None of these"],
+    correctAnswer: "A1"
+  },
+  {
+    question: "SUM(5,2) display the result in LibreOffice Calc",
+    options: ["7", "10", "3", "25"],
+    correctAnswer: "7"
+  },
+  {
+    question: "Which of the following function is used to display current date and time in LibreOffice Calc?",
+    options: ["Date()", "Date()", "Now()", "Time()"],
+    correctAnswer: "Now()"
+  },
+  {
+    question: "COUNT(4,2,3,8)/COUNT(a,b,c,d) display the result in LibreOffice Calc",
+    options: ["#DIV/0!", "#NUM!", "Divided by zero error", "None of these"],
+    correctAnswer: "#DIV/0!"
+  },
+  {
+    question: "If you select column D4 and D5 and press CTRL+-, what result displays in LibreOffice Calc.",
+    options: ["New column insert after D5", "New column insert before D4", "Column D4 & D5 will be deleted", "None of these"],
+    correctAnswer: "Column D4 & D5 will be deleted"
+  },
+  {
+    question: "AVERAGE(4,2,6,4) display the result in LibreOffice Calc",
+    options: ["4", "6", "8", "2"],
+    correctAnswer: "4"
+  },
+  {
+    question: "Which is not a correct function in LibreOffice Calc",
+    options: ["=MAX()", "=SUM()", "=COUNT()", "=AVG()"],
+    correctAnswer: "=AVG()"
+  },
+  {
+    question: "COUNTA(4,a,p,5,0,h) display the result in LibreOffice Calc",
+    options: ["3", "6", "5", "2"],
+    correctAnswer: "3"
+  },
+  {
+    question: "How many sections in the sidebar of Impress",
+    options: ["9", "5", "3", "7"],
+    correctAnswer: "7"
+  },
+  {
+    question: "Rehearse time will start counting in units.",
+    options: ["Mini seconds", "Hours", "Minutes", "Seconds"],
+    correctAnswer: "Seconds"
+  },
+  {
+    question: "Shortcut key for position and size in LibreOffice Impress",
+    options: ["F1", "F3", "F2", "F4"],
+    correctAnswer: "F4"
+  },
+  {
+    question: "What is optimal zoom percentage in LibreOffice Impress",
+    options: ["95%", "125%", "100%", "91%"],
+    correctAnswer: "95%"
+  },
+  {
+    question: "What are slide transition variant options.",
+    options: ["Inside and common slide", "Most slide and least slide", "Outside and most side", "Outside and inside"],
+    correctAnswer: "Outside and inside"
+  },
+  {
+    question: "In OpenOffice, Impress comes under which menu.",
+    options: ["Tools", "Project", "Application", "Office"],
+    correctAnswer: "Tools"
+  },
+  {
+    question: "Which option is not available during print handouts",
+    options: ["Per page six slide", "Per page two slide", "Per page three slide", "Per page five slide"],
+    correctAnswer: "Per page five slide"
+  },
+  {
+    question: "Shortcut key insert textbox in LibreOffice Impress.",
+    options: ["F5", "F2", "F3", "F4"],
+    correctAnswer: "F2"
+  },
+  {
+    question: "What is the minimum zoom percentage in LibreOffice Impress?",
+    options: ["20%", "5%", "2%", "10%"],
+    correctAnswer: "5%"
+  },
+  {
+    question: "Which of these terms do we use when an image in clip art changes the direction that it was originally facing?",
+    options: ["Mirror", "Rotate", "Flip", "Group"],
+    correctAnswer: "Rotate"
+  },
+  {
+    question: "What is loopback IP ADDRESS?",
+    options: ["127.0.0.1", "127.0.0.0", "127.1.1.0", "None of these"],
+    correctAnswer: "127.0.0.1"
+  },
+  {
+    question: "The size of the packet is larger than the size of the frame?",
+    options: ["True", "False"],
+    correctAnswer: "False"
+  },
+  {
+    question: "WLAN stands for",
+    options: [
+      "Wireless Local Area Network",
+      "Wired Local Area Network",
+      "Wireless Local Ambiguity Network",
+      "Wired Latent Area Network"
+    ],
+    correctAnswer: "Wireless Local Area Network"
+  },
+  {
+    question: "Netiquette is a rule related to",
+    options: ["Food habits", "Cyber habits", "Retailing habits", "Banking habits"],
+    correctAnswer: "Cyber habits"
+  },
+  {
+    question: "Which of the following items is not used in Local Area Networks (LANS)?",
+    options: ["Computer", "Modem", "Printer", "Cable"],
+    correctAnswer: "Modem"
+  },
+  {
+    question: "Which devices are commonly shared between computers?",
+    options: ["Mouse", "Speakers", "Printers", "Keyboard"],
+    correctAnswer: "Printers"
+  },
+  {
+    question: "What will happen when CTRL+W is pressed?",
+    options: ["Open the tab on a browser", "Close a tab on a browser", "Close the Browser", "Open the Browser"],
+    correctAnswer: "Close a tab on a browser"
+  },
+  {
+    question: ".Com Is Stands for Communication?",
+    options: ["True", "False"],
+    correctAnswer: "False"
+  },
+  {
+    question: "Which of the following is not a networking device?",
+    options: ["Gateway", "Router", "Switch", "Linux"],
+    correctAnswer: "Linux"
+  },
+  {
+    question: "In which of the following topologies is the hub used?",
+    options: ["Ring", "Bus", "Star", "Mesh"],
+    correctAnswer: "Star"
+  },
+  {
+    question: "If you are buying a product from Flipkart, Amazon, and Snapdeal, this type of business model is called",
+    options: ["B2B", "C2C", "B2C", "G2G"],
+    correctAnswer: "B2C"
+  },
+  {
+    question: "Quikr, OLX are examples of C2C business models.",
+    options: ["True", "False"],
+    correctAnswer: "True"
+  },
+  {
+    question: "If Maruti company purchases a tire from MRF company, this business is called",
+    options: ["B2B", "C2C", "B2C", "G2G"],
+    correctAnswer: "B2B"
+  },
+  {
+    question: "Which app is used for ticket booking from IRCTC?",
+    options: ["Rail Tail", "Rail Connect", "Rail Sarthi", "None of these"],
+    correctAnswer: "Rail Connect"
+  },
+  {
+    question: "UMANG stands for",
+    options: [
+      "Unified Mobile Application for New Age Governance",
+      "Unified Mobile Application for New Age Government",
+      "Ultimate Mobile Application for New Age Governance",
+      "User Mobile Application for New Age Governance"
+    ],
+    correctAnswer: "Unified Mobile Application for New Age Governance"
+  },
+  {
+    question: "UMANG app was launched in which year?",
+    options: ["15 August, 2015", "26 January 2017", "23 November 2017", "30 January 2014"],
+    correctAnswer: "23 November 2017"
+  },
+  {
+    question: "UMANG app is launched in how many languages?",
+    options: ["13", "12", "15", "20"],
+    correctAnswer: "13"
+  },
+  {
+    question: "UMANG app is launched by which organization?",
+    options: [
+      "Ministry of Electronics and Information Technology (MeitY) and National e-Governance Division (NeGD).",
+      "National Payment Corporation of India (NPCI)",
+      "Synergised Advanced Application Rail Travel Help and Information (Saarthi).",
+      "None of these"
+    ],
+    correctAnswer: "Ministry of Electronics and Information Technology (MeitY) and National e-Governance Division (NeGD)."
+  },
+  {
+    question: "DigiLocker was launched in which year?",
+    options: ["2020", "2015", "2016", "2017"],
+    correctAnswer: "2015"
+  },
+  {
+    question: "What is the maximum storage space in DigiLocker?",
+    options: ["2 GB", "1 GB", "5 GB", "GB"],
+    correctAnswer: "1 GB"
+  },
+  {
+    question: "How many characters are in the bank name in IFSC?",
     options: ["5", "4", "6", "3"],
     correctAnswer: "4"
   },
-
-
   {
-    question: "What does OSI stand for?",
-    options: ["Open System Interconnection", "Open Source Initiative", "Open Source Interconnection", "None of these"],
-    correctAnswer: "Open System Interconnection"
-  },
-
-  {
-    question: "What is the maximum time limit of video that can be uploaded to twitter?",
-    options: ["30 Seconds", "1 Minute", "2 Minutes", "2 Minutes 20 Seconds"],
-    correctAnswer: "2 Minutes 20 Seconds"
-  },
-  {
-    question: "Which digit separates the bank name and branch code in IFSC?",
+    question: "Which digit separates the bank name and branch code from each other in IFSC?",
     options: ["0", "1", "3", "2"],
     correctAnswer: "0"
   },
   {
-    question: "Shortcut key for duplicating shapes in LibreOffice?",
-    options: ["Shift+F2", "Shift+F3", "Shift+F4", "Shift+F1"],
-    correctAnswer: "Shift+F3"
-  },
-  //   Q33
-  {
-    question: "In which menu option mail merge in libre office writer",
-    options: ["file", "format", "edit", "tools"],
-    correctAnswer: "tools",
-  },
-  {
-    question: "In which menu option macros in libre office writer",
-    options: ["file", "format", "tools", "edit"],
-    correctAnswer: "tools",
-  },
-  {
-    question: "What is a web crawler also called as?",
-    options: ["Link Directory", "Web Spider", "Search Optimizer", "Web Manager"],
-    correctAnswer: "Web Spider"
-  },
-  {
-    question:
-      "In which menu option donate to libre office in libre office writer",
-    options: ["file", "help", "window", "edit"],
-    correctAnswer: "help",
-  },
-
-  {
-    question: "Maximum number of columns in LibreOffice Calc?",
-    options: ["1030", "1024", "1058", "1000"],
-    correctAnswer: "1024"
-  },
-
-
-
-  {
-    question: "For which card does one have to make advance payment?",
+    question: "For which card does one have to make an advance payment?",
     options: ["Smart card", "Debit card", "Credit card", "Gold card"],
     correctAnswer: "Debit card"
   },
   {
-    question: "Which of the following is not a component of e-governance?",
-    options: ["Political components", "Technological component", "Service component", "Financial components"],
-    correctAnswer: "Financial components"
-  },
-
-  {
-    question: "What is the maximum limit of characters in a tweet on Twitter?",
-    options: ["280", "140", "560", "110"],
-    correctAnswer: "280"
+    question: "Capital adequacy norms declared in the year 1996 are applicable to",
+    options: ["Foreign banks", "Co-operative banks", "Private sector banks", "Nationalized banks"],
+    correctAnswer: "Nationalized banks"
   },
   {
-    question: "What is notes view in Libre office impress?",
-    options: ["notes view", "outline view", "both a & b", "none of these"],
-    correctAnswer: "outline view",
+    question: "NEFT works on the principle of which of the following?",
+    options: ["Deferred Net Settlement", "Different Net Settlement", "Core Banking System", "None of these"],
+    correctAnswer: "Deferred Net Settlement"
   },
   {
-    question: "Which of the following terms IS NOT one of the five basic parts of a robot?",
-    options: ["Peripheral tools", "End effectors", "Controller", "Drive"],
-    correctAnswer: "Peripheral tools"
-  },
-
-  {
-    question: "To create a new email, click on which button?",
-    options: ["Inbox", "Sent box", "Compose", "New mail"],
-    correctAnswer: "Compose"
+    question: "Single platform for pan India e-gov services in India",
+    options: ["NABARD", "UPI", "UMANG", "BHIM"],
+    correctAnswer: "UMANG"
   },
   {
-    question: "Unwanted E-mail is called as",
-    options: ["Trash", "Spam", "Both A & B", "None of these"],
-    correctAnswer: "Both A & B"
-  },
-
-  {
-    question: "Which of the following places would be LEAST likely to include operational robots?",
-    options: ["Warehouse", "Factory", "Hospitals", "Private homes"],
-    correctAnswer: "Private homes"
+    question: "Which banking service is used to send money internationally?",
+    options: ["NEFT", "RTGS", "SWIFT", "All of the above"],
+    correctAnswer: "SWIFT"
   },
   {
-    question: "Which function counts only numeric data in LibreOffice Calc?",
-    options: ["COUNT()", "COUNTA()", "Both A & B", "None of these"],
-    correctAnswer: "COUNT()"
-  },
-  {
-    question: "What is the name for information sent from robot sensors to robot controllers?",
-    options: ["Temperature", "Pressure", "Feedback", "Signal"],
-    correctAnswer: "Feedback"
-  },
-  {
-    question: "Which of the following terms refers to the left-right movement of a robot arm?",
-    options: ["Yaw", "Pitch", "Swing", "Roll"],
-    correctAnswer: "Yaw"
-  },
-  {
-    question: "Which of the following terms refers to the up-down movement of a robot arm?",
-    options: ["Yaw", "Pitch", "Swing", "Roll"],
-    correctAnswer: "Pitch"
-  },
-  {
-    question: "A robot's 'arm' is also known as its:",
-    options: ["End effectors", "Actuator", "Manipulator", "Servomechanism"],
-    correctAnswer: "Manipulator"
-  },
-  {
-    question: "Cloud computing system is?",
-    options: ["Connectionless", "Reliable", "Stateless", "Stateful"],
-    correctAnswer: "Stateless"
-  },
-
-
-  {
-    question: "........... is used to move cursor with selection to the left.",
-    options: ["Shift+Arrow Left", "Shift+Arrow Right", "Shift+Arrow Up", "Shift+Arrow Down"],
-    correctAnswer: "Shift+Arrow Left",
-  },
-  {
-    question: "In impress presentation for animation we select slide object and click Format menu > animation.",
-    options: ["True", "False"],
-    correctAnswer: "True",
-  },
-  {
-    question: "Twitter is an example of",
-    options: ["E-mail System", "System application", "Social Networking", "Web URL"],
-    correctAnswer: "Social Networking"
-  },
-  {
-    question: "All cloud computing applications suffer from the inherent _______ that is intrinsic in their WAN connectivity.",
-    options: ["Noise", "Propagation", "Latency", "All of the mentioned"],
-    correctAnswer: "Latency"
-  },
-  {
-    question: "Which of the following is the Cloud Platform provided by Amazon?",
-    options: ["AWS", "Cloudera", "Azure", "All of the mentioned"],
-    correctAnswer: "AWS"
-  },
-
-  {
-    question: "Twitter is also known as",
-    options: ["microblogging", "System application", "browser", "Web URL"],
-    correctAnswer: "microblogging"
-  },
-  {
-    question: "How many layers in OSI reference model?",
-    options: ["7", "6", "9", "8"],
-    correctAnswer: "7"
-  },
-  {
-    question: "CC in email stands for",
-    options: ["Carbon catch", "Carbon copy", "Consider copy", "Carbon coupon"],
-    correctAnswer: "Carbon copy"
-  },
-  {
-    question: "It detects moving objects with a predefined area of interest.",
-    options: ["Motion tracker", "SMD", "HMD", "Motion analyzer"],
-    correctAnswer: "HMD"
-  },
-
-  {
-    question: "How many photos can be uploaded to Facebook simultaneously?",
-    options: ["10", "15", "25", "30"],
-    correctAnswer: "30"
-  },
-
-  {
-    question:
-      "Which one of the following is not an option in the drop down menu of header in libre office writer.",
+    question: "SWIFT stands for",
     options: [
-      "insert page number",
-      "delete header",
-      "format header",
-      "create header",
+      "The Society for Worldwide Interbank Financial Telecommunications.",
+      "The Society for Worldwide International Financial Telecommunications",
+      "The Society for Worldwide Internetwork Financial Telecommunications",
+      "None of these"
     ],
-    correctAnswer: "create header",
+    correctAnswer: "The Society for Worldwide Interbank Financial Telecommunications."
   },
   {
-    question: "What is ARPANET?",
-    options: ["ADVANCE RESEARCH PRIVATE AGENCY NETWORK", "ADVANCE RESEARCH PROJECT AGENCY NETWORK", "ADVANCED RESEARCH PUBLIC AGENCY NETWORK", "NONE OF THESE"],
-    correctAnswer: "ADVANCE RESEARCH PROJECT AGENCY NETWORK"
-  },
-
-
-
-  {
-    question: "To open a new tab in Google Chrome, which key combination is used?",
-    options: ["CTRL + R", "CTRL + N", "CTRL + T", "CTRL + M"],
-    correctAnswer: "CTRL + T"
+    question: "What is the expiry date format on an ATM card?",
+    options: ["YY/MM", "DD/MM", "MM/YY", "None of these"],
+    correctAnswer: "MM/YY"
   },
   {
-    question: "To open downloads in Google Chrome, which key combination is used?",
-    options: ["CTRL + R", "CTRL + Z", "CTRL + T", "CTRL + M"],
-    correctAnswer: "CTRL + J"
+    question: "How many passport offices are there in India?",
+    options: ["40", "37", "51", "48"],
+    correctAnswer: "37"
   },
   {
-    question: "What does modem stand for?",
-    options: ["Modulator-Demodulator", "Modify-Demodify", "Manipulator-Demanipulator", "None of these"],
-    correctAnswer: "Modulator-Demodulator"
+    question: "It allows a visitor to a website to store its own information about a user on the user’s computer",
+    options: ["Spam", "Cookies", "Malware", "Adware"],
+    correctAnswer: "Cookies"
   },
   {
-    question: "What does OSI stand for?",
-    options: ["Open System Interconnection", "Open Source Initiative", "Open Source Interconnection", "None of these"],
-    correctAnswer: "Open System Interconnection"
-  },
-
-  {
-    question: "How many layers in OSI reference model?",
-    options: ["7", "6", "9", "8"],
-    correctAnswer: "7"
+    question: "Who is the father of Computer Security or Cyber Security?",
+    options: ["Robert", "Charles", "Bob Thomas", "August Kerckhoffs"],
+    correctAnswer: "August Kerckhoffs"
   },
   {
-    question: "Size of IPV6 address?",
-    options: ["32 BIT", "128 BIT", "255 BIT", "130 BIT"],
-    correctAnswer: "128 BIT"
-  },
-
-  {
-    question: "Which is the first search engine?",
-    options: ["ARCHI", "BING", "ALTA VISTA", "CHA-CHA.COM"],
-    correctAnswer: "ARCHI"
+    question: "__________ is a violent act done using the Internet, which either threatens any technology user or leads to the loss of life or otherwise harms anyone in order to accomplish political gain.",
+    options: ["Cyber attack", "Cyber-warfare", "Cyber-terrorism", "Cyber campaign"],
+    correctAnswer: "Cyber-terrorism"
   },
   {
-    question: "Which is the first web browser?",
-    options: ["WWW – (1990)", "INTERNET EXPLORER", "NETSCAPE NAVIGATOR", "SAFARI"],
-    correctAnswer: "WWW – (1990)"
+    question: "Which of the following is an objective of network security?",
+    options: ["Confidentiality", "Integrity", "Availability", "All of the Above"],
+    correctAnswer: "All of the Above"
   },
   {
-    question: "Internet started in which year in India?",
-    options: ["1990", "1995", "1996", "1999"],
-    correctAnswer: "1990"
+    question: "XSS is abbreviated as _______",
+    options: ["X Site Scripting", "Cross Site Scripting", "Cross Site Security", "Extreme Secure Scripting"],
+    correctAnswer: "Cross Site Scripting"
   },
-
   {
-    question: "What is the full meaning of N in UMANG App?",
-    options: ["New", "National", "New-age", "None"],
-    correctAnswer: "New-age"
+    question: "Which of the following is not a cybercrime?",
+    options: ["AES", "Malware", "Man in the Middle", "Denial of Service"],
+    correctAnswer: "AES"
   },
-  //   Q26
   {
-    question:
-      "There are six rows in an inserted table in a document of libre office writer.Height of the third row and fourth row are 1 cm and 2 cm if the updated heights of both rows if you choose the option distribute rows evenly of size subme.",
-    options: [
-      "height of both rows will be 2 cm",
-      "height of both rows will be 1.5 cm",
-      "height of both rows will be 1 cm",
-      "height of both rows will be 3 cm",
-    ],
-    correctAnswer: "height of both rows will be 1.5 cm",
+    question: "Which method of hacking will record all your keystrokes?",
+    options: ["Keylogger", "Keyjacking", "Keyhijacking", "Keyboard monitoring"],
+    correctAnswer: "Keylogger"
   },
-  //   Q27
-
   {
-    question: "Bank having maximum number of branches in India",
-    options: ["Reserve Bank of India", "State Bank of India", "Punjab National Bank", "Bank of Baroda"],
-    correctAnswer: "State Bank of India"
-  }, {
+    question: "Which of the following refers to exploring the appropriate, ethical behaviors related to the online environment and digital media platform?",
+    options: ["Cyber Ethics", "Cyber Low", "Cyber Safety", "Cyber Security"],
+    correctAnswer: "Cyber Ethics"
+  },
+  {
+    question: "An/A ________ is an act that violates cyber-security.",
+    options: ["Threat", "Attack", "Exploit", "Vulnerability"],
+    correctAnswer: "Attack"
+  },
+  {
+    question: "In system hacking, which of the following is the most crucial activity?",
+    options: ["Covering tracks", "Cracking passwords", "Information gathering", "None of the above"],
+    correctAnswer: "Cracking passwords"
+  },
+  {
     question: "Which of the following is the branch of Artificial Intelligence?",
     options: ["Machine Learning", "Cyber forensics", "Full-Stack Developer", "Network Design"],
     correctAnswer: "Machine Learning"
@@ -362,210 +481,44 @@ const quizData = [
   },
   {
     question: "Based on which of the following parameters is Artificial Intelligence categorized?",
-    options: ["Based on functionally only", "Based on capabilities only", "Based on capabilities and functionality", "It is not categorized"],
+    options: ["Based on functionality only", "Based on capabilities only", "Based on capabilities and functionality", "It is not categorized"],
     correctAnswer: "Based on capabilities and functionality"
   },
-
-
   {
-    question: "Computer viruses are man made",
-    options: [" TRUE", "FALSE"],
-    correctAnswer: " TRUE"
-  },
-
-  {
-    question: "A process that is repeated, evaluated, and refined is called __________",
-    options: ["Diagnostic", "Descriptive", "Interpretive", "Iterative"],
-    correctAnswer: "Iterative"
+    question: "Which of the following is a component of Artificial Intelligence?",
+    options: ["Learning", "Training", "Designing", "Puzzling"],
+    correctAnswer: "Learning"
   },
   {
-    question: "The ________ is the message after transformation.",
-    options: ["Plaintext", "Secret-text", "Ciphertext", "None of the above"],
-    correctAnswer: "Ciphertext"
+    question: "What is the function of an Artificial Intelligence “Agent”?",
+    options: ["Mapping of goal sequence to an action", "Work without the direct interference of the people", "Mapping of precept sequence to an action", "Mapping of environment sequence to an action"],
+    correctAnswer: "Mapping of precept sequence to an action"
   },
   {
-    question: "What does the term 'Malware' stand for?",
-    options: ["Malfunctioning Software", "Malicious Firmware", "Malfunctioning Hardware", "Malicious Software"],
-    correctAnswer: "Malicious Software"
+    question: "Which of the following is not a type of Artificial Intelligence agent?",
+    options: ["Learning AI agent", "Goal-based AI agent", "Simple reflex AI agent", "Unity-based AI agent"],
+    correctAnswer: "Unity-based AI agent"
   },
   {
-    question: "............ Shortcut key is used for slide show from current slide.",
-    options: ["F5", "Shift+F5", "Ctrl+F5", "None of the Above"],
-    correctAnswer: "Shift+F5",
-  },
-
-
-
-
-
-  {
-    question: "Instagram is a",
-    options: ["educational website", "search engine", "social networking website", "shopping website"],
-    correctAnswer: "social networking website"
-  },
-
-
-  {
-    question: "What does IFSC stand for?",
-    options: ["Indian Financial System Code", "Indian Fund System Code", "Indian Financial System Core", "None of these"],
-    correctAnswer: "Indian Financial System Code"
-  },
-
-  {
-    question: "The Place Where All Types Of Email Messages Are Organized Is Called What?",
-    options: ["Inbox", "Mailbox", "Outbox", "None Of These"],
-    correctAnswer: "Mailbox"
-  },
-
-
-  {
-    question: "Which of these schools was not among the early leaders in artificial intelligence research?",
-    options: ["Dartmouth University", "Stanford University", "Massachusetts Institute of Technology", "Harvard University"],
-    correctAnswer: "Harvard University"
-  },
-
-
-  {
-    question: "Which Of The Following Contains The Body Of The Email Message?",
-    options: ["Image", "Both Image And Text", "Only Image", "Only Text"],
-    correctAnswer: "Both Image And Text"
+    question: "Which of the following is not the commonly used programming language for Artificial Intelligence?",
+    options: ["Perl", "Java", "PROLOG", "LISP"],
+    correctAnswer: "Perl"
   },
   {
-    question: "Maximum number of rows in LibreOffice Calc?",
-    options: ["1048576", "1048580", "1084562", "1048575"],
-    correctAnswer: "1048576"
+    question: "Which of the following is not an application of artificial intelligence?",
+    options: ["Face recognition system", "Chatbots", "LIDAR", "DBMS"],
+    correctAnswer: "DBMS"
   },
   {
-    question: "Maximum number of columns in LibreOffice Calc?",
-    options: ["1030", "1024", "1058", "1000"],
-    correctAnswer: "1024"
+    question: "Which of the following machines requires input from humans but can interpret the outputs themselves?",
+    options: ["Actuators", "Sensor", "Agents", "AI system"],
+    correctAnswer: "AI system"
   },
   {
-    question: "Last column address in LibreOffice Calc?",
-    options: ["AMI", "AMO", "AMJ", "AMU"],
-    correctAnswer: "AMJ"
-  },
-  {
-    question: "By default, how many sheets in LibreOffice Calc?",
-    options: ["2", "1", "4", "6"],
-    correctAnswer: "1"
-  },
-
-  {
-    question: "What is the shortcut key for slide show in Libre office impress?",
-    options: ["f5", "f7", "f8", "f1"],
-    correctAnswer: "f5",
-  },
-  {
-    question: "Which of the following allow you to select more than one slide in Libre office impress?",
-    options: ["drag each slide", "shift+click on each slide", "ctrl+click on each slide", "click on each slide"],
-    correctAnswer: "ctrl+click on each slide",
-  },
-  {
-    question: "First slide known as in Libre office impress?",
-    options: ["home slide", "title slide", "main slide", "none of these"],
-    correctAnswer: "title slide",
-  },
-  {
-    question: "Can we send email without subject?",
-    options: ["TRUE", "FALSE"],
-    correctAnswer: "TRUE"
-  },
-  {
-    question: "Maximum number of sheet limit in LibreOffice Calc?",
-    options: ["10000", "36000", "32000", "20000"],
-    correctAnswer: "10000"
-  },
-
-  {
-    question: "What is the full form of IMPS?",
-    options: ["Immediate Payment Service", "Immediate Fund Transfer Service", "Interested Payment Service", "A & B both"],
-    correctAnswer: "Immediate Payment Service"
-  },
-  {
-    question: "QR Code stands for",
-    options: ["Quick Result Code", "Quadratic Response Code", "Quick Response Code", "Quick Relay Code"],
-    correctAnswer: "Quick Response Code"
-  },
-  {
-    question: "What is the full form of PMSBY?",
-    options: ["Pradhan Mantri Secure Bima Yojna", "Pradhan Mantri Security Bima Yojna", "Pradhan Mantri Suraksha Bima Yojna", "None"],
-    correctAnswer: "Pradhan Mantri Suraksha Bima Yojna"
-  },
-  {
-    question: "Size of MAC address?",
-    options: ["64 bit", "48 bit", "128 bit", "32 bit"],
-    correctAnswer: "48 bit"
-  },
-  {
-    question: "PIN stands for",
-    options: ["Personal Identification Number", "Permanent Identification Number", "Primary Identification Number", "None of these"],
-    correctAnswer: "Personal Identification Number"
-  },
-
-  {
-    question: "Who developed QR Code?",
-    options: ["Intel 1990", "DENSO WAVE in 1994", "Apple in 1995", "None of these"],
-    correctAnswer: "DENSO WAVE in 1994"
-  },
-  {
-    question: "What is the shape of QR Code?",
-    options: ["Rectangle", "Circle", "Square", "Triangle"],
-    correctAnswer: "Square"
-  },
-  {
-    question: "What is the nature of QR Code?",
-    options: ["3D", "2D", "Both A & B", "None of these"],
-    correctAnswer: "2D"
-  },
-  {
-    question: "Who launched UPI?",
-    options: ["Raghuram Rajan", "Shaktikanta Das", "Urjit Patel", "None of these"],
-    correctAnswer: "Raghuram Rajan"
-  },
-
-  {
-    question: "When did RTGS start?",
-    options: ["2005", "2004", "2008", "2007"],
-    correctAnswer: "2004"
-  },
-  {
-    question: "When did NEFT start?",
-    options: ["2005", "2004", "2008", "2007"],
-    correctAnswer: "2005"
-  },
-  {
-    question: "MAC stands for?",
-    options: ["MEDIA ACCESS CONTROL", "MAIN ACCESS CONTROL", "BOTH A AND B", "NONE OF THESE"],
-    correctAnswer: "MEDIA ACCESS CONTROL"
-  },
-  {
-    question: "Who developed UPI?",
-    options: ["NPCI", "ICICI", "NSEI", "None of these"],
-    correctAnswer: "NPCI"
-  },
-  {
-    question: "How much money can be transferred by UPI in one day?",
-    options: ["200000", "500000", "100000", "300000"],
-    correctAnswer: "100000"
-  },
-  {
-    question: "How much money can be transferred by BHIM in one day?",
-    options: ["20000", "50000", "10000", "40000"],
-    correctAnswer: "40000"
-  },
-
-  {
-    question:
-      "Which one of the following is not an option in the drop down menu of header in libre office writer.",
-    options: [
-      "insert page number",
-      "delete header",
-      "format header",
-      "create header",
-    ],
-    correctAnswer: "create header",
-  },
+    question: "Which of the following are the approaches to Artificial Intelligence?",
+    options: ["Applied approach", "Strong approach", "Weak approach", "All of the mentioned"],
+    correctAnswer: "All of the mentioned"
+  }
 ];
 
 function shuffleArray(array) {
