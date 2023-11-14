@@ -30,9 +30,6 @@ const quizData = [
     correctAnswer: "Mark Zuckerberg"
   },
 
-
-
-
   {
     question: "______ is used to send an email to some other person in addition to the main subject receiver without disclosing details to all.",
     options: ["Carbon Copy", "Blind Carbon Copy", "Double carbon copy", "Xerox Copy"],
@@ -93,11 +90,6 @@ const quizData = [
     options: ["Inbox", "Mailbox", "Outbox", "None Of These"],
     correctAnswer: "Mailbox"
   },
-
-
-
-
-
   {
     question: "Which Of The Following Contains The Body Of The Email Message?",
     options: ["Image", "Both Image And Text", "Only Image", "Only Text"],
@@ -270,12 +262,6 @@ const quizData = [
     options: ["True", "False"],
     correctAnswer: "True"
   },
-
-
-
-
-
-
   {
     question: "If Maruti company purchases a tire from MRF company, this business is called as:",
     options: ["B2B", "C2C", "B2C", "G2G"],
