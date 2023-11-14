@@ -259,6 +259,12 @@ const quizData = [
     options: ["Mini seconds", "Hours", "Minutes", "Seconds"],
     correctAnswer: "Seconds",
   },
+
+  {
+    question: "Which of these terms do we use when an image in a clip art changes the direction that it was originally facing?",
+    options: ["Mirror", "Rotate", "Flip", "Group"],
+    correctAnswer: "Rotate",
+  },
   {
     question: "Shortcut key for position and size in libreoffice impress",
     options: ["F1", "F3", "F2", "F4"],
@@ -293,6 +299,121 @@ const quizData = [
     question: "What is minimum zoom percentage in libreoffice impress",
     options: ["20%", "5%", "2%", "10%"],
     correctAnswer: "5%",
+  },
+  {
+    question: "Which toolbar provides various options in different master views?",
+    options: ["Standard toolbar", "Formatting toolbar", "Drawing toolbar", "Common tasks toolbar"],
+    correctAnswer: "Common tasks toolbar"
+  },
+  {
+    question: "We can find any and every command on the:",
+    options: ["Menu bar", "Standard toolbar", "Formatting toolbar", "Drawing toolbar"],
+    correctAnswer: "Menu bar"
+  },
+  {
+    question: "Which of these features should one use when we want to type in the text box for notes?",
+    options: ["Insert", "Slide shows", "Zoom", "Slide master"],
+    correctAnswer: "Zoom"
+  },
+  {
+    question: "Which types of templates provide all the users with a design concept, colour scheme, and fonts for presentation?",
+    options: ["Content", "Format", "Normal", "Design"],
+    correctAnswer: "Design"
+  },
+  {
+    question: "The File that consists of readymade styles that we can easily use for our presentation is known as:",
+    options: ["Pre formatting", "Template", "Wizard", "AutoStyle"],
+    correctAnswer: "Template"
+  },
+  {
+    question: "Which of these PowerPoint features would allow any user to create a given simple presentation quicker?",
+    options: ["Animations", "Chart Wizard", "Transition Wizard", "AutoContent Wizard"],
+    correctAnswer: "AutoContent Wizard"
+  },
+  {
+    question: "The Handout Master consists of placeholders for all of these except the:",
+    options: ["title", "slide number", "header", "footer"],
+    correctAnswer: "title"
+  },
+  {
+    question: "The default template in Impress Presentation is-",
+    options: ["Image only", "Content Only", "Title and Content", "Title Only"],
+    correctAnswer: "Title and Content"
+  },
+  {
+    question: "What is the maximum number of slides that can be viewed on a page in slide shortener view in LibreOffice Impress?",
+    options: ["10", "15", "12", "14"],
+    correctAnswer: "15"
+  },
+  {
+    question: "What is the by default font size in Impress?",
+    options: ["12", "16", "18", "20"],
+    correctAnswer: "18"
+  },
+  {
+    question: "Impress Slides can be controlled remotely by……….?",
+    options: ["WIFI", "Ethernet", "Bluetooth", "NFC"],
+    correctAnswer: "Bluetooth"
+  },
+  {
+    question: "LibreOffice Impress is Also known as the presentation module of Libre Open-source Software.",
+    options: ["True", "False"],
+    correctAnswer: "True"
+  },
+  {
+    question: "What is the handout in LibreOffice impress?",
+    options: ["Soft copy slide", "all slides in LibreOffice impress", "printed hard copy of the slide", "the first slide in LibreOffice impress"],
+    correctAnswer: "printed hard copy of the slide"
+  },
+  {
+    question: "With which command we can go to the first slide of the presentation?",
+    options: ["Page Up", "Page Down", "Ctrl + Home", "Ctrl + End"],
+    correctAnswer: "Ctrl + Home"
+  },
+  {
+    question: "In LibreOffice Portrait and Landscape are.",
+    options: ["Page Size", "Page Orientation", "Text Effect", "Page Layout"],
+    correctAnswer: "Page Orientation"
+  },
+  {
+    question: "Which of the following should you use if you want all the slides in the presentation to have the same “look”?",
+    options: ["the slide layout option", "add a slide option", "outline view", "a presentation design template"],
+    correctAnswer: "a presentation design template"
+  },
+  {
+    question: "What kind of program is LibreOffice impress?",
+    options: ["Spreadsheet", "Word processing", "Presentation", "None of these"],
+    correctAnswer: "Presentation"
+  },
+  {
+    question: "LibreOffice cannot format which of the following files in Impress?",
+    options: ["Html", "Jpeg", "Gif", "WAV"],
+    correctAnswer: "Html"
+  },
+  {
+    question: "You can create a new presentation in impress by using except",
+    options: ["Ctrl + N", "Click on New Icon", "File Menu > New Presentation", "Ctrl + O"],
+    correctAnswer: "Ctrl + O"
+  },
+  {
+    question: "Special effects used to introduce slides in a presentation are called.",
+    options: ["present animations", "effects", "custom animations", "transitions"],
+    correctAnswer: "transitions"
+  },
+  {
+    question: "In terms of animation, what is a trigger?",
+    options: ["An action button that advances to the next slide", "An item on the slide that performs an action when clicked", "The name of a motion path", "All of the above"],
+    correctAnswer: "An item on the slide that performs an action when clicked"
+  },
+  {
+    question: "Which alignment is not there in LibreOffice Impress?",
+    options: ["Central Alignment", "Left Alignment", "Right Alignment", "Justification"],
+    correctAnswer: "Justification"
+  },
+  {
+    question: "Which shortcut keys are useful for Past Unformatted Text in Impress?",
+    options: ["Ctrl + Shift + v", "Ctrl + Alt + Shift + v", "Ctrl + Alt + v", "None"],
+    correctAnswer: "Ctrl + Alt + Shift + v"
   }
 ];
 
