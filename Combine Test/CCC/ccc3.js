@@ -1,561 +1,510 @@
 const quizData = [
   {
-    question: "Full form of TFT?",
-    options: [
-      "Tight film transistor",
-      "Thin film transistor",
-      "Think film transistor",
-      "None of these"
-    ],
-    correctAnswer: "Thin film transistor"
-  },
-  {
     question: "What are the main components of the CPU?",
     options: ["Hard Disk, Monitor, Keyboard", "RAM, ROM, Printer", "CD, DVD, Pendrive", "Control Unit, Memory Unit, ALU"],
     correctAnswer: "Control Unit, Memory Unit, ALU"
-  },
-  {
-    question: "Which of the following devices can be used to convert characters of printed text into an image?",
-    options: ["OCR", "MICR", "OMR", "All of the options"],
-    correctAnswer: "All of the options"
-  },
-  // Q13
-  {
-    question: "What characteristics of read-only memory (ROM) makes it useful?",
-    options: [
-      "ROM information can be easily updated",
-      "ROM provides very large amounts of inexpensive data storage",
-      "ROM chips are easily swapped between different brands of computers",
-      "Data in ROM is non-volatile, that is, it remains there even without electrical power"
-    ],
-    correctAnswer: "Data in ROM is non-volatile, that is, it remains there even without electrical power"
   },
   {
     question: "One nibble is equal to?",
     options: ["Half a byte", "One byte", "Both a & b", "None of these"],
     correctAnswer: "Half a byte"
   },
-  // Q23
   {
     question: "What is the full form of UNIVAC?",
     options: ["Universal Automatic Computer", "Uniary All Communication", "Both a & b", "None of these"],
     correctAnswer: "Universal Automatic Computer"
   },
   {
-    question: "1000 gigabytes is equal to?",
-    options: ["1 PB", "1 ZB", "1 TB", "1 MB"],
-    correctAnswer: "1 TB"
+    question: "Which of the following devices can be used to convert characters of printed text into an image?",
+    options: ["OCR", "MICR", "OMR", "All of the options"],
+    correctAnswer: "OCR"
   },
-  // Q15
-  {
-    question: "Apple company used chips from which company for its computer?",
-    options: ["Motorola", "Intel", "Both a & b", "None of these"],
-    correctAnswer: "Both a & b"
-  },
-
-  {
-    question: "Shortcut key of increase font size in LibreOffice Writer:",
-    options: ["crtl+]", "ctrl+[", "ctrl++", "ctrl+1"],
-    correctAnswer: "ctrl+]",
-  },
-  {
-    question: "Which command prints the directory stack?",
-    options: ["cd", "dirs", "popd", "pushd"],
-    correctAnswer: "dirs"
-  },
-  {
-    question: "Which command removes a directory from the directory stack?",
-    options: ["dirs", "popd", "pushd", "rm"],
-    correctAnswer: "popd"
-  },
-  {
-    question: "Arrange memory units in ascending order.",
-    options: ["ZB, KB, GB, MB", "KB, MB, GB, ZB", "GB, MB, KB, ZB", "MB, KB, ZB, GB"],
-    correctAnswer: "KB, MB, GB, ZB"
-  },
-  // Q17
-  {
-    question: "In which year did DVDs come into the market?",
-    options: ["1999", "1982", "1995", "1991"],
-    correctAnswer: "1995"
-  },
-  // Q18
-  {
-    question: "Which device was used in the first generation of computers?",
-    options: ["IC", "Transistor", "Vacuum Tubes", "None of these"],
-    correctAnswer: "Vacuum Tubes"
-  },
-  // Q19
-  {
-    question: "What is the correct sequence of a working computer?",
-    options: ["Output, Storage, Input, Process", "Process, Output, Storage, Input", "Input, Process, Output, Storage", "Storage, Input, Process, Output"],
-    correctAnswer: "Input, Process, Output, Storage"
-  },
-  // Q20
-  {
-    question: "When you start up the computer, the screen at which the BIOS version, manufacturer, and data are displayed is called?",
-    options: ["Kernel Loading", "Power On Self Test (POST)", "System Configuration", "Bootstrap"],
-    correctAnswer: "Power On Self Test (POST)"
-  },
-  // Q21
-
-  // Q25
   {
     question: "What are the input devices?",
     options: ["Printer", "Hard disk", "Keyboard, Mouse", "Monitor"],
     correctAnswer: "Keyboard, Mouse"
   },
-
-  // Q29
   {
-    question: "In which year did CDs come into the market?",
-    options: ["1999", "1982", "1985", "1991"],
-    correctAnswer: "1982"
-  },
-  // Q31
-  {
-    question: "How many bits and characters are there in ASCII?",
-    options: ["7 bits & 128 characters", "9 bits & 120 characters", "8 bits & 256 characters", "None of these"],
-    correctAnswer: "7 bits & 128 characters"
-  },
-  // Q32
-  {
-    question: "Which is the first artificial language?",
-    options: ["High level", "Low and high", "LISP", "None of these"],
-    correctAnswer: "LISP"
-  }, {
-    question: "Which command is used to bring the background process to forground?",
-    options: ["bg", "fg", "background", "forground"],
-    correctAnswer: "fg"
+    question: "Full form of MICR?",
+    options: ["Magnetic Ink Character Recognition", "Mark Ink Character Reader", "Monitor Ink Character Reader", "None of these"],
+    correctAnswer: "Magnetic Ink Character Recognition"
   },
   {
-    question: "How to run a process in the background?",
-    options: ["&", "*", "?", "|"],
-    correctAnswer: "&"
+    question: "The advantage of binary files over text files is that:",
+    options: ["It is more reliable", "It is compact", "Many commands assume that it is a binary file", "It can be accessed faster"],
+    correctAnswer: "It can be accessed faster"
   },
-  {
-    question: "Which signal is sent by the command “kill -9 ” ?",
-    options: ["INT", "TERM", "KILL", "STOP"],
-    correctAnswer: "KILL"
-  },
-  {
-    question: "Which of the following values for STAT column of ps command is not true:",
-    options: ["status R means running", "Status S means sleeping", "Status E means exited", "Status Z means zombie"],
-    correctAnswer: "Status E means exited"
-  },
-  {
-    question: "we can change the priority of a running process using",
-    options: ["nice", "renice", "priority cannot be changed for a running process", "only superuser can change the priority"],
-    correctAnswer: "renice"
-  },
-  {
-    question: "User’s Primary Group id is listed in which file, at the time of creation of the user (On a standard Unix system)",
-    options: ["/etc/passwd", "/etc/groups", "/etc/login", "/etc/profile"],
-    correctAnswer: "/etc/passwd"
-  },
-  {
-    question: "The encrypted password of a user is stored in",
-    options: ["/etc/shadow", "/etc/enpasswwd", "/etc/.passwd", "/etc/passwd"],
-    correctAnswer: "/etc/shadow"
-  },
-  {
-    question: "The /etc/passwd file doesn’t contain",
-    options: ["userid", "home directory for a user", "login shell name", "none of the mentioned"],
-    correctAnswer: "none of the mentioned"
-  },
-
-
-  {
-    question: "User id 0 is",
-    options: ["An innvalid user id", "The id of the root user", "The id of a user when the user’s account is deleted", "None of the mentioned"],
-    correctAnswer: "The id of the root user"
-  },
-  {
-    question: "Which of the following command can be used to change the user password?",
-    options: ["user can’t change the password", "passwd", "passd", "pwd"],
-    correctAnswer: "passwd"
-  },
-  {
-    question: "What does the following command do?\nwho | wc –l",
-    options: ["List the number of users logged in", "List the users", "List the number of users in the system", "Display the content of who command"],
-    correctAnswer: "List the number of users logged in"
-  }, {
-    question: "Shortcut key for formatting marks in LibreOffice Writer:",
-    options: ["crtl+shift+r", "ctrl+shift+c", "crtl+f10", "ctrl+f11"],
-    correctAnswer: "ctrl+f11",
-  },
-  //   Q59
-  {
-    question: "Shortcut key for the sidebar in LibreOffice Writer:",
-    options: ["crtl+shift+r", "ctrl+shift+c", "crtl+f5", "ctrl+f11"],
-    correctAnswer: "crtl+f5",
-  },
-  //   Q60
-  {
-    question: "Shortcut key for styles or manage styles in LibreOffice Writer:",
-    options: ["crtl+shift+f11", "shift+f11", "f11", "f12"],
-    correctAnswer: "crtl+shift+f11",
-  },
-  // Q61
-  {
-    question: "Shortcut key for navigator in LibreOffice Writer:",
-    options: ["crtl+shift+f11", "shift+f11", "f11", "f5"],
-    correctAnswer: "f5",
-  },
-
-
-  // Q65
-  {
-    question: "Shortcut key for hyperlink in LibreOffice Writer:",
-    options: ["crtl+alt+c", "shift+f11", "ctrl+k", "f5"],
-    correctAnswer: "ctrl+k",
-  },
-  // Q66
-  {
-    question: "Shortcut key of clear direct formatting in LibreOffice Writer:",
-    options: ["crtl+m", "shift+f11", "ctrl+k", "f5"],
-    correctAnswer: "crtl+m",
-  },
-  // Q67
-  {
-    question: "Shortcut key of bullet list in LibreOffice Writer:",
-    options: ["crtl+m", "shift+f12", "ctrl+k", "f5"],
-    correctAnswer: "crtl+m",
-  },
-  // Q68
-  {
-    question: "Shortcut key of number list in LibreOffice Writer:",
-    options: ["crtl+m", "shift+f12", "ctrl+k", "f12"],
-    correctAnswer: "crtl+m",
-  },
-  // Q69
-  {
-    question: "Shortcut key of double underline in LibreOffice Writer:",
-    options: ["crtl+m", "shift+f12", "ctrl+d", "f12"],
-    correctAnswer: "ctrl+d",
-  },
-  {
-    question: "Shortcut key of superscript in LibreOffice Writer:",
-    options: ["crtl+shift+B", "shift+f12", "ctrl+shift+P", "f12"],
-    correctAnswer: "crtl+shift+B",
-  },
-  {
-    question: "Maximum zoom in LibreOffice Calc?",
-    options: ["600%", "300%", "100%", "400%"],
-    correctAnswer: "600%"
-  },
-
   {
     question: "Which memory is called non-volatile memory?",
     options: ["RAM", "ROM", "Both RAM and ROM", "None of these"],
     correctAnswer: "ROM"
   },
   {
-    question: "Shortcut key of subscript in LibreOffice Writer:",
-    options: ["crtl+shift+B", "shift+f12", "ctrl+d", "f12"],
-    correctAnswer: "crtl+shift+B",
+    question: "In which year did CDs come into the market?",
+    options: ["1999", "1982", "1985", "1991"],
+    correctAnswer: "1982"
   },
   {
-    question: "Minimum zoom in LibreOffice Calc?",
-    options: ["10%", "20%", "30%", "5%"],
-    correctAnswer: "10%"
+    question: "How many bits and characters are there in ASCII?",
+    options: ["7 bits & 128 characters", "9 bits & 120 characters", "8 bits & 256 characters", "None of these"],
+    correctAnswer: "7 bits & 128 characters"
   },
   {
-    question: "Shortcut key for edit in LibreOffice Calc?",
-    options: ["F2", "F1", "F4", "F7"],
+    question: "Which of the following is not available in font spacing?",
+    options: ["Condensed", "Expanded", "Loosely", "Normal"],
+    correctAnswer: "Loosely"
+  },
+  {
+    question: "Ctrl+Shift+Backspace is a shortcut key to delete text to the beginning of the sentence in LibreOffice.",
+    options: ["True", "False"],
+    correctAnswer: "True"
+  },
+  {
+    question: "While customizing the font color, which one of the following is not the available color coding scheme in LibreOffice Writer?",
+    options: ["WXY", "HSB", "RGB", "CMYK"],
+    correctAnswer: "WXY"
+  },
+  {
+    question: "What is the correct sequence of steps required to insert the footer in LibreOffice Writer document?",
+    options: ["Insert > Footer > Default Style", "Insert > Footer", "Insert > Header & Footer > Footer > Default Style", "Header & Footer > Footer"],
+    correctAnswer: "Insert > Header & Footer > Footer > Default Style"
+  },
+  {
+    question: "Which feature in LibreOffice Writer removes extra spaces between pages?",
+    options: ["Edit -> Hide White space", "View -> Hide White space", "File -> Hide White space", "Tools -> Hide White space"],
+    correctAnswer: "View -> Hide White space"
+  },
+  {
+    question: "3D object command found in the status bar.",
+    options: ["False", "True"],
+    correctAnswer: "True"
+  },
+  {
+    question: "There are six rows in an inserted table in a document of LibreOffice Writer. The height of the third row and the fourth row are 1 cm and 2 cm. If you choose the option 'Distribute Rows Evenly' of size submenu.",
+    options: ["Height of both rows will be 2 cm", "Height of both rows will be 1.5 cm", "Height of both rows will be 1 cm", "Height of both rows will be 3 cm"],
+    correctAnswer: "Height of both rows will be 1.5 cm"
+  },
+  {
+    question: "Which one of the following is not an option in the drop-down menu of the header in LibreOffice Writer.",
+    options: ["Insert Page Number", "Delete Header", "Format Header", "Create Header"],
+    correctAnswer: "Create Header"
+  },
+  {
+    question: "Bar used to access the command and tools.",
+    options: ["Menu", "Bar", "Tools", "Status"],
+    correctAnswer: "Tools"
+  },
+  {
+    question: "Which is on the left side of the status bar?",
+    options: ["Zoom Slider", "Digital Signature", "Information Area", "Cursor Position"],
+    correctAnswer: "Information Area"
+  },
+  {
+    question: "Which of the following is an Open Source Software?",
+    options: ["Photoshop", "MS Word", "Skype", "LibreOffice"],
+    correctAnswer: "LibreOffice"
+  },
+  {
+    question: "Features of the Linux operating system",
+    options: ["It is a multi-user operating system", "It is a highly secure operating system", "It is a multitasking operating system", "All of the above"],
+    correctAnswer: "All of the above"
+  },
+  {
+    question: "Which command is used for removing files in the Linux operating system?",
+    options: ["delete", "rm", "dm", "erase"],
+    correctAnswer: "rm"
+  },
+  {
+    question: "Which of the following directories contains the configuration files?",
+    options: ["/bin", "/root", "/dev", "etc/"],
+    correctAnswer: "etc/"
+  },
+  {
+    question: "The core of Linux operating system is:",
+    options: ["Kernel", "Terminal", "Shell", "Command"],
+    correctAnswer: "Kernel"
+  },
+  {
+    question: "Which function key is used to change the name of any file through the keyboard?",
+    options: ["F1", "F2", "F3", "F4"],
     correctAnswer: "F2"
-  }, {
-    question: "We can set custom slide show in LibreOffice Impress.",
-    options: ["True", "False"],
-    correctAnswer: "True",
   },
   {
-    question: "The shortcut key for move first slide of a presentation is ..................",
-    options: ["Ctrl+Home", "Ctrl+End", "Ctrl+Enter", "None of the above"],
-    correctAnswer: "Ctrl+Home",
+    question: "Which of the following file extensions indicate files created in Paint?",
+    options: ["BMP", "DOC", "STK", "PPT"],
+    correctAnswer: "BMP"
   },
   {
-    question: "How many menus are found in LibreOffice Impress?",
-    options: ["3", "5", "8", "10"],
-    correctAnswer: "10",
+    question: "What is the process id of the init process?",
+    options: ["2", "4", "1", "6"],
+    correctAnswer: "1"
   },
   {
-    question: "The ................ keyboard combination can be used to open a presentation file.",
-    options: ["Ctrl+Q", "Ctrl+O", "Ctrl+P", "Ctrl+S"],
-    correctAnswer: "Ctrl+O",
+    question: "Which Of The Following Is The Name Of A Linux Kernel File?",
+    options: ["Vmlinux", "Vmlinuz", "Lynx", "Linux"],
+    correctAnswer: "Vmlinuz"
   },
   {
-    question: "................ is used to go to the previous slide in LibreOffice Impress.",
-    options: ["Ctrl+Page Up", "Ctrl+Page Dowm", "Ctrl+Page Left", "Ctrl+Page Right"],
-    correctAnswer: "Ctrl+Page Up",
+    question: "Which Of The Following Directories Does Not Contain Binary Files?",
+    options: ["/boot", "/etc", "/bin", "/sbin"],
+    correctAnswer: "/etc"
   },
   {
-    question: "........... is used to move cursor with selection to the left.",
-    options: ["Shift+Arrow Left", "Shift+Arrow Right", "Shift+Arrow Up", "Shift+Arrow Down"],
-    correctAnswer: "Shift+Arrow Left",
-  },
-  {
-    question: "In impress presentation for animation we select slide object and click Format menu > animation.",
-    options: ["True", "False"],
-    correctAnswer: "True",
-  }, {
-    question: "To open downloads in Google Chrome, which key combination is used?",
-    options: ["CTRL + R", "CTRL + Z", "CTRL + T", "CTRL + M"],
-    correctAnswer: "CTRL + J"
-  },
-  {
-    question: "What does modem stand for?",
-    options: ["Modulator-Demodulator", "Modify-Demodify", "Manipulator-Demanipulator", "None of these"],
-    correctAnswer: "Modulator-Demodulator"
-  },
-  {
-    question: "What does OSI stand for?",
-    options: ["Open System Interconnection", "Open Source Initiative", "Open Source Interconnection", "None of these"],
-    correctAnswer: "Open System Interconnection"
-  },
-
-  {
-    question: "How many layers in OSI reference model?",
-    options: ["7", "6", "9", "8"],
-    correctAnswer: "7"
-  },
-  {
-    question: "Size of IPV6 address?",
-    options: ["32 BIT", "128 BIT", "255 BIT", "130 BIT"],
-    correctAnswer: "128 BIT"
-  },
-  {
-    question: "MAC stands for?",
-    options: ["MEDIA ACCESS CONTROL", "MAIN ACCESS CONTROL", "BOTH A AND B", "NONE OF THESE"],
-    correctAnswer: "MEDIA ACCESS CONTROL"
-  },
-  {
-    question: "Size of MAC address?",
-    options: ["64 bit", "48 bit", "128 bit", "32 bit"],
-    correctAnswer: "48 bit"
-  },
-  {
-    question: "Which is the first search engine?",
-    options: ["ARCHI", "BING", "ALTA VISTA", "CHA-CHA.COM"],
-    correctAnswer: "ARCHI"
-  },
-  {
-    question: "Which is the first web browser?",
-    options: ["WWW – (1990)", "INTERNET EXPLORER", "NETSCAPE NAVIGATOR", "SAFARI"],
-    correctAnswer: "WWW – (1990)"
-  },
-  {
-    question: "Internet started in which year in India?",
-    options: ["1990", "1995", "1996", "1999"],
-    correctAnswer: "1990"
-  },
-  {
-    question: "What is the code used for IMEI number?",
-    options: ["*#06#", "*##06", "*06#*", "None of these"],
-    correctAnswer: "*#06#"
-  },
-  {
-    question: "Watching live video on the internet is called?",
-    options: ["STREAMING", "BROWSING", "BUFFERING", "NONE OF THESE"],
-    correctAnswer: "STREAMING"
-  },
-  {
-    question: "How many layers in TCP/IP?",
-    options: ["5", "4", "7", "9"],
-    correctAnswer: "4"
-  },
-  {
-    question: "DHCP stands for?",
-    options: ["DYNAMIC HOST CONFIGURATION PROTOCOL", "DYNAMIC HIGH CONTROL PROTOCOL", "BOTH A & B", "NONE OF THESE"],
-    correctAnswer: "DYNAMIC HOST CONFIGURATION PROTOCOL"
-  },
-  {
-    question: "Which guided media provides the highest mode of speed?",
-    options: ["COAXIAL CABLE", "FIBER OPTIC CABLE", "UNSHIELDED TWISTED PAIR", "NONE OF THESE"],
-    correctAnswer: "FIBER OPTIC CABLE"
-  },
-  {
-    question: "ISP exchanges internet traffic between their networks by?",
-    options: ["INTERNET EXCHANGE POINT", "ISP END POINT", "BOTH A & B", "NONE OF THESE"],
-    correctAnswer: "INTERNET EXCHANGE POINT"
-  },
-  {
-    question: "What is the loopback IP address?",
-    options: ["127.0.0.1", "127.0.0.0", "127.1.1.0", "NONE OF THESE"],
-    correctAnswer: "127.0.0.1"
-  },
-
-  {
-    question: "The size of packet is larger than the size of frame?",
-    options: ["true", "false"],
-    correctAnswer: "false"
-  },
-  {
-    question: "WLAN stands for ",
-    options: ["Wireless Local Area Network", "Wired Local Area Network", "Wireless Local Ambiguity Network", " Wired Latent Area Network"],
-    correctAnswer: "Wireless Local Area Network"
-  },
-  {
-    question: "DigiLocker was launched in which year?",
-    options: ["2020", "2015", "2016", "2017"],
-    correctAnswer: "2015"
-  },
-  {
-    question: "What is the maximum storage space in DigiLocker?",
-    options: ["2 GB", "1 GB", "5 GB", "8 GB"],
-    correctAnswer: "1 GB"
-  },
-  {
-    question: "What is meant to be online buying and selling of goods?",
-    options: ["E-commerce", "Digi Locker", "Digital Payment", "None of these"],
-    correctAnswer: "E-commerce"
-  },
-  {
-    question: "DigiLocker is connected with:",
-    options: ["From Aadhar Card", "From PAN Card", "Both A & B", "None of these"],
-    correctAnswer: "From Aadhar Card"
-  },
-  {
-    question: "Which is not an advantage of using DigiLocker?",
-    options: [
-      "Secure access to Govt. issued documents",
-      "Document Generation",
-      "Easy to carry",
-      "Minimize the use of physical documents"
-    ],
-    correctAnswer: "Document Generation"
-  },
-  {
-    question: "What is the advantage of DigiLocker?",
-    options: [
-      "Issue e-documents to citizens & eliminates physical documents",
-      "Issue physical documents to citizens",
-      "Both A & B",
-      "None of these"
-    ],
-    correctAnswer: "Issue e-documents to citizens & eliminates physical documents"
-  },
-
-
-  {
-    question: "Split window option is found in which menu in LibreOffice Calc?",
-    options: ["Edit", "Insert", "View", "Tools"],
+    question: "In which menu is the master slide function available?",
+    options: ["Slide Show", "Slide", "View", "Tools"],
     correctAnswer: "View"
   },
   {
-    question: "How many chart types are there in LibreOffice Calc?",
-    options: ["10", "11", "20", "12"],
-    correctAnswer: "11"
+    question: "The default name of the Impress presentation is ................",
+    options: ["Calc", "Slide 1", "Writer", "Untitled 1"],
+    correctAnswer: "Untitled 1"
   },
   {
-    question: "By default, legend shows on which side in a chart?",
-    options: ["Left", "Center", "Top", "Right"],
-    correctAnswer: "Right"
+    question: "What is the maximum zoom percentage in LibreOffice Impress?",
+    options: ["300%", "450%", "500%", "3000%"],
+    correctAnswer: "3000%"
   },
-
   {
-    question: "Which command executes ‘command’ in place of the current process instead of creating a new process?",
-    options: ["exec", "command", "trap", "none of the mentioned"],
-    correctAnswer: "exec"
-  }, {
+    question: "We can create a new presentation by using all of the following except.",
+    options: ["Ctrl+N", "Ctrl+O", "Click On New Icon", "File Menu"],
+    correctAnswer: "Ctrl+N"
+  },
+  {
+    question: "Function key F7 is not used for spellcheck.",
+    options: ["True", "False"],
+    correctAnswer: "False"
+  },
+  {
+    question: "Can we set a custom slide show in LibreOffice Impress?",
+    options: ["Yes", "No"],
+    correctAnswer: "Yes"
+  },
+  {
+    question: "Shortcut key Ctrl+Shift+S is used to save the Impress presentation on another location or make a copy.",
+    options: ["False", "True"],
+    correctAnswer: "True"
+  },
+  {
+    question: "Arrow left is used to move the cursor to the left.",
+    options: ["True", "False"],
+    correctAnswer: "True"
+  },
+  {
+    question: "Which of the following keys is used to insert a new slide in LibreOffice Impress?",
+    options: ["Ctrl+M", "Ctrl+A", "Ctrl+B", "Ctrl+C"],
+    correctAnswer: "Ctrl+M"
+  },
+  {
+    question: "Help key shortcut used in LibreOffice is ..............",
+    options: ["F1", "F2", "F3", "F5"],
+    correctAnswer: "F1"
+  },
+  {
+    question: "Which function counts only numeric data in LibreOffice Calc?",
+    options: ["COUNT()", "COUNTA()", "Both A & B", "None of these"],
+    correctAnswer: "COUNT()"
+  },
+  {
+    question: "Which function is used to show the current date in a cell in LibreOffice Calc?",
+    options: ["TODAY()", "MAX()", "SUM()", "NOW()"],
+    correctAnswer: "TODAY()"
+  },
+  {
+    question: "In LibreOffice Calc, is 'ABC' a valid address for a cell?",
+    options: ["False", "True"],
+    correctAnswer: "False"
+  },
+  {
+    question: "In LibreOffice Calc, which is not a valid cell address?",
+    options: ["B6", "6B", "A1", "G7"],
+    correctAnswer: "6B"
+  },
+  {
+    question: "Shortcut key to apply currency format with two decimal places in LibreOffice Calc?",
+    options: ["Ctrl+Shift+$", "Ctrl+Shift+%", "Ctrl+Shift+&", "Ctrl+Shift+~"],
+    correctAnswer: "Ctrl+Shift+$"
+  },
+  {
+    question: "What happens if you press Ctrl++ after selecting the second row in LibreOffice Calc spreadsheet?",
+    options: ["Second row will be deleted", "A new row will be inserted below the selected second row", "Second row will hide", "A new row will be inserted above the selected row"],
+    correctAnswer: "A new row will be inserted below the selected second row"
+  },
+  {
+    question: "Summation is one of the functions in LibreOffice Calc to perform the summation of all the arguments passed in this function?",
+    options: ["True", "False"],
+    correctAnswer: "True"
+  },
+  {
+    question: "Shortcut key for duplicating shapes in LibreOffice?",
+    options: ["Shift+F2", "Shift+F3", "Shift+F4", "Shift+F1"],
+    correctAnswer: "Shift+F3"
+  },
+  {
+    question: "In normal view, the cursor changes from the arrow to?",
+    options: ["I-beam", "U-beam", "Shift+F4", "L-beam"],
+    correctAnswer: "I-beam"
+  },
+  {
+    question: "Which one of the following in LibreOffice Calc is not a valid option in Paste Special submenu of Edit menu?",
+    options: ["Paste Only Numbers", "Paste Only Formula", "Paste Only Text", "Paste Only Alphabets"],
+    correctAnswer: "Paste Only Alphabets"
+  },
+  {
+    question: "Can we send an email without a subject?",
+    options: ["TRUE", "FALSE"],
+    correctAnswer: "TRUE"
+  },
+  {
+    question: "How many photos can be uploaded to Facebook simultaneously?",
+    options: ["10", "15", "25", "30"],
+    correctAnswer: "30"
+  },
+  {
+    question: "What is the maximum time limit of video that can be uploaded to Twitter?",
+    options: ["30 Seconds", "1 Minute", "2 Minutes", "2 Minutes 20 Seconds"],
+    correctAnswer: "2 Minutes 20 Seconds"
+  },
+  {
+    question: "All received mails are deposited in:",
+    options: ["Inbox", "Draft", "Sent mail", "No where"],
+    correctAnswer: "Inbox"
+  },
+  {
+    question: "We can send through e-mail:",
+    options: ["File", "Picture", "Message", "All the above"],
+    correctAnswer: "All the above"
+  },
+  {
+    question: "LinkedIn is related to.",
+    options: ["employment", "e-commerce", "both a and b", "none of these"],
+    correctAnswer: "employment"
+  },
+  {
+    question: "Which of the following is NOT a social networking site?",
+    options: ["Facebook", "Twitter", "Instagram", "Google"],
+    correctAnswer: "Google"
+  },
+  {
+    question: "Which one of the following is an example of instant messaging?",
+    options: ["Wikipedia", "Facebook", "Telegram & WhatsApp", "YouTube"],
+    correctAnswer: "Telegram & WhatsApp"
+  },
+  {
+    question: "MIME stands for Multipurpose Internet Mail Extensions",
+    options: ["true", "false"],
+    correctAnswer: "true"
+  },
+  {
+    question: "Who was the father of E-mail?",
+    options: ["Tim Berners-Lee", "Ken Thomson", "Vint Cerf", "Ray Tomlinson"],
+    correctAnswer: "Ray Tomlinson"
+  },
+  {
+    question: "For getting an internet connection, we need to consult?",
+    options: ["LABORATORY", "ORGANIZER", "ISP", "NONE OF THE OPTIONS"],
+    correctAnswer: "ISP"
+  },
+  {
+    question: "Suppose a crawler the website then a page is not having a link is called as?",
+    options: ["DOORWAY PAGE", "ABSOLUTE PAGE", "DEAD END PAGE", "HOME PAGE"],
+    correctAnswer: "DEAD END PAGE"
+  },
+  {
+    question: "For secure EDI (Electronic Data Interchange) transmission on the internet?",
+    options: ["PGP IS USED", "S/MIME IS USED", "TCP/IP IS USED", "MIME IS USED"],
+    correctAnswer: "S/MIME IS USED"
+  },
+  {
+    question: "In Google Chrome additional plugins are named as?",
+    options: ["CHROME - PLUGINS", "ADDONS", "EXTENSIONS", "PLUGWARE"],
+    correctAnswer: "EXTENSIONS"
+  },
+  {
+    question: "Which of the following topologies cannot be used for a local area network?",
+    options: ["BUS", "STAR", "NONE OF THE OPTIONS", "RING"],
+    correctAnswer: "NONE OF THE OPTIONS"
+  },
+  {
+    question: "Physical or logical arrangement of a network is.",
+    options: ["TOPOLOGY", "NETWORKING", "ROUTING", "SWITCHING"],
+    correctAnswer: "TOPOLOGY"
+  },
+  {
+    question: "In which topology switch and hub used as a center node.",
+    options: ["RING", "BUS", "STAR", "NONE OF"],
+    correctAnswer: "STAR"
+  },
+  {
+    question: "Data communication system spanning states, countries, or the whole world is?",
+    options: ["LAN", "WAN", "MAN", "PAN"],
+    correctAnswer: "WAN"
+  },
+  {
+    question: "Data communication system within a building or campus is__?",
+    options: ["LAN", "WAN", "MAN", "PAN"],
+    correctAnswer: "LAN"
+  },
+  {
+    question: "Which topology combines two or more than two topologies?",
+    options: ["RING", "BUS", "HYBRID", "ALL OF THE ABOVE"],
+    correctAnswer: "HYBRID"
+  },
+  {
+    question: "...... provides virtual machines, virtual storage, virtual infrastructure, and other hardware assets?",
+    options: ["IaaS", "SaaS", "PaaS", "All of the mentioned"],
+    correctAnswer: "IaaS"
+  },
+  {
+    question: "How many types of service models are mainly present in the cloud?",
+    options: ["1", "2", "3", "4"],
+    correctAnswer: "3"
+  },
+  {
+    question: "Which of these is not a major type of cloud computing usage?",
+    options: ["Hardware as a service", "Platform as a service", "Software as a service", "Infrastructure as a service"],
+    correctAnswer: "Hardware as a service"
+  },
+  {
+    question: "What are the two main types of Virtual Reality?",
+    options: ["Fully immersive and non-immersive", "VR and AR", "Reality and Unreality", "Oculus Rift and HTC Vive"],
+    correctAnswer: "Fully immersive and non-immersive"
+  },
+  {
+    question: "What is the term used for describing the judgmental or commonsense part of problem-solving?",
+    options: ["Heuristic", "Critical", "Value based", "Analytical"],
+    correctAnswer: "Heuristic"
+  },
+  {
+    question: "The characteristics of the computer system capable of thinking, reasoning, and learning is known as?",
+    options: ["Machine intelligence", "Human intelligence", "Artificial intelligence", "Virtual intelligence"],
+    correctAnswer: "Artificial intelligence"
+  },
+  {
+    question: "The field that investigates the mechanics of human intelligence is?",
+    options: ["History", "Cognitive science", "Psychology", "Sociology"],
+    correctAnswer: "Cognitive science"
+  },
+  {
+    question: "What is the name of the computer program that simulates the thought processes of human beings?",
+    options: ["Human logic", "Expert reason", "Expert system", "Personal information"],
+    correctAnswer: "Expert system"
+  },
+  {
+    question: "Who is considered to be the 'father' of artificial intelligence?",
+    options: ["Fisher Ada", "John McCarthy", "Allen Newell", "Alan Turing"],
+    correctAnswer: "John McCarthy"
+  },
+  {
+    question: "DARPA, the agency that has funded a great deal of American AI research, is part of the Department of _______?",
+    options: ["Defense", "Energy", "Education", "Justice"],
+    correctAnswer: "Defense"
+  },
+  {
+    question: "Out of IMAP and POP3, which one is more reliable?",
+    options: ["IMAP & POP3 both", "IMAP", "Both are unreliable", "POP3"],
+    correctAnswer: "POP3"
+  },
+  {
+    question: "Which of the following is not a type of POS?",
+    options: ["Restaurant POS", "ATM POS", "Tablet-based POS", "Reception Desk POS"],
+    correctAnswer: "Restaurant POS"
+  },
+  {
+    question: "When a hacker penetrates a network, this is a network _______ issue",
+    options: ["Performance", "Reliability", "Security", "None of the above"],
+    correctAnswer: "Security"
+  },
+  {
+    question: "Where was the 22nd National e-Governance Conference held in 2019?",
+    options: ["Shillong", "Arunachal", "Uttar Pradesh", "None of these"],
+    correctAnswer: "Shillong"
+  },
+  {
+    question: "From which shortcut do we upload a document directly on Google Drive?",
+    options: ["Ctrl+U", "Ctrl+I", "Shift+U", "Shift+I"],
+    correctAnswer: "Shift+U"
+  },
+  {
+    question: "What is CRM?",
+    options: ["Company Relationship Management", "Customer Response Management", "Customer Relationship Management", "Company Response Management"],
+    correctAnswer: "Customer Relationship Management"
+  },
+  {
+    question: "Which of the following DDoS in mobile systems wait for the owner to trigger the cyber attack?",
+    options: ["botnets", "programs", "virus", "worms"],
+    correctAnswer: "botnets"
+  },
+  {
+    question: "Which of the following is the least strong security encryption standard?",
+    options: ["WPA3", "WPA2", "WPA", "WEP"],
+    correctAnswer: "WEP"
+  },
+  {
+    question: "Which of the following can diminish the chance of data leakage?",
+    options: ["Steganography", "Chorography", "Cryptography", "Authentication"],
+    correctAnswer: "Steganography"
+  },
+  {
+    question: "What is the full form of NUUP?",
+    options: ["National Unified USSD Platform", "National Unifier USSD Platform", "National Universal USSD Platform", "None"],
+    correctAnswer: "National Unified USSD Platform"
+  },
+  {
+    question: "The full name of CVV is Card Verification Value?",
+    options: ["TRUE", "FALSE"],
+    correctAnswer: "TRUE"
+  },
+  {
+    question: "DigiLocker cannot be used to?",
+    options: ["Share documents", "Store documents", "Verify documents", "Buy documents"],
+    correctAnswer: "Buy documents"
+  },
+  {
+    question: "Which is not required for accessing the service of POS system?",
+    options: ["PIN", "Internet", "Debit/Credit Card", "Account Number"],
+    correctAnswer: "Account Number"
+  },
+  {
+    question: "From what date did all banks start to share their ATM cost for the transaction?",
+    options: ["September 1, 2009", "January 1, 2009", "April 1, 2009", "July 1, 2009"],
+    correctAnswer: "April 1, 2009"
+  },
+  {
+    question: "Utility of e-wallet is not the same as to?",
+    options: ["RuPay Card", "Debit Card", "Credit Card", "Cash Card"],
+    correctAnswer: "Credit Card"
+  },
+  {
+    question: "Who started the ATM card first?",
+    options: ["SBI", "HSBC", "HDFC", "ICICI"],
+    correctAnswer: "HSBC"
+  },
+  {
+    question: "How many digits are there in CVV of ATM and Credit Card?",
+    options: ["6 digits", "4 digits", "3 digits", "5 digits"],
+    correctAnswer: "3 digits"
+  },
+  {
+    question: "What is meant by Aadhaar seeding?",
+    options: ["Linking of Aadhaar with Bank account", "Duplicate issuance of Aadhaar", "Transfer of Aadhaar", "None of above"],
+    correctAnswer: "Linking of Aadhaar with Bank account"
+  },
+  {
+    question: "PPF means",
+    options: ["Pension Planning Funds", "Person having Pension Facilities", "Public Provident Fund", "Permanent Practitioners Forum"],
+    correctAnswer: "Public Provident Fund"
+  },
+  {
     question: "What is the timing of NEFT?",
-    options: ["8:00 am to 6:00 pm", "8:00 am to 7:00 pm", "6:30 am to 5:30 pm", "None"],
+    options: ["8:00 am to .6:00 pm", "8:00 am to 7:00 pm", "6:30 am to 5:30 pm", "None"],
     correctAnswer: "8:00 am to 7:00 pm"
   },
   {
     question: "Which language is not there?",
-    options: ["Low-level language", "Medium-level language", "High-level language", "None"],
-    correctAnswer: "Medium-level language"
-  },
-  {
-    question: "ATM means",
-    options: [
-      "Any Time Money",
-      "Auto Truck of Mahindra",
-      "Automated Teller Machine",
-      "None of above"
-    ],
-    correctAnswer: "Automated Teller Machine"
-  },
-  {
-    question: "What is the validity period of a cheque?",
-    options: [
-      "4 months from the date of issue",
-      "3 months from the date of issue",
-      "1 month from the date of issue",
-      "Unlimited"
-    ],
-    correctAnswer: "3 months from the date of issue"
-  },
-  {
-    question: "What is the full meaning of N in UMANG App?",
-    options: ["New", "National", "New-age", "None"],
-    correctAnswer: "New-age"
-  },
+    options: ["Low level language", "Medium level language", "High level language", "None"],
+    correctAnswer: "Medium level language"
+  }
 
-  {
-    question: "Bank having maximum number of branches in India",
-    options: ["Reserve Bank of India", "State Bank of India", "Punjab National Bank", "Bank of Baroda"],
-    correctAnswer: "State Bank of India"
-  }, {
-    question: "Which of the following is the branch of Artificial Intelligence?",
-    options: ["Machine Learning", "Cyber forensics", "Full-Stack Developer", "Network Design"],
-    correctAnswer: "Machine Learning"
-  },
-  {
-    question: "In how many categories is the process of Artificial Intelligence categorized?",
-    options: ["Categorized into 5 categories", "Processes are categorized based on the input provided", "Categorized into 3 categories", "Process is not categorized"],
-    correctAnswer: "Categorized into 3 categories"
-  },
-  {
-    question: "Based on which of the following parameters is Artificial Intelligence categorized?",
-    options: ["Based on functionally only", "Based on capabilities only", "Based on capabilities and functionality", "It is not categorized"],
-    correctAnswer: "Based on capabilities and functionality"
-  },
-  {
-    question: "Which of the following is a component of Artificial Intelligence?",
-    options: ["Learning", "Training", "Designing", "Puzzling"],
-    correctAnswer: "Learning"
-  },
-  {
-    question: "What is the function of an Artificial Intelligence 'Agent'?",
-    options: ["Mapping of goal sequence to an action", "Work without the direct interference of the people", "Mapping of percept sequence to an action", "Mapping of environment sequence to an action"],
-    correctAnswer: "Mapping of percept sequence to an action"
-  },
-
-  {
-    question: "Which of the following machine requires input from the humans but can interpret the outputs themselves?",
-    options: ["Actuators", "Sensor", "Agents", "AI system"],
-    correctAnswer: "AI system"
-  },
-  {
-    question: "Which of the following are the approaches to Artificial Intelligence?",
-    options: ["Applied approach", "Strong approach", "Weak approach", "All of the mentioned"],
-    correctAnswer: "All of the mentioned"
-  },
-  {
-    question: "Face Recognition system is based on which type of approach?",
-    options: ["Weak AI approach", "Applied AI approach", "Cognitive AI approach", "Strong AI approach"],
-    correctAnswer: "Applied AI approach"
-  },
-  {
-    question: "Which of the following is an advantage of artificial intelligence?",
-    options: ["Reduces the time taken to solve the problem", "Helps in providing security", "Has the ability to think hence makes the work easier", "All of the above"],
-    correctAnswer: "All of the above"
-  },
-
-  // Q33
-  {
-    question: "In which type of computer are data represented as discrete signals?",
-    options: ["Digital computer", "Analog computer", "Both digital and analog", "Hybrid computer"],
-    correctAnswer: "Digital computer"
-  },
-  // Q34
-  {
-    question: "Fourth generation language(4GL) is a:",
-    options: ["Procedural language", "Structural language", "Non-procedural language", "All of the above"],
-    correctAnswer: "Non-procedural language"
-  },
 ];
 
 function shuffleArray(array) {
