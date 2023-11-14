@@ -148,67 +148,67 @@ const quizData = [
     },
     {
         question: "What is the full form of NUUP?",
-        options: [" National Unified USSD Platform", "National Unifier USSD Platform", "National Universal USSD Platform", "None"],
-        correctAnswer: " National Unified USSD Platform"
+        options: ["National Unified USSD Platform", "National Unifier USSD Platform", "National Universal USSD Platform", "None"],
+        correctAnswer: "National Unified USSD Platform"
     },
     {
         question: "How many digits are in IMEI?",
-        options: [" 15", "17", "12", "13"],
-        correctAnswer: " 15"
+        options: ["15", "17", "12", "13"],
+        correctAnswer: "15"
     },
     {
         question: "Full form of IMEI?",
-        options: [" International mobile equipment identify", "Internet mobile equipment identify", "International mobile equipment identity", "None"],
+        options: ["International mobile equipment identify", "Internet mobile equipment identify", "International mobile equipment identity", "None"],
         correctAnswer: "International mobile equipment identity"
     },
     {
         question: "Full form of MMID?",
-        options: [" Mobile Money Identifier", "Mobile making identifier", "Money mobile identifier", "Mobile money immediate"],
-        correctAnswer: " Mobile Money Identifier"
+        options: ["Mobile Money Identifier", "Mobile making identifier", "Money mobile identifier", "Mobile money immediate"],
+        correctAnswer: "Mobile Money Identifier"
     },
     {
         question: "How many digits is the MMID number?",
-        options: [" 7", "5", "12", "11"],
-        correctAnswer: " 7"
+        options: ["7", "5", "12", "11"],
+        correctAnswer: "7"
     },
     {
         question: "What is the full form of IVR?",
-        options: [" Inter voice response", "interactive voice response", "interactive violet response", "interactive voice respect"],
+        options: ["Inter voice response", "interactive voice response", "interactive violet response", "interactive voice respect"],
         correctAnswer: "interactive voice response"
     },
     {
         question: "Data encryption is used for",
-        options: [" Security", "Performance", "Storage", "All of above - ऊपर के सभी"],
-        correctAnswer: " Security"
+        options: ["Security", "Performance", "Storage", "All of above - ऊपर के सभी"],
+        correctAnswer: "Security"
     },
     {
         question: "Which one is least Secure?",
-        options: [" Password", "Keycard", "Retina", "Fingerprint"],
-        correctAnswer: " Keycard"
+        options: ["Password", "Keycard", "Retina", "Fingerprint"],
+        correctAnswer: "Keycard"
     },
     {
         question: "Computer viruses are man made",
-        options: [" TRUE", "FALSE"],
-        correctAnswer: " TRUE"
+        options: ["TRUE", "FALSE"],
+        correctAnswer: "TRUE"
     },
     {
         question: "A firewall is a security device deployed at the boundary of corporate intranet to protect it from unauthorized access",
-        options: [" TRUE", "FALSE"],
-        correctAnswer: " TRUE"
+        options: ["TRUE", "FALSE"],
+        correctAnswer: "TRUE"
     },
     {
         question: "Which of the following option is not best described about industry 4.0",
-        options: [" Smart factory", "Speed", "Analytics", "None of above"],
+        options: ["Smart factory", "Speed", "Analytics", "None of above"],
         correctAnswer: "Speed"
     },
     {
         question: "The objective for industry 4.0 is",
-        options: [" Increase efficiency", "Reduced complexity", "Enabled self controlling", "All of above"],
+        options: ["Increase efficiency", "Reduced complexity", "Enabled self controlling", "All of above"],
         correctAnswer: "All of above"
     },
     {
         question: "This is not a benefit of Big Data analytics",
-        options: [" Faster, better decision making", "Cost Reduction", "Manage of Data", "None of the above"],
+        options: ["Faster, better decision making", "Cost Reduction", "Manage of Data", "None of the above"],
         correctAnswer: "Manage of Data"
     },
     {
@@ -233,27 +233,27 @@ const quizData = [
     },
     {
         question: "Which of the following is not an external threat to a computer or a computer network.",
-        options: [" Ignorance", "Trojan horse", "Adware", "Crackers"],
-        correctAnswer: " Ignorance"
+        options: ["Ignorance", "Trojan horse", "Adware", "Crackers"],
+        correctAnswer: "Ignorance"
     },
     {
         question: "When a person is harassed repeatedly by being followed, called, or written to, he or she is the target of",
-        options: [" bullying", "stalking", "identity theft", "phishing"],
+        options: ["bullying", "stalking", "identity theft", "phishing"],
         correctAnswer: "stalking"
     },
     {
         question: "Viruses are",
-        options: [" man made", "naturally occur", "machine made", "all of these"],
-        correctAnswer: " man made"
+        options: ["man made", "naturally occur", "machine made", "all of these"],
+        correctAnswer: "man made"
     },
     {
         question: "Monitors user activity on the internet and transmits that information in the background to someone else",
-        options: [" malware", "spyware", "adware", "none of these"],
+        options: ["malware", "spyware", "adware", "none of these"],
         correctAnswer: "spyware"
     },
     {
         question: "It allows a visited website to store its own information about a user on the user’s computer",
-        options: [" spam", "cookies", "malware", "adware"],
+        options: ["spam", "cookies", "malware", "adware"],
         correctAnswer: "cookies"
     },
     {
@@ -396,8 +396,6 @@ const quizData = [
         options: ["routers which connect intranet to internet", "bridges used in an intranet", "expensive modem", "user’s application programs"],
         correctAnswer: "routers which connect intranet to internet"
     },
-
-
     {
         question: "DES stands for…",
         options: ["data encryption standard", "data elimination standard", "data encapsulation standard", "none of these"],
@@ -489,8 +487,6 @@ const quizData = [
         options: ["electronic code book", "electronic cipher book", "C electronic clear book", "none of these"],
         correctAnswer: "electronic code book"
     }
-
-
 ];
 
 function shuffleArray(array) {
