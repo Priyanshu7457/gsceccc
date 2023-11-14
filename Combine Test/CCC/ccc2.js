@@ -1,337 +1,224 @@
 const quizData = [
-
-
     {
-        question: "Shortcut key to decrease column width in LibreOffice Calc?",
-        options: ["Alt+Right Arrow", "Alt+Up Arrow", "Alt+Left Arrow", "Alt+Down Arrow"],
-        correctAnswer: "Alt+Left Arrow"
+        question: "Multiple desktops can be created using:",
+        options: ["Taskbar icon", "Task view icon", "Store icon", "Task review icon"],
+        correctAnswer: "Task view icon"
     },
     {
-        question: "Which language is used in the fifth generation?",
-        options: ["Assembly language", "High-level language", "Artificial language", "None of these"],
-        correctAnswer: "Artificial language"
+        question: "Full form of TFT?",
+        options: ["Tight film transistor", "Thin film transistor", "Think film transistor", "None of these"],
+        correctAnswer: "Thin film transistor"
     },
     {
-        question: "In normal view, the cursor changes from the arrow to?",
-        options: ["I-beam", "U-beam", "Shift+F4", "L-beam"],
-        correctAnswer: "I-beam"
-    },
-    {
-        question: "In which menu option push button in libre office writer",
-        options: ["form", "help", "window", "tools"],
-        correctAnswer: "form",
-    },
-
-    {
-        question: "Who invented IC?",
-        options: ["Charles Babbage", "JS Kilby and Robert Noyce", "Mark Waugh", "None of these"],
-        correctAnswer: "JS Kilby and Robert Noyce"
-    },
-    // Q44
-
-
-
-    {
-        question: "What was the old name of Twitter?",
-        options: ["Twter", "Twttr", "Twiter", "None of these"],
-        correctAnswer: "Twttr"
-    },
-
-
-
-
-
-    //   Q30
-    {
-        question:
-            "Which of the following options is not an option in the print dialog box?",
+        question: "What characteristics of read-only memory (ROM) makes it useful?",
         options: [
-            "print the selected pages",
-            "set the paper orientation",
-            "collate copies",
-            "print selected text",
+            "ROM information can be easily updated",
+            "ROM provides very large amounts of inexpensive data storage",
+            "ROM chips are easily swapped between different brands of computers",
+            "Data in ROM is non-volatile, that is, it remains there even without electrical power"
         ],
-        correctAnswer: "print selected text",
-    },
-
-    {
-        question: "Shortcut key for duplicating shapes in LibreOffice?",
-        options: ["Shift+F2", "Shift+F3", "Shift+F4", "Shift+F1"],
-        correctAnswer: "Shift+F3"
-    },
-    //   Q33
-    {
-        question: "In which menu option mail merge in libre office writer",
-        options: ["file", "format", "edit", "tools"],
-        correctAnswer: "tools",
+        correctAnswer: "Data in ROM is non-volatile, that is, it remains there even without electrical power"
     },
     {
-        question: "In which menu option macros in libre office writer",
-        options: ["file", "format", "tools", "edit"],
-        correctAnswer: "tools",
+        question: "1000 gigabytes is equal to?",
+        options: ["1 PB", "1 ZB", "1 TB", "1 MB"],
+        correctAnswer: "1 TB"
     },
     {
-        question: "What is a web crawler also called as?",
-        options: ["Link Directory", "Web Spider", "Search Optimizer", "Web Manager"],
-        correctAnswer: "Web Spider"
+        question: "Apple company used chips from which company for its computer?",
+        options: ["Motorola", "Intel", "Both a & b", "None of these"],
+        correctAnswer: "Motorola"
     },
     {
-        question:
-            "In which menu option donate to libre office in libre office writer",
-        options: ["file", "help", "window", "edit"],
-        correctAnswer: "help",
+        question: "Which of the following is an essential file of an MS-DOS boot disk?",
+        options: ["COMMAND.COM", "START.COM", "TREE.COM", "VER.COM"],
+        correctAnswer: "COMMAND.COM"
     },
-
+    {
+        question: "A software that is easy to use is considered to be",
+        options: ["User-happy", "User-simple", "User-friendly", "None of the above"],
+        correctAnswer: "User-friendly"
+    },
+    {
+        question: "Which type of command requires additional files to perform specific operations?",
+        options: ["Internal commands", "External commands", "Valuable commands", "Primary commands"],
+        correctAnswer: "External commands"
+    },
+    {
+        question: "Which command is used to see the version of the operating system?",
+        options: ["Vol", "Version", "Ver", "None of the above"],
+        correctAnswer: "Ver"
+    },
+    {
+        question: "Which of the following is not a multitasking operating system?",
+        options: ["Windows", "Linux", "Win NT", "DOS"],
+        correctAnswer: "DOS"
+    },
+    {
+        question: "Which font size is not available in the list in LibreOffice Writer?",
+        options: ["15", "16", "19", "20"],
+        correctAnswer: "19"
+    },
+    {
+        question: "What is the default font color in LibreOffice Writer?",
+        options: ["Yellow", "Red", "Green", "Blue"],
+        correctAnswer: "Red" // Assuming black is the default color
+    },
+    {
+        question: "What is the default highlight color in LibreOffice Writer?",
+        options: ["Yellow", "Red", "Green", "Blue"],
+        correctAnswer: "Yellow" // Assuming yellow is the default color
+    },
+    {
+        question: "What is the extension of LibreOffice Writer?",
+        options: [".odp", ".odt", ".ods", ".ott"],
+        correctAnswer: ".odt"
+    },
+    {
+        question: "Wizard option available in which menu in LibreOffice Writer?",
+        options: ["File", "View", "Edit", "Insert"],
+        correctAnswer: "File"
+    },
+    {
+        question: "Shortcut key to insert function wizard in LibreOffice Calc?",
+        options: ["Ctrl+F2", "Ctrl+F7", "Ctrl+F1", "Ctrl+F11"],
+        correctAnswer: "Ctrl+F2"
+    },
+    {
+        question: "Shortcut key for format cells in LibreOffice Calc?",
+        options: ["Ctrl+2", "Ctrl+1", "Ctrl+5", "Ctrl+3"],
+        correctAnswer: "Ctrl+1"
+    },
+    {
+        question: "Shortcut key to insert cells in LibreOffice Calc?",
+        options: ["Ctrl++", "Ctrl+-", "Ctrl+=", "Ctrl+0"],
+        correctAnswer: "Ctrl++"
+    },
+    {
+        question: "Maximum number of rows in LibreOffice Calc?",
+        options: ["1048576", "1048580", "1084562", "1048575"],
+        correctAnswer: "1048576"
+    },
     {
         question: "Maximum number of columns in LibreOffice Calc?",
         options: ["1030", "1024", "1058", "1000"],
         correctAnswer: "1024"
     },
-
-
-
-
-
-
-
-
-
-
     {
-        question: "Which of the following is not a component of e-governance?",
-        options: ["Political components", "Technological component", "Service component", "Financial components"],
-        correctAnswer: "Financial components"
-    },
-
-    {
-        question: "To create a new email, click on which button?",
-        options: ["Inbox", "Sent box", "Compose", "New mail"],
-        correctAnswer: "Compose"
+        question: "Full form of SEO?",
+        options: ["SEARCH ENGINE OPTIMIZATION", "SERVER ENGINE OPTIMAL", "BOTH A & B", "NONE OF THESE"],
+        correctAnswer: "SEARCH ENGINE OPTIMIZATION"
     },
     {
-        question: "Unwanted E-mail is called as",
-        options: ["Trash", "Spam", "Both A & B", "None of these"],
-        correctAnswer: "Both A & B"
-    },
-
-
-
-
-
-    {
-        question: "What is the maximum limit of characters in a tweet on Twitter?",
-        options: ["280", "140", "560", "110"],
-        correctAnswer: "280"
-    },
-
-    {
-        question: "Which of the following is not an example of instant messaging?",
-        options: ["WhatsApp", "Facebook Messenger", "Telegram", "E-mail"],
-        correctAnswer: "E-mail"
+        question: "Full form of IMEI?",
+        options: ["INTERNATIONAL MOBILE EQUIPMENT IDENTITY", "INTERNATIONAL MOBILE ENABLE IDENTITY", "INTERNETWORK MOBILE EQUIPMENT IDENTITY", "NONE OF THESE"],
+        correctAnswer: "INTERNATIONAL MOBILE EQUIPMENT IDENTITY"
     },
     {
-        question: "Who is the father of Telegram?",
-        options: ["Jack Dorsey", "Elon Musk", "Mark Zuckerberg", "Pavel Durov & Nikolai"],
-        correctAnswer: "Pavel Durov & Nikolai"
+        question: "Full form of FTP?",
+        options: ["FILE TEXT PROTOCOL", "FILE TRANSFER PROTOCOL", "FILE TRIBAL PROTOCOL", "NONE OF THESE"],
+        correctAnswer: "FILE TRANSFER PROTOCOL"
     },
     {
-        question: "A person who writes a blog or weblog is known as:",
-        options: ["Webmaster", "Communicator", "Blogger", "None of these"],
-        correctAnswer: "Blogger"
+        question: "Full form of HTML?",
+        options: ["HYPERTEXT MARKUP LANGUAGE", "HYPERTEXT MAKER LANGUAGE", "HYPERTEXT MARGIN LANGUAGE", "NONE OF THESE"],
+        correctAnswer: "HYPERTEXT MARKUP LANGUAGE"
     },
     {
-        question: "If you are buying a product from Flipkart, Amazon, and Snapdeal, this type of business model is called:",
-        options: ["B2B", "C2C", "B2C", "G2G"],
-        correctAnswer: "B2C"
-    },
-
-
-    {
-        question: "Maximum number of sheet limit in LibreOffice Calc?",
-        options: ["10000", "36000", "32000", "Option 4"],
-        correctAnswer: "10000"
+        question: "Web search engine stores information about many web pages by a?",
+        options: ["WEB CRAWLER", "WEB ORGANIZER", "WEB ROUTER", "WEB INDEXER"],
+        correctAnswer: "WEB CRAWLER"
     },
     {
-        question: "To open downloads in Google Chrome, which key combination is used?",
-        options: ["CTRL + R", "CTRL + Z", "CTRL + T", "CTRL + M"],
-        correctAnswer: "CTRL + J"
+        question: "Usually, the signature appears at which place in the email?",
+        options: ["At the end", "In the beginning", "In the middle", "None of the above"],
+        correctAnswer: "At the end"
     },
     {
-        question: "Shortcut key to increase column width in LibreOffice Calc?",
-        options: ["Alt+Right Arrow", "Alt+Up Arrow", "Alt+Left Arrow", "Alt+Down Arrow"],
-        correctAnswer: "Alt+Right Arrow"
-    },
-
-    {
-        question: "In LibreOffice Calc, which is not a valid cell address?",
-        options: ["B6", "6B", "A1", "G7"],
-        correctAnswer: "6B"
+        question: "What is the minimum age to join Facebook?",
+        options: ["18 years", "15 years", "13 years", "10 years"],
+        correctAnswer: "13 years"
     },
     {
-        question: "Shortcut key to apply currency format with two decimal places in LibreOffice Calc?",
-        options: ["Ctrl+Shift+$", "Ctrl+Shift+%", "Ctrl+Shift+&", "Ctrl+Shift+~"],
-        correctAnswer: "Ctrl+Shift+$"
-    },
-
-
-
-
-    {
-        question: "Who Among The Following Is The Founder Of Credit Cards?",
-        options: ["Kevin Duffy", "Reid Halfman", "John Biggins", "None of These"],
-        correctAnswer: "John Biggins"
-    },
-    {
-        question: "What Is The Full Form Of MMID?",
-        options: ["Mobile Money Identification", "Mobile Money Identifier", "Mobile Money Information", "None of these"],
-        correctAnswer: "Mobile Money Identifier"
-    },
-    {
-        question: "Name Of Bhim UPI Is Related To Mahatma Gandhi?",
+        question: "Email is elegant mail.",
         options: ["TRUE", "FALSE"],
         correctAnswer: "FALSE"
     },
     {
-        question: "Traditional AI techniques still used today include all of the following EXCEPT:",
-        options: ["Searching", "Heuristics", "Pattern recognition", "Parallel processing"],
-        correctAnswer: "Parallel processing"
+        question: "Twitter is an example of",
+        options: ["E-mail System", "System application", "Social Networking", "Web URL"],
+        correctAnswer: "Social Networking"
     },
     {
-        question: "USSD was launched by?",
-        options: ["RBI", "SBI", "Bank of Baroda", "Union Bank of India"],
-        correctAnswer: "Union Bank of India"
-    },
-
-    {
-        question: "What is one advantage of the online system for paying bills?",
-        options: ["You can pay faster", "You can save money", "You can track transactions in real-time", "All of the above"],
-        correctAnswer: "All of the above"
+        question: "Twitter is also known as",
+        options: ["Microblogging", "System application", "Browser", "Web URL"],
+        correctAnswer: "Microblogging"
     },
     {
-        question: "Which one of the following cloud concepts is related to sharing and pooling the resources?",
-        options: ["Polymorphism", "Virtualization", "Abstraction", "None of the mentioned"],
-        correctAnswer: "Virtualization"
+        question: "Choose the correct Instant Messaging app",
+        options: ["Twitter", "Linkedin", "Telegram", "Instagram"],
+        correctAnswer: "Telegram"
     },
     {
-        question: "The full name of CVV is Card Verification Value?",
+        question: "ORS stands for",
+        options: ["Open Resource System", "Online Registration System", "Open Reform System", "Open Repair System"],
+        correctAnswer: "Online Registration System"
+    },
+    {
+        question: "E-payment can be done through UPI.",
         options: ["TRUE", "FALSE"],
         correctAnswer: "TRUE"
     },
     {
-        question: "DigiLocker cannot be used to?",
-        options: ["Share documents", "Store documents", "Verify documents", "Buy documents"],
-        correctAnswer: "Buy documents"
+        question: "Who among the following is the founder of Credit Cards?",
+        options: ["Kevin Duffy", "Reid Halfman", "John Biggins", "None of These"],
+        correctAnswer: "John Biggins"
     },
     {
-        question: "Which is not required for accessing the service of the POS system?",
-        options: ["PIN", "Internet", "Debit/Credit Card", "Account Number"],
-        correctAnswer: "Account Number"
+        question: "What is the full form of MMID?",
+        options: ["Mobile Money Identification", "Mobile Money Identifier", "Mobile Money Information", "None of these"],
+        correctAnswer: "Mobile Money Identifier"
     },
     {
-        question: "From what date have all banks started to share their ATM cost for the transaction?",
-        options: ["September 1, 2009", "January 1, 2009", "April 1, 2009", "July 1, 2009"],
-        correctAnswer: "April 1, 2009"
+        question: "For secure electronic data interchange (EDI) transmission on the internet used….",
+        options: ["TCP/IP", "MIME", "S/MIME", "None of above"],
+        correctAnswer: "S/MIME"
     },
     {
-        question: "Utility of e-wallet is not the same as?",
-        options: ["RuPay Card", "Debit Card", "Credit Card", "Cash Card"],
-        correctAnswer: "Credit Card"
+        question: "_______ gets propagated through networks and technologies like SMS, Bluetooth, wireless medium, USBs, and infrared to affect mobile phones.",
+        options: ["Worms", "Antivirus", "Malware", "Multimedia Files"],
+        correctAnswer: "Malware"
     },
     {
-        question: "Who started the ATM card first?",
-        options: ["SBI", "HSBC", "HDFC", "ICICI"],
-        correctAnswer: "HSBC"
-    },
-
-    {
-        question: "How many digits are there in CVV of ATM and Credit Card?",
-        options: ["6 digits", "4 digits", "3 digits", "5 digits"],
-        correctAnswer: "3 digits"
-    },
-    {
-        question: "What is meant by Aadhaar seeding?",
-        options: [
-            "Linking of Aadhaar with Bank account",
-            "Duplicate issuance of Aadhaar",
-            "Transfer of Aadhaar",
-            "None of the above"
-        ],
-        correctAnswer: "Linking of Aadhaar with Bank account"
-    },
-    {
-        question: "Hackers cannot do which of the following after compromising your phone?",
-        options: ["Shoulder surfing", "Steal your information", "Use your app credentials", "Accessing your voice mail"],
-        correctAnswer: "Shoulder surfing"
-    },
-    {
-        question: "Mobile security is also known as __________",
-        options: ["Wireless security", "OS Security", "Cloud security", "Database security"],
-        correctAnswer: "Wireless security"
-    },
-    {
-        question: "Transmits time and response time measure the ……… of the network.",
-        options: ["Performance", "Reliability", "Security", "Longevity"],
-        correctAnswer: "Performance"
-    },
-    {
-        question: "Encryption technique improves a network’s",
-        options: ["Performance", "Reliability", "Security", "Longevity"],
-        correctAnswer: "Security"
-    },
-    {
-        question: "A ………… illicitly introduced code that damages a network device.",
-        options: ["Protocol", "Virus", "Catastrophe", "Medium"],
-        correctAnswer: "Virus"
-    },
-    {
-        question: "When a server goes down, this is a network _______ issue.",
-        options: ["Performance", "Reliability", "Security", "None of the above"],
-        correctAnswer: "Reliability"
-    },
-    {
-        question: "When an earthquake severs a fiber-optic cable, this is a network _______ issue",
-        options: ["Performance", "Reliability", "Security", "None of the above"],
-        correctAnswer: "Performance"
+        question: "Data Encryption Standard (DES) was designed by?",
+        options: ["HP", "Sony", "Intel", "IBM"],
+        correctAnswer: "IBM"
     },
 
     {
-        question: "When a network upgrades to a transmission medium with a data rate that is 100 times faster, this improves the _______ of the network.",
-        options: ["Performance", "Reliability", "Security", "None of the above"],
-        correctAnswer: "Performance"
+        question: "How many keys are used for asymmetric-key cipher?",
+        options: ["1 Key", "2 Keys", "3 Keys", "4 Keys"],
+        correctAnswer: "2 Keys"
     },
     {
-        question: "A company doubles the number of nodes on its network. The greatest impact will be on the _______ of the network",
-        options: ["Performance", "Reliability", "Security", "none of the above"],
-        correctAnswer: "Performance"
-    },
-
-    {
-        question: "A company changes its network configuration so that only one router instead of two can access the Internet. The greatest impact will be on the _______ of the network",
-        options: ["Performance", "Reliability", "Security", "none of the above"],
-        correctAnswer: "Security"
+        question: "NOSQL stands for...",
+        options: ["Negative SQL", "None Opend SQL", "Not only SQL", "None of these"],
+        correctAnswer: "Not only SQL"
     },
     {
-        question: "A company requires its users to change passwords every month. This improves the _______ of the network",
-        options: ["Performance", "Reliability", "Security", "none of the above"],
-        correctAnswer: "Security"
-    },
-
-    {
-        question: "A company buys a computer to serve as a backup to its main server. This will mainly affect the _______ of the network.",
-        options: ["Performance", "Reliability", "Security", "None of the above"],
-        correctAnswer: "Reliability"
-    },
-
-
-    {
-        question: "A company requires each employee to power off his computer at the end of the day. This rule was implemented to make the network _______",
-        options: ["perform better", "more reliable", "more secure", "more error-free"],
-        correctAnswer: "more secure"
+        question: "Robotics is also a major field related to Artificial Intelligence.",
+        options: ["TRUE", "FALSE"],
+        correctAnswer: "TRUE"
     },
     {
-        question: "What Security tradeoff occurs while using IDS (Intrusion Detection System)?",
-        options: ["Change in permission", "Login Failures", "Change in privilege", "Performance degradation"],
-        correctAnswer: "Performance degradation"
+        question: "Which of the following options is not best described about Industry 4.0?",
+        options: ["Smart factory", "Speed", "Analytics", "None of above"],
+        correctAnswer: "Speed"
+    },
+    {
+        question: "IOT stands for",
+        options: ["Intranet of Things", "Industry of Things", "Internet of Things", "None of above"],
+        correctAnswer: "Internet of Things"
     },
     {
         question: "The objective for Industry 4.0 is",
@@ -344,12 +231,262 @@ const quizData = [
         correctAnswer: "Machine to Machine (M2M)"
     },
     {
+        question: "An electronic page in a presentation is called as…",
+        options: ["Page", "E-page", "Slide", "E-slide"],
+        correctAnswer: "Slide"
+    },
+    {
+        question: "LibreOffice Impress is called…",
+        options: ["Word processor", "Writer", "Calc", "Presentation"],
+        correctAnswer: "Presentation"
+    },
+    {
+        question: "A set of pre-designed formats of text or color scheme is called…",
+        options: ["Template", "Slide", "Schema", "Presentation scheme"],
+        correctAnswer: "Template"
+    },
+    {
+        question: "Which one of the following is presentation graphics software?",
+        options: ["Word processor", "Writer", "Calc", "Impress"],
+        correctAnswer: "Impress"
+    },
+    {
+        question: "The maximum number of slides that can be printed on an A4 Size page in LibreOffice Impress is...",
+        options: ["1", "4", "5", "9"],
+        correctAnswer: "9"
+    },
+    {
+        question: "Arrange memory units in ascending order.",
+        options: ["ZB, KB, GB, MB", "KB, MB, GB, ZB", "GB, MB, KB, ZB", "MB, KB, ZB, GB"],
+        correctAnswer: "KB, MB, GB, ZB"
+    },
+    {
+        question: "In which year did DVDs come into the market?",
+        options: ["1999", "1982", "1995", "1991"],
+        correctAnswer: "1995"
+    },
+    {
+        question: "Which device was used in the first generation of computers?",
+        options: ["IC", "Transistor", "Vacuum Tubes", "None of these"],
+        correctAnswer: "Vacuum Tubes"
+    },
+    {
+        question: "What is the correct sequence of a working computer?",
+        options: ["Output, Storage, Input, Process", "Process, Output, Storage, Input", "Input, Process, Output, Storage", "Storage, Input, Process, Output"],
+        correctAnswer: "Input, Process, Output, Storage"
+    },
+    {
+        question: "When you start up the computer, the screen at which the BIOS version, manufacturer, and data are displayed is called?",
+        options: ["Kernel Loading", "Power On Self Test (POST)", "System Configuration", "Bootstrap"],
+        correctAnswer: "Power On Self Test (POST)"
+    },
+    {
+        question: "Linux is a(n) … operating system.",
+        options: ["Open source", "Microsoft", "Windows", "Mac"],
+        correctAnswer: "Open source"
+    },
+    {
+        question: "Which of the following is not an operating system?",
+        options: ["DOS", "Linux", "Windows", "Oracle"],
+        correctAnswer: "Oracle"
+    },
+    {
+        question: "The ….. program compresses large files into a smaller file.",
+        options: ["WinZip", "WinShrink", "WinStyle", "None of above"],
+        correctAnswer: "WinZip"
+    },
+    {
+        question: "What is the full form of PDF?",
+        options: ["Portable Document File", "Portable Data Format", "Portable Document Format", "Partial Data File"],
+        correctAnswer: "Portable Document Format"
+    },
+    {
+        question: "Which of the following is software whose source code is viewable by the user?",
+        options: ["Open source", "Both", "Half open half closed", "Off"],
+        correctAnswer: "Open source"
+    },
+    {
+        question: "How many selection modes are available in LibreOffice Writer?",
+        options: ["3", "4", "5", "9"],
+        correctAnswer: "5"
+    },
+    {
+        question: "The shortcut key Ctrl+[ in LibreOffice Writer is used to decrease the font size. By default, the size of the font is decreased by how much if we press the shortcut key Ctrl+[?",
+        options: ["4", "2", "3", "1"],
+        correctAnswer: "2"
+    },
+    {
+        question: "How to insert page border in LibreOffice Writer?",
+        options: ["Insert -> Page Border", "View -> Page Border", "Format -> Page Border", "Edit -> Page Border"],
+        correctAnswer: "Format -> Page Border"
+    },
+    {
+        question: "In LibreOffice Writer, which of the following options shows the available choices in hyperlink?",
+        options: ["Internet, Mail, Document, New Document", "Place in the Document, New Document", "Place in this Document, Mail, Document, New Document", "Internet, Mail"],
+        correctAnswer: "Internet, Mail, Document, New Document"
+    },
+    {
+        question: "While formatting the shadow style of a table in LibreOffice Writer, which one of the following is not the available position?",
+        options: ["Cast shadow to top left", "Cast shadow to top bottom", "Cast shadow to bottom right", "Cast shadow to top right"],
+        correctAnswer: "Cast shadow to top bottom"
+    },
+    {
+        question: "Last column address in LibreOffice Calc?",
+        options: ["AMI", "AMO", "AMJ", "AMU"],
+        correctAnswer: "AMJ"
+    },
+    {
+        question: "By default, how many sheets in LibreOffice Calc?",
+        options: ["2", "1", "4", "6"],
+        correctAnswer: "1"
+    },
+    {
+        question: "Maximum number of sheet limit in LibreOffice Calc?",
+        options: ["10000", "36000", "32000", "20000"],
+        correctAnswer: "32000"
+    },
+    {
+        question: "Shortcut key to increase column width in LibreOffice Calc?",
+        options: ["Alt+Right Arrow", "Alt+Up Arrow", "Alt+Left Arrow", "Alt+Down Arrow"],
+        correctAnswer: "Alt+Right Arrow"
+    },
+    {
+        question: "Shortcut key to decrease column width in LibreOffice Calc?",
+        options: ["Alt+Right Arrow", "Alt+Up Arrow", "Alt+Left Arrow", "Alt+Down Arrow"],
+        correctAnswer: "Alt+Left Arrow"
+    },
+    {
+        question: "Which Menu of LibreOffice Impress found slide transition command available?",
+        options: ["File", "View", "Format", "Edit"],
+        correctAnswer: "View"
+    },
+    {
+        question: "In LibreOffice Impress, in order to see all the slides on one screen, use...",
+        options: ["View, Slide", "View, Master", "View, Slide Sorter", "View, Slide Show"],
+        correctAnswer: "View, Slide Sorter"
+    },
+    {
+        question: "Which menu command is used to create a text box on a slide?",
+        options: ["Tool/Text box", "View/Text box", "Insert/Text box", "Format/Text box"],
+        correctAnswer: "Insert/Text box"
+    },
+    {
+        question: "Which shortcut key is used for a slide show from the current slide?",
+        options: ["F5", "Shift+F5", "Ctrl+F5", "None of the Above"],
+        correctAnswer: "Shift+F5"
+    },
+    {
+        question: "We use ............... in our slides to hold text, clip art, and charts.",
+        options: ["Text box", "Drawing box", "Placeholders", "Window"],
+        correctAnswer: "Placeholders"
+    },
+    {
+        question: "Network topology for a large network is?",
+        options: ["STAR", "TREE", "BUS", "IRREGULAR"],
+        correctAnswer: "STAR"
+    },
+    {
+        question: "What is the format of an IP address?",
+        options: ["34 bit", "48 bit", "32 bit", "64 bit"],
+        correctAnswer: "32 bit"
+    },
+    {
+        question: "A web crawler is also called as?",
+        options: ["Link Directory", "Web Spider", "Search Optimizer", "Web Manager"],
+        correctAnswer: "Web Spider"
+    },
+    {
+        question: "Which of the following software could be used to build a website?",
+        options: ["PowerPoint", "Excel", "ERP", "Dreamweaver"],
+        correctAnswer: "Dreamweaver"
+    },
+    {
+        question: "Wi-Fi Alliance certifies products based on the",
+        options: ["IEEE 802.5", "IEEE 802.9", "IEEE 802.3", "IEEE 802."],
+        correctAnswer: "IEEE 802.5"
+    },
+    {
+        question: "CC in email stands for",
+        options: ["Carbon Catch", "Carbon Copy", "Consider Copy", "Carbon Coupon"],
+        correctAnswer: "Carbon Copy"
+    },
+    {
+        question: "Instagram is a",
+        options: ["Educational website", "Search Engine", "Social Networking website", "Shopping website"],
+        correctAnswer: "Social Networking website"
+    },
+    {
+        question: "The place where all types of email messages are organized is called what?",
+        options: ["Inbox", "Mailbox", "Outbox", "None of These"],
+        correctAnswer: "Mailbox"
+    },
+    {
+        question: "Which of the following contains the body of the email message?",
+        options: ["Image", "Both Image And Text", "Only Image", "Only Text"],
+        correctAnswer: "Both Image And Text"
+    },
+    {
+        question: "Email addresses separate the username from the ISP using the symbol",
+        options: ["&", "@", "$", "%"],
+        correctAnswer: "@"
+    },
+    {
+        question: "Name of Bhim UPI is related to Mahatma Gandhi?",
+        options: ["TRUE", "FALSE"],
+        correctAnswer: "FALSE"
+    },
+    {
+        question: "Traditional AI techniques still used today include all of the following EXCEPT:",
+        options: ["Searching", "Heuristics", "Pattern Recognition", "Parallel Processing"],
+        correctAnswer: "Parallel Processing"
+    },
+    {
+        question: "USSD was launched by?",
+        options: ["RBI", "SBI", "Bank of Baroda", "Union Bank of India"],
+        correctAnswer: "Union Bank of India"
+    },
+    {
+        question: "What is one advantage of the online system for paying bills?",
+        options: ["You can pay faster", "You can save money", "You can track transactions in real-time", "All of the above"],
+        correctAnswer: "All of the above"
+    },
+    {
+        question: "Which one of the following cloud concepts is related to sharing and pooling the resources?",
+        options: ["Polymorphism", "Virtualization", "Abstraction", "None of the mentioned"],
+        correctAnswer: "Virtualization"
+    },
+    {
+        question: "Which of the following software could be used to build a website?",
+        options: ["Power Points", "Excel", "ERP", "Dreamweaver"],
+        correctAnswer: "Dreamweaver"
+    },
+    {
+        question: "Which device is used to backup the data?",
+        options: ["System software", "Network drive", "Keyboard", "Printer"],
+        correctAnswer: "Network drive"
+    },
+    {
+        question: "Which of the following can be treated as private communication through encryption?",
+        options: ["Cryptomessaging", "Crypto currency", "Random Messaging", "Cryptography"],
+        correctAnswer: "Cryptomessaging"
+    },
+    {
+        question: "The process of identifying objects and shapes in a photograph, drawing, video, or other visual images.",
+        options: ["Pattern Recognition", "Image analysis", "OCR", "Fuzzy logic"],
+        correctAnswer: "Image analysis"
+    },
+    {
+        question: "The ability to recover and read deleted or damaged files from a criminal's computer is an example of a low Enforcement specialty called:",
+        options: ["Robotics", "Simulation", "Computer forensics", "Animation"],
+        correctAnswer: "Computer forensics"
+    },
+    {
         question: "What was the name of the first recognized IoT device?",
         options: ["Smart Watch", "ATM", "Radio", "Video Game"],
         correctAnswer: "ATM"
     },
     {
-        question: ".......... is being used by the Internet of Things?",
+        question: "......... is being used by the Internet of Things?",
         options: ["Radio identification technology", "Satellite", "Cable", "Broadband"],
         correctAnswer: "Radio identification technology"
     },
@@ -363,220 +500,16 @@ const quizData = [
         options: ["Data Analytics", "Descriptive Analytics", "In-memory Analytics", "Predictive Analytics"],
         correctAnswer: "Data Analytics"
     },
-
-
     {
         question: "The ......... cloud infrastructure is operated for the exclusive use of an organization?",
         options: ["Public", "Private", "Community", "All of the mentioned"],
         correctAnswer: "Private"
-    },
-    {
-        question: "...... provides virtual machines, virtual storage, virtual infrastructure, and other hardware assets?",
-        options: ["IaaS", "SaaS", "PaaS", "All of the mentioned"],
-        correctAnswer: "IaaS"
-    },
-    {
-        question: "How many types of service models are mainly present in the cloud?",
-        options: ["1", "2", "3", "4"],
-        correctAnswer: "3"
-    },
-    {
-        question: "Which of these is not a major type of cloud computing usage?",
-        options: ["Hardware as a service", "Platform as a service", "Software as a service", "Infrastructure as a service"],
-        correctAnswer: "Hardware as a service"
-    },
-    {
-        question: "What are the two main types of Virtual Reality?",
-        options: ["Fully immersive and non-immersive", "VR and AR", "Reality and Unreality", "Oculus Rift and HTC Vive"],
-        correctAnswer: "Fully immersive and non-immersive"
-    },
-    {
-        question: "What is the term used for describing the judgmental or commonsense part of problem solving?",
-        options: ["Heuristic", "Critical", "Value-based", "Analytical"],
-        correctAnswer: "Heuristic"
-    },
-    {
-        question: "The characteristics of the computer system capable of thinking, reasoning, and learning is known as?",
-        options: ["Machine intelligence", "Human intelligence", "Artificial intelligence", "Virtual intelligence"],
-        correctAnswer: "Artificial intelligence"
-    },
-    {
-        question: "The field that investigates the mechanics of human intelligence is?",
-        options: ["History", "Cognitive science", "Psychology", "Sociology"],
-        correctAnswer: "Cognitive science"
-    },
-    {
-        question: "What is the name of the computer program that simulates the thought processes of human beings?",
-        options: ["Human logic", "Expert reason", "Expert system", "Personal information"],
-        correctAnswer: "Expert system"
-    },
-    {
-        question: "Who is considered to be the 'father' of artificial intelligence?",
-        options: ["Fisher Ada", "John McCarthy", "Allen Newell", "Alan Turing"],
-        correctAnswer: "John McCarthy"
-    },
-    {
-        question: "DARPA, the agency that has funded a great deal of American AI research, is part of the Department of _______?",
-        options: ["Defense", "Energy", "Education", "Justice"],
-        correctAnswer: "Defense"
-    },
-    {
-        question: "The conference that launched the AI revolution in 1956 was held at?",
-        options: ["Dartmouth", "Harvard", "New York", "Stanford"],
-        correctAnswer: "Dartmouth"
-    },
-    {
-        question: "Bitcoin is based on ............ blockchain?",
-        options: ["Private", "Public", "Public permissioned", "Permissioned"],
-        correctAnswer: "Public"
-    },
-    {
-        question: "In blockchain, blocks are linked........ ?",
-        options: ["Backward to the previous block", "Forward to the next block", "Not linked with each other", "Both directions"],
-        correctAnswer: "Backward to the previous block"
-    },
-    {
-        question: "Where do you store your cryptocurrency?",
-        options: ["Bank account", "Floppy disk", "Crypto Wallet", "In your pocket"],
-        correctAnswer: "Crypto Wallet"
-    },
-    {
-        question: "What is Meghdoot?",
-        options: ["Mobile Seva", "Govt. Cloud Service", "Online Seva", "Cloud center service"],
-        correctAnswer: "Govt. Cloud Service"
-    },
-
-    {
-        question: "Who invented the term Internet of Things?",
-        options: ["Bill Gates", "Kevin Ashton", "Steve Jobs", "McDonald"],
-        correctAnswer: "Kevin Ashton"
-    },
-
-    {
-        question: "Total elements in the Open IoT Architecture is __",
-        options: ["5", "6", "7", "8"],
-        correctAnswer: "7"
-    },
-    {
-        question: "What are additional plugins in Google Chrome named as?",
-        options: ["Chrome-Plugins", "Addons", "Extensions", "Plugware"],
-        correctAnswer: "Extensions"
-    },
-    {
-        question: "Which of the following topologies cannot be used for a local area network?",
-        options: ["Bus", "Star", "None of the options", "Ring"],
-        correctAnswer: "None of the options"
-    },
-    {
-        question: "What is the physical or logical arrangement of a network referred to as?",
-        options: ["Topology", "Networking", "Routing", "Switching"],
-        correctAnswer: "Topology"
-    },
-
-
-    {
-        question: "Which memory is called the waiting room of the computer?",
-        options: ["RAM", "ROM", "Both RAM and ROM", "None of these"],
-        correctAnswer: "RAM"
-    },
-    // Q45
-    {
-        question: "Last column address in LibreOffice Calc?",
-        options: ["AMI", "AMO", "AMJ", "AMU"],
-        correctAnswer: "AMJ"
-    },
-    {
-        question: "Starting a computer is known as:",
-        options: ["Booting", "Clotting", "Smoothing", "None of these"],
-        correctAnswer: "Booting"
-    },
-    {
-        question: "In which menu option find and replace in libre office writer",
-        options: ["file", "format", "edit", "start"],
-        correctAnswer: "edit",
-    },
-    {
-        question: "What is slang language?",
-        options: ["Standard vocabulary", "Non-standard vocabulary", "Fancy words", "Formal language"],
-        correctAnswer: "Non-standard vocabulary"
-    },
-    {
-        question: "For getting an internet connection, we need to consult?",
-        options: ["Laboratory", "Organizer", "ISP", "None of the options"],
-        correctAnswer: "ISP"
-    },
-    // Q47
-    {
-        question: "What are the two types of memory?",
-        options: ["Primary & Secondary", "Low and High", "Both Primary and Secondary", "None of these"],
-        correctAnswer: "Primary & Secondary"
-    },
-    {
-        question: "Which function is used to show the current date in a cell in LibreOffice Calc?",
-        options: ["TODAY()", "MAX()", "SUM()", "NOW()"],
-        correctAnswer: "TODAY()"
-    },
-    {
-        question: "In which menu option wizard in libre office writer",
-        options: ["file", "format", "edit", "insert"],
-        correctAnswer: "file",
-    },
-    // Q48
-    {
-        question: "What is restarting a previously started computer called?",
-        options: ["Booting", "Clotting", "Warm booting", "Cold booting"],
-        correctAnswer: "Warm booting"
-    },
-    // Q49
-    {
-        question: "Summation is one of the functions in LibreOffice Calc to perform the summation of all the arguments passed in this function?",
-        options: ["True", "False"],
-        correctAnswer: "True"
-    },
-    {
-        question: "Shortcut key Ctrl+Shift+S is used to save the impress presentation on another location or make a copy.",
-        options: ["False", "True"],
-        correctAnswer: "True",
-    },
-
-    {
-        question: "A digital computer did not score over an analog computer in terms of:",
-        options: ["Reliability", "Speed", "Cost", "Accuracy"],
-        correctAnswer: "Accuracy"
-    },
-    {
-        question:
-            "In which menu option restart in safe mode in libre office writer",
-        options: ["file", "help", "window", "tools"],
-        correctAnswer: "help",
-    },
-
-    {
-        question: "Which computers operate essentially by counting?",
-        options: ["Digital computers", "Analog computers", "Portable computers", "Hybrid computers"],
-        correctAnswer: "Digital computers"
-    },
-    // Q51
-    {
-        question: "What happens if you press Ctrl++ after selecting the second row in LibreOffice Calc spreadsheet?",
-        options: ["Second row will be deleted", "A new row will be inserted below the selected second row", "Second row will hide", "A new row will be inserted above the selected row"],
-        correctAnswer: "A new row will be inserted below the selected second row"
-    },
-    {
-        question: "................. represents raw facts, whereas ................... is data made meaningful.",
-        options: ["Information, bits", "Information, reporting", "Records, bytes", "Data, information"],
-        correctAnswer: "Data, information"
-    },
-    {
-        question: "In which menu option word count in libre office writer",
-        options: ["format", "file", "tools", "edit"],
-        correctAnswer: "tools",
-    },
+    }
 ];
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
+        const j = Math.floor(Math.random() * (i + 1))
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
