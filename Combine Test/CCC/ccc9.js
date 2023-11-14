@@ -1,228 +1,273 @@
 const quizData = [
     {
-        question: "Which option can be used to set custom timings for slides in a presentation?",
-        options: ["Slide Timings", "Slide Timer", "Rehearsal", "Slide show setup"],
-        correctAnswer: "Rehearsal",
+        question: "Proc filesystem provides the information about",
+        options: ["processes", "processor", "proxy server", "none of the mentioned"],
+        correctAnswer: "processes"
     },
     {
-        question: "In presentations, which of the following can be inserted?",
-        options: ["Sound Clips", "Movie Clips", "Both (A) & (B)", "None of the above"],
-        correctAnswer: "Both (A) & (B)",
+        question: "The /proc directory contains",
+        options: ["numerical sub-directory for each running process", "sub-directories for installed buses", "a text listing of filesystems which are supported by the kernel", "all of the mentioned"],
+        correctAnswer: "all of the mentioned"
     },
     {
-        question: "Which of the following is the shortcut key to start a slide show from the current slide?",
-        options: ["f5", "shift+f5", "ctrl+f5", "none of the above"],
-        correctAnswer: "shift+f5",
+        question: "The directory /srv contains",
+        options: ["site-specific data which is served by the system", "all the system files", "all the service files provided by the specific user", "none of the mentioned"],
+        correctAnswer: "site-specific data which is served by the system"
     },
     {
-        question: "Which of the following menu has the Background in Libre Impress",
-        options: ["Insert", "Slide", "Slide Show", "view"],
-        correctAnswer: "Slide",
+        question: "Proc files are",
+        options: ["read-only files", "read-write files", "both read-write and read-only files", "none of the mentioned"],
+        correctAnswer: "both read-write and read-only files"
     },
     {
-        question: "Pressing Which Of The Following Does Not Advance 'slide Show'?",
-        options: ["Esc Key", "F5 Key", "Mouse Button", "None of These"],
-        correctAnswer: "Esc Key",
+        question: "The command “echo www.sanfoundry.com > /proc/sys/kernel/hostname” will",
+        options: ["change the hostname", "print “www.sanfoundry.com”", "do nothing", "none of the mentioned"],
+        correctAnswer: "change the hostname"
     },
     {
-        question: "Libreoffice Impress Can Also Be Known As 'open Source Presentation Software Module'?",
-        options: ["TRUE", "FALSE"],
-        correctAnswer: "TRUE",
+        question: "Which command is used to bring the background process to foreground?",
+        options: ["bg", "fg", "background", "foreground"],
+        correctAnswer: "fg"
     },
     {
-        question: "How to start a new presentation in impress in using",
-        options: ["New presentation", "Create presentation", "Open presentation", "Presentation wizard"],
-        correctAnswer: "New presentation",
+        question: "How to run a process in the background?",
+        options: ["&", "*", "?", "|"],
+        correctAnswer: "&"
     },
     {
-        question: "How many sections in the sidebar of impress",
-        options: ["9", "5", "3", "7"],
-        correctAnswer: "7",
+        question: "Which signal is sent by the command “kill -9 ” ?",
+        options: ["INT", "TERM", "KILL", "STOP"],
+        correctAnswer: "KILL"
     },
     {
-        question: "Rehearse time will start counting in units.",
-        options: ["Mini seconds", "Hours", "Minutes", "Seconds"],
-        correctAnswer: "Seconds",
+        question: "Which of the following values for STAT column of ps command is not true:",
+        options: ["status R means running", "Status S means sleeping", "Status E means exited", "Status Z means zombie"],
+        correctAnswer: "Status E means exited"
     },
     {
-        question: "Shortcut key for position and size in libreoffice impress",
-        options: ["F1", "F3", "F2", "F4"],
-        correctAnswer: "F4",
+        question: "We can change the priority of a running process using",
+        options: ["nice", "renice", "priority cannot be changed for a running process", "only superuser can change the priority"],
+        correctAnswer: "renice"
     },
     {
-        question: "Length of IPv4 address?",
-        options: ["40-60 bytes", "20-40 bytes", "0-20 bytes", "20-60 bytes"],
-        correctAnswer: "20-60 bytes"
+        question: "User’s Primary Group id is listed in which file, at the time of the creation of the user (On a standard Unix system)",
+        options: ["/etc/passwd", "/etc/groups", "/etc/login", "/etc/profile"],
+        correctAnswer: "/etc/passwd"
     },
     {
-        question: "Which one of the following is controlled by WWW?",
-        options: ["Virtual banking", "Universal banking", "Wholesale banking", "None"],
-        correctAnswer: "Virtual banking"
+        question: "The encrypted password of a user is stored in",
+        options: ["/etc/shadow", "/etc/enpasswwd", "/etc/.passwd", "/etc/passwd"],
+        correctAnswer: "/etc/shadow"
     },
     {
-        question: "Which of the following is not a component of e-governance?",
-        options: ["Political components", "Technological component", "Service component", "Financial components"],
-        correctAnswer: "Financial components"
+        question: "The /etc/passwd file doesn’t contain",
+        options: ["userid", "home directory for a user", "login shell name", "none of the mentioned"],
+        correctAnswer: "none of the mentioned"
     },
     {
-        question: "Which of these is the easiest way of communication?",
-        options: ["E-mail", "Telephone", "Fax", "Letter"],
-        correctAnswer: "E-mail"
+        question: "User id 0 is",
+        options: ["An invalid user id", "The id of the root user", "The id of a user when the user’s account is deleted", "None of the mentioned"],
+        correctAnswer: "The id of the root user"
     },
     {
-        question: "To create a new email, click on which button?",
-        options: ["Inbox", "Sent box", "Compose", "New mail"],
-        correctAnswer: "Compose"
+        question: "Which of the following command can be used to change the user password?",
+        options: ["user can’t change the password", "passwd", "passd", "pwd"],
+        correctAnswer: "passwd"
     },
     {
-        question: "Unwanted E-mail is called as",
-        options: ["Trash", "Spam", "Both A & B", "None of these"],
+        question: "What does the following command do ? who | wc –l",
+        options: ["List the number of users logged in", "List the users", "List the number of users in the system", "Display the content of who command"],
+        correctAnswer: "List the number of users logged in"
+    },
+    {
+        question: "Which command prints the directory stack?",
+        options: ["cd", "dirs", "popd", "pushd"],
+        correctAnswer: "dirs"
+    },
+    {
+        question: "Which command removes a directory from the directory stack?",
+        options: ["dirs", "popd", "pushd", "rm"],
+        correctAnswer: "popd"
+    },
+    {
+        question: "Which command executes ‘command’ in place of the current process instead of creating a new process?",
+        options: ["exec", "command", "trap", "none of the mentioned"],
+        correctAnswer: "exec"
+    },
+    {
+        question: "Identify the command which is used to create Linux File systems.",
+        options: ["fsck", "mkfs", "fdisk", "mount"],
+        correctAnswer: "mkfs"
+    },
+    {
+        question: "Short cut key of insert table in LibreOffice Writer",
+        options: ["Ctrl+F12", "Ctrl+F5", "Ctrl+F10", "Ctrl+F11"],
+        correctAnswer: "Ctrl+F12"
+    },
+    {
+        question: "Short cut key of spelling check in LibreOffice Writer",
+        options: ["F12", "F5", "F7", "F11"],
+        correctAnswer: "F7"
+    },
+    {
+        question: "Short cut key of automatic spelling check in LibreOffice Writer",
+        options: ["Shift+F12", "Shift+F7", "Shift+F3", "Shift+F4"],
+        correctAnswer: "Shift+F7"
+    },
+    {
+        question: "Short cut key of thesaurus in LibreOffice Writer",
+        options: ["Ctrl+F12", "Ctrl+F5", "Ctrl+F7", "Ctrl+F11"],
+        correctAnswer: "Ctrl+F7"
+    },
+    {
+        question: "Short cut key of auto text in LibreOffice Writer",
+        options: ["Ctrl+F12", "Ctrl+F3", "Ctrl+F7", "Ctrl+F11"],
+        correctAnswer: "Ctrl+F3"
+    },
+    {
+        question: "Short cut key of close the current window in LibreOffice Writer",
+        options: ["Ctrl+H", "Ctrl+W", "Ctrl+Q", "Ctrl+J"],
+        correctAnswer: "Ctrl+W"
+    },
+    {
+        question: "Short cut key of help in LibreOffice Writer",
+        options: ["F12", "F1", "F7", "F11"],
+        correctAnswer: "F1"
+    },
+    {
+        question: "How many scroll bars will appear when zooming the document to 300%?",
+        options: ["1", "2", "3", "4"],
+        correctAnswer: "2"
+    },
+    {
+        question: "Which alignment is not there in LibreOffice Impress?",
+        options: ["Central Alignment", "Left Alignment", "Right Alignment", "Justification"],
+        correctAnswer: "Justification"
+    },
+    {
+        question: "Which shortcut keys are useful for Paste Unformatted Text in Impress?",
+        options: ["Ctrl + Shift + v", "Ctrl + Alt + Shift + v", "Ctrl + Alt + v", "None"],
+        correctAnswer: "Ctrl + Shift + v"
+    },
+    {
+        question: "NPCI launched in which year",
+        options: ["2008", "2010", "2006", "2015"],
+        correctAnswer: "2008"
+    },
+    {
+        question: "Which one is not a key stakeholder of Digilocker?",
+        options: ["citizens", "requesters", "issuers", "government"],
+        correctAnswer: "issuers"
+    },
+    {
+        question: "The correct combination of e-wallet components is",
+        options: ["Software and hardware", "Software and information", "Hardware and internet", "Hardware and information"],
+        correctAnswer: "Software and information"
+    },
+    {
+        question: "What is S/MIME?",
+        options: ["Secure Multipurpose Intranet Mail Extensions", "Secure Multipurpose Internet Mail Extensions", "Secure Multipurpose Internet Message Extensions", "Secure Multipurpose Intranet Message Extensions"],
+        correctAnswer: "Secure Multipurpose Internet Mail Extensions"
+    },
+    {
+        question: "Is it safe to click on links in promotional emails, open attachments, and share personal information?",
+        options: ["false", "true"],
+        correctAnswer: "false"
+    },
+    {
+        question: "To protect against phishing, what is the recommendation for changing your finance password?",
+        options: ["no need to change", "every 2 months", "every 6 months", "every 12 months"],
+        correctAnswer: "every 6 months"
+    },
+    {
+        question: "Which of the following is a strong password?",
+        options: ["123456", "P@ssw0rd", "ILoveYou123", "All of the above"],
+        correctAnswer: "P@ssw0rd"
+    },
+    {
+        question: "In symmetric key cryptography, the key used by the sender and receiver is",
+        options: ["different", "never shared", "Two keys are used", "shared"],
+        correctAnswer: "shared"
+    },
+    {
+        question: "Protecting information from being disclosed to unauthorized parties is",
+        options: ["information technology", "confidentiality", "availability", "integrity"],
+        correctAnswer: "confidentiality"
+    },
+    {
+        question: "What idea did American Express come up with in 2000 to combat identity theft?",
+        options: ["none of the options", "a disposable transaction number", "a no-hack website", "an online-fraud detective service"],
+        correctAnswer: "an online-fraud detective service"
+    },
+    {
+        question: "Which of the following protocols is recommended to be turned off because it transmits usernames and passwords in plaintext?",
+        options: ["TELECOMMUNICATION NETWORK (TELNET)", "HTTPS (HYPER TEXT TRANSFER PROTOCOL SECURED)", "SSL (SECURE SOCKET LAYER)", "TFTP (TRIVIAL FILE TRANSFER PROTOCOL)"],
+        correctAnswer: "TELECOMMUNICATION NETWORK (TELNET)"
+    },
+    {
+        question: "The certificate authority signs the digital certificate with",
+        options: ["user’s private key", "it’s own public key", "it’s own private key", "user’s public key"],
+        correctAnswer: "it’s own public key"
+    },
+    {
+        question: "Which of the following is not a typical characteristic of an ethical hacker",
+        options: ["Excellent knowledge of Windows", "Understands the process of exploiting network vulnerabilities", "Patience, persistence, and perseverance", "Has the highest level of security for the organization"],
+        correctAnswer: "Has the highest level of security for the organization"
+    },
+    {
+        question: "Which of these are fairly secure online payment services",
+        options: ["ePostMe and Post me later", "eBillMe and Bill me later", "epayMe and pay me later", "all of the above"],
+        correctAnswer: "eBillMe and Bill me later"
+    },
+    {
+        question: "The ________ is the message after transformation",
+        options: ["Plaintext", "Secret-text", "Ciphertext", "None of the above"],
+        correctAnswer: "Ciphertext"
+    },
+    {
+        question: "A/an ________ algorithm transforms ciphertext to plaintext",
+        options: ["Encryption", "Decryption", "Both (A) and (B)", "None of the above"],
+        correctAnswer: "Decryption"
+    },
+    {
+        question: "A/an ________ algorithm transforms plaintext to ciphertext",
+        options: ["Encryption", "Decryption", "Both (A) and (B)", "None of the above"],
+        correctAnswer: "Encryption"
+    },
+    {
+        question: "The ________ is the original message before transmission",
+        options: ["ciphertext", "plaintext", "secret-text", "none of the above"],
+        correctAnswer: "plaintext"
+    },
+    {
+        question: "ECB stands for",
+        options: ["electronic code book", "electronic cipher book", "C electronic clear book", "none of these"],
+        correctAnswer: "electronic code book"
+    },
+    {
+        question: "Which AI technique enables computers to understand the associations and relationships between objects and events?",
+        options: ["Heuristic Processing", "Cognitive Science", "Relative Symbolism", "Pattern Matching"],
+        correctAnswer: "Pattern Matching"
+    },
+    {
+        question: "The PEAS in the task environment is about____________.",
+        options: ["Peer, Environment, Actuators, Sense", "Performance, Environment, Actuators, Sensors", "Perceiving, Environment, Actuators, Sensors", "None of the above"],
+        correctAnswer: "Performance, Environment, Actuators, Sensors"
+    },
+    {
+        question: "Web Crawler is an example of______.",
+        options: ["Intelligent Agent", "Problem-solving agent", "Simple reflex agent", "Model-based agent"],
+        correctAnswer: "Intelligent Agent"
+    },
+    {
+        question: "In artificial Intelligence, knowledge can be represented as_______.",
+        options: ["Predicate Logic", "Propositional Logic", "Compound Logic", "Both A & B"],
         correctAnswer: "Both A & B"
     },
-
-
-
-
-
     {
-        question: "What is the maximum limit of characters in a tweet on Twitter?",
-        options: ["280", "140", "560", "110"],
-        correctAnswer: "280"
-    },
-    {
-        question: "What was the old name of Twitter?",
-        options: ["Twter", "Twttr", "Twiter", "None of these"],
-        correctAnswer: "Twttr"
-    },
-    {
-        question: "Which of the following is not an example of instant messaging?",
-        options: ["WhatsApp", "Facebook Messenger", "Telegram", "E-mail"],
-        correctAnswer: "E-mail"
-    },
-    {
-        question: "Who is the father of Telegram?",
-        options: ["Jack Dorsey", "Elon Musk", "Mark Zuckerberg", "Pavel Durov & Nikolai"],
-        correctAnswer: "Pavel Durov & Nikolai"
-    },
-    {
-        question: "A person who writes a blog or weblog is known as:",
-        options: ["Webmaster", "Communicator", "Blogger", "None of these"],
-        correctAnswer: "Blogger"
-    },
-    {
-        question: "If you are buying a product from Flipkart, Amazon, and Snapdeal, this type of business model is called:",
-        options: ["B2B", "C2C", "B2C", "G2G"],
-        correctAnswer: "B2C"
-    },
-    {
-        question: "Quikr and OLX are examples of C2C business model. (True/False)",
-        options: ["True", "False"],
-        correctAnswer: "True"
-    },
-    {
-        question: "If Maruti company purchases a tire from MRF company, this business is called as:",
-        options: ["B2B", "C2C", "B2C", "G2G"],
-        correctAnswer: "B2B"
-    },
-    {
-        question: "Which app is used for ticket booking from IRCTC?",
-        options: ["Rail Tail", "Rail Connect", "Rail Sarthi", "None of these"],
-        correctAnswer: "Rail Connect"
-    },
-    {
-        question: "UMANG stands for:",
-        options: [
-            "Unified Mobile Application for New Age Governance",
-            "Unified Mobile Application for New Age Government",
-            "Ultimate Mobile Application for New Age Governance",
-            "User Mobile Application for New Age Governance"
-        ],
-        correctAnswer: "Unified Mobile Application for New Age Governance"
-    },
-    {
-        question: "UMANG app was launched in which year?",
-        options: ["15 August, 2015", "26 January 2017", "23 November 2017", "30 January 2014"],
-        correctAnswer: "23 November 2017"
-    },
-    {
-        question: "UMANG app is available in how many languages?",
-        options: ["13", "12", "15", "20"],
-        correctAnswer: "13"
-    },
-    {
-        question: "UMANG app was launched by which organization?",
-        options: [
-            "Ministry of Electronics and Information Technology (MeitY) and National e-Governance Division (NeGD)",
-            "National Payment Corporation of India (NPCI)",
-            "Synergised Advanced Application Rail Travel Help and Information (Saarthi)",
-            "None of these"
-        ],
-        correctAnswer: "Ministry of Electronics and Information Technology (MeitY) and National e-Governance Division (NeGD)"
-    },
-    {
-        question: "DigiLocker was launched in which year?",
-        options: ["2020", "2015", "2016", "2017"],
-        correctAnswer: "2015"
-    },
-    {
-        question: "What is the maximum storage space in DigiLocker?",
-        options: ["2 GB", "1 GB", "5 GB", "8 GB"],
-        correctAnswer: "1 GB"
-    },
-    {
-        question: "What is meant to be online buying and selling of goods?",
-        options: ["E-commerce", "Digi Locker", "Digital Payment", "None of these"],
-        correctAnswer: "E-commerce"
-    },
-    {
-        question: "DigiLocker is connected with:",
-        options: ["From Aadhar Card", "From PAN Card", "Both A & B", "None of these"],
-        correctAnswer: "From Aadhar Card"
-    },
-    {
-        question: "Which is not an advantage of using DigiLocker?",
-        options: [
-            "Secure access to Govt. issued documents",
-            "Document Generation",
-            "Easy to carry",
-            "Minimize the use of physical documents"
-        ],
-        correctAnswer: "Document Generation"
-    },
-    {
-        question: "This is not a benefit of Big Data analytics",
-        options: [" Faster, better decision making", "Cost Reduction", "Manage of Data", "None of the above"],
-        correctAnswer: "Manage of Data"
-    },
-    {
-        question: "Unsolicited Bulk E-mails (UBI) are called __________",
-        options: ["SMS", "MMS", "Spam emails", "malicious emails"],
-        correctAnswer: "Spam emails"
-    },
-    {
-        question: "_____________ is an encryption program or add-ons which provides cryptographic privacy & authentication for email communication.",
-        options: ["Powerful Good Privacy", "Pretty Good Privacy", "Pretty Good Encryption", "Pretty Strong Encryption"],
-        correctAnswer: "Pretty Good Privacy"
-    },
-    {
-        question: "PGP is abbreviated as _______________",
-        options: ["Pretty Good Privacy", "Powerful Good Privacy", "Protocol Giving Privacy", "Pretty Good Protocol"],
-        correctAnswer: "Pretty Good Privacy"
-    },
-    {
-        question: "Which of the following is the class of computer threat",
-        options: ["phishing", "soliciting", "Dos attacks", "stalking"],
-        correctAnswer: "Dos attacks"
-    },
-    {
-        question: "Which of the following is not an external threat to a computer or a computer network.",
-        options: [" Ignorance", "Trojan horse", "Adware", "Crackers"],
-        correctAnswer: " Ignorance"
-    },
-    {
-        question: "When a person is harassed repeatedly by being followed, called, or written to, he or she is the target of",
-        options: [" bullying", "stalking", "identity theft", "phishing"],
-        correctAnswer: "stalking"
+        question: "Ways to achieve AI in real-life are_________.",
+        options: ["Machine Learning", "Deep Learning", "Both a & b", "None of the above"],
+        correctAnswer: "Both a & b"
     },
     {
         question: "The main tasks of an AI agent are_______.",
@@ -260,297 +305,6 @@ const quizData = [
         correctAnswer: "Private homes"
     },
     {
-        question: "Which of the following is the Cloud Platform provided by Amazon?",
-        options: ["AWS", "Cloudera", "Azure", "All of the mentioned"],
-        correctAnswer: "AWS"
-    },
-    {
-        question: "It detects moving objects with a predefined area of interest.",
-        options: ["Motion tracker", "SMD", "HMD", "Motion analyzer"],
-        correctAnswer: "HMD"
-    },
-    {
-        question: "WLAN stands for ",
-        options: ["Wireless Local Area Network", "Wired Local Area Network", "Wireless Local Ambiguity Network", " Wired Latent Area Network"],
-        correctAnswer: "Wireless Local Area Network"
-    },
-
-    {
-        question: "Netiquette is a rule related to",
-        options: ["Food habits", "Cyber habits", "Retailing habits", "Banking habits"],
-        correctAnswer: "Cyber habits"
-    },
-
-    {
-        question: "Which of the following items is not used in Local Area Networks (LANS)?",
-        options: ["Computer", "Modem", "Printer", "Cable"],
-        correctAnswer: "Modem"
-    },
-
-    {
-        question: "Which device are commonly shared between computers",
-        options: ["Mouse", "Speakers", "Printers", "Keyboard"],
-        correctAnswer: "Printers"
-    },
-    // Q5
-    {
-        question: "An analog computer did not score over a digital computer in terms of.",
-        options: ["Reliability", "Speed", "Cost", "Accuracy"],
-        correctAnswer: "Cost"
-    },
-    // Q6
-    {
-        question: "What key is used to start the computer in safe mode?",
-        options: ["F11", "F9", "F12", "F8"],
-        correctAnswer: "F8"
-    },
-    // Q7
-    {
-        question: "Hard disks and diskettes are.",
-        options: [
-            "Indirect access storage device",
-            "Direct access storage device",
-            "Not a storage device",
-            "Sequential access storage device"
-        ],
-        correctAnswer: "Direct access storage device"
-    },
-    // Q8
-    {
-        question: "A program embedded in a semiconductor chip during their manufacture is called?",
-        options: ["Liveware", "Humanware", "Hardware", "Firmware"],
-        correctAnswer: "Firmware"
-    },
-    // Q9
-    {
-        question: "Full form of EEPROM",
-        options: [
-            "Electronic erasable program read-only memer",
-            "Electrically erasable programmable read-only memory",
-            "Both a & b",
-            "None of these"
-        ],
-        correctAnswer: "Electrically erasable programmable read-only memory"
-    },
-    // Q10
-    {
-        question: "Which of the following is not an input device?",
-        options: [
-            "Optical scanners",
-            "Voice recognition device",
-            "COM (Computer Output to Microfilm)",
-            "OCR"
-        ],
-        correctAnswer: "COM (Computer Output to Microfilm)"
-    },
-    // Q11
-    {
-        question: "Multiple desktops can be created using.",
-        options: [
-            "Taskbar icon",
-            "Task view icon",
-            "Store icon",
-            "Task review icon"
-        ],
-        correctAnswer: "Task view icon"
-    },
-    {
-        question:
-            "In libre office writer, which of the following options shows the available choices in hyperlink.",
-        options: [
-            "internet ,mail, document, new document",
-            "place in the document, new document",
-            "place in this document, mail, document, new document",
-            "internet, mail",
-        ],
-        correctAnswer: "internet ,mail, document, new document",
-    },
-    //   Q19
-    {
-        question:
-            "While formatting the shadow style of a table in libre office writer, which one of the following is not the available position.",
-        options: [
-            "cast shadow to top left",
-            "cast shadow to top bottom",
-            "cast shadow to bottom right",
-            "cast shadow to top right",
-        ],
-        correctAnswer: "cast shadow to top bottom",
-    },
-    //   Q20
-    {
-        question: "Which of the following is not available in font spacing?",
-        options: ["condensed", "expanded", "loosely", "normal"],
-        correctAnswer: "loosely",
-    },
-    //   Q21
-    {
-        question:
-            "ctrl+ shift + backspace is shortcut key to delete text to beginning of sentence in libre office.",
-        options: ["false", "true"],
-        correctAnswer: "true",
-    },
-    //   Q22
-    {
-        question:
-            "While customizing the font color, which one of the following is not the available color coding scheme in libre office writer ?",
-        options: ["WXY", "HSB", "RGB", "CMYK"],
-        correctAnswer: "WXY",
-    },
-    //   Q23
-    {
-        question:
-            "What is the correct sequence of steps required to insert the footer in libre office writer document.",
-        options: [
-            "insert > footer >default style",
-            "insert > footer",
-            "insert > header & footer > footer >default style",
-            "header & footer > footer",
-        ],
-        correctAnswer: "insert > header & footer > footer >default style",
-    },
-    //   Q24
-    {
-        question:
-            "Which feature in libre office write remove extra spaces between pages.",
-        options: [
-            "Edit -> Hide White space",
-            "view -> Hide White space",
-            "file -> Hide White space",
-            "tools -> Hide White space",
-        ],
-        correctAnswer: "view -> Hide White space",
-    },
-    {
-        question: "Help key shortcut used in LibreOffice is ..............",
-        options: ["F1", "F2", "F3", "F5"],
-        correctAnswer: "F1",
-    },
-    {
-        question: "Template is readymade styles that you can use for your LibreOffice Impress presentations.",
-        options: ["True", "False"],
-        correctAnswer: "True",
-    },
-    {
-        question: "Is Ctrl+5 is used for slide show?",
-        options: ["Yes", "No"],
-        correctAnswer: "Yes",
-    },
-    {
-        question: "We can set custom slide show in LibreOffice Impress.",
-        options: ["True", "False"],
-        correctAnswer: "True",
-    },
-    {
-        question: "The shortcut key for move first slide of a presentation is ..................",
-        options: ["Ctrl+Home", "Ctrl+End", "Ctrl+Enter", "None of the above"],
-        correctAnswer: "Ctrl+Home",
-    },
-    {
-        question: "How many menus are found in LibreOffice Impress?",
-        options: ["3", "5", "8", "10"],
-        correctAnswer: "10",
-    },
-    {
-        question: "The ................ keyboard combination can be used to open a presentation file.",
-        options: ["Ctrl+Q", "Ctrl+O", "Ctrl+P", "Ctrl+S"],
-        correctAnswer: "Ctrl+O",
-    },
-    {
-        question: "................ is used to go to the previous slide in LibreOffice Impress.",
-        options: ["Ctrl+Page Up", "Ctrl+Page Dowm", "Ctrl+Page Left", "Ctrl+Page Right"],
-        correctAnswer: "Ctrl+Page Up",
-    },
-    {
-        question: "........... is used to move cursor with selection to the left.",
-        options: ["Shift+Arrow Left", "Shift+Arrow Right", "Shift+Arrow Up", "Shift+Arrow Down"],
-        correctAnswer: "Shift+Arrow Left",
-    },
-    {
-        question: "In impress presentation for animation we select slide object and click Format menu > animation.",
-        options: ["True", "False"],
-        correctAnswer: "True",
-    },
-    {
-        question: "Document name is appear on which bar in libre office writer?",
-        options: ["status bar", "title bar", "standard tool bar", "task bar"],
-        correctAnswer: "title bar",
-    },
-    //   Q6
-    {
-        question: "correct sequence of bar in libre office writer?",
-        options: [
-            "status bar,title bar,standard tool bar,menu bar",
-            "menu bar,title bar,status bar, standard tool bar",
-            "title bar,menu bar,standard tool bar, status bar",
-            "none of these",
-        ],
-        correctAnswer: "title bar,menu bar,standard tool bar, status bar",
-    },
-
-    {
-        question: "Which of the following shortcut key is used to end the presentation in LibreOffice Impress?",
-        options: ["End", "Esc", "Home", "None of the above"],
-        correctAnswer: "Esc",
-    },
-    {
-        question: "Which of the following key is used to select the objects in the order in which they were created?",
-        options: ["Tab Key", "Esc Key", "Function Key", "None of the above"],
-        correctAnswer: "Tab Key",
-    },
-    //   Q25
-    {
-        question: "3d object command found in the status bar",
-        options: ["false", "true"],
-        correctAnswer: "true",
-    },
-    // Q12
-    {
-        question: "Full form of TFT?",
-        options: [
-            "Tight film transistor",
-            "Thin film transistor",
-            "Think film transistor",
-            "None of these"
-        ],
-        correctAnswer: "Thin film transistor"
-    },
-    // Q13
-    {
-        question: "What characteristics of read-only memory (ROM) makes it useful?",
-        options: [
-            "ROM information can be easily updated",
-            "ROM provides very large amounts of inexpensive data storage",
-            "ROM chips are easily swapped between different brands of computers",
-            "Data in ROM is non-volatile, that is, it remains there even without electrical power"
-        ],
-        correctAnswer: "Data in ROM is non-volatile, that is, it remains there even without electrical power"
-    },
-
-    {
-        question: "What will happen when CTRL+W pressed",
-        options: ["Open the tab on a browser", "Close a tab on a browser", "Close the Browser", "Open the Browser"],
-        correctAnswer: "Close a tab on a browser"
-    },
-
-    {
-        question: ".Com Is Stands for Communication",
-        options: ["true", "false"],
-        correctAnswer: "false"
-    },
-
-    {
-        question: "Which of the following is not a networking device?",
-        options: ["Gateway", "Router", "Switch", "Linux"],
-        correctAnswer: "Linux"
-    },
-
-    {
-        question: "Which of these schools was not among the early leaders in artificial intelligence research?",
-        options: ["Dartmouth University", "Stanford University", "Massachusetts Institute of Technology", "Harvard University"],
-        correctAnswer: "Harvard University"
-    },
-    {
         question: "What is the name for information sent from robot sensors to robot controllers?",
         options: ["Temperature", "Pressure", "Feedback", "Signal"],
         correctAnswer: "Feedback"
@@ -560,6 +314,7 @@ const quizData = [
         options: ["Yaw", "Pitch", "Swing", "Roll"],
         correctAnswer: "Yaw"
     },
+
     {
         question: "Which of the following terms refers to the up-down movement of a robot arm?",
         options: ["Yaw", "Pitch", "Swing", "Roll"],
@@ -571,42 +326,180 @@ const quizData = [
         correctAnswer: "Manipulator"
     },
     {
-        question: "Viruses are",
-        options: [" man made", "naturally occur", "machine made", "all of these"],
-        correctAnswer: " man made"
+        question: "Cloud computing system is?",
+        options: ["Connectionless", "Reliable", "Stateless", "Stateful"],
+        correctAnswer: "Stateless"
     },
     {
-        question: "Monitors user activity on the internet and transmits that information in the background to someone else",
-        options: [" malware", "spyware", "adware", "none of these"],
-        correctAnswer: "spyware"
+        question: "All cloud computing applications suffer from the inherent _______ that is intrinsic in their WAN connectivity.",
+        options: ["noise", "propagation", "latency", "all of the mentioned"],
+        correctAnswer: "latency"
     },
     {
-        question: "It allows a visited website to store its own information about a user on the user’s computer",
-        options: [" spam", "cookies", "malware", "adware"],
-        correctAnswer: "cookies"
+        question: "Which of the following is the Cloud Platform provided by Amazon?",
+        options: ["AWS", "Cloudera", "Azure", "All of the mentioned"],
+        correctAnswer: "AWS"
     },
     {
-        question: "Who is the father of Computer Security or Cyber Security?",
-        options: ["Robert", "Charles", "Bob Thomas", "August Kerckhoffs"],
-        correctAnswer: "August Kerckhoffs"
-    },
-
-    {
-        question: "Where are deleted e-mails stored?",
-        options: ["Draft", "Trash", "Inbox", "Sent Mail"],
-        correctAnswer: "Trash"
-    },
-
-    {
-        question: "in open office, impress comes under whivh menu.",
-        options: ["Tools", "Project", "Application", "office"],
-        correctAnswer: "Tools",
+        question: "It detects moving objects with a predefined area of interest.",
+        options: ["Motion tracker", "SMD", "HMD", "Motion analyzer"],
+        correctAnswer: "HMD"
     },
     {
-        question: "which option is not available during print handouts",
-        options: ["per page six slide", "per page two slide", "per page three slide", "per page five slide"],
-        correctAnswer: "per page five slide",
+        question: "Which of these schools was not among the early leaders in artificial intelligence research?",
+        options: ["Dartmouth University", "Stanford University", "Massachusetts Institute of Technology", "Harvard University"],
+        correctAnswer: "Harvard University"
     },
+    {
+        question: "Each computer connected to the internet is mandated to have .......?",
+        options: ["A pentium processor", "An anti-virus", "A password", "A unique IP address"],
+        correctAnswer: "A unique IP address"
+    },
+    {
+        question: "BIOS Stands for Basic Integrated Operating System",
+        options: ["true", "false"],
+        correctAnswer: "false"
+    },
+    {
+        question: "Different cells in LibreOffice Calc within a row can have different heights.",
+        options: ["true", "false"],
+        correctAnswer: "false"
+    },
+    {
+        question: "Co-axial cable is used in the cable TV network.",
+        options: ["True", "False"],
+        correctAnswer: "True"
+    },
+    {
+        question: "The full name of MPEG is Moving Picture Experts Group.",
+        options: ["True", "False"],
+        correctAnswer: "True"
+    },
+    {
+        question: "Landscape is?",
+        options: ["Paper Size", "A font style", "Page Orientation", "Page Layout"],
+        correctAnswer: "Page Orientation"
+    },
+    {
+        question: "The utility which is used to increase the speed of programs is called?",
+        options: ["Disk defragmenter", "Disk cleanup", "Disk formatter", "None of these"],
+        correctAnswer: "Disk defragmenter"
+    },
+    {
+        question: "Which of the following cannot be tracked using POS?",
+        options: ["Inventory changes", "Gross revenue", "Promotions", "Pricing accrual"],
+        correctAnswer: "Promotions"
+    },
+    {
+        question: "In AEPS which of the following input determines the bank of the customer?",
+        options: ["PIN", "IIN", "SWIFT", "CVV"],
+        correctAnswer: "IIN"
+    },
+    {
+        question: "What is cVIGIL app related to?",
+        options: ["Custom", "Police", "Vigilance", "Election"],
+        correctAnswer: "Election"
+    },
+    {
+        question: "Can a printer be added by selecting the option to set up a _______ device in Windows 10?",
+        options: ["Printer & Scanners", "Printer", "Scanners", "Bluetooth And Other Device"],
+        correctAnswer: "Printer & Scanners"
+    },
+    {
+        question: "COMPUTER NAME” is found by typing the following command in the command prompt?",
+        options: ["Machine name", "Computer name", "Hostname", "Name"],
+        correctAnswer: "Hostname"
+    },
+    {
+        question: "Where is Microprocessor Used?",
+        options: ["Mobile", "Computer", "Laptop", "All of the above"],
+        correctAnswer: "All of the above"
+    },
+    {
+        question: "A Digital Banking OTP consists of?",
+        options: ["Alphabets", "Special Symbols", "Digits", "Combination of ALL"],
+        correctAnswer: "Digits"
+    },
+    {
+        question: "Transaction ID and reference number are the same?",
+        options: ["true", "false"],
+        correctAnswer: "false"
+    },
+    {
+        question: "Which Printer Is Commonly Used For Desktop Publishing?",
+        options: ["Daisy Wheel Printer", "Dot-matrix Printer", "Laser Printer", "Ink-jet Printer"],
+        correctAnswer: "Laser Printer"
+    },
+    {
+        question: "Who can edit sent mail?",
+        options: ["Sender", "Receiver", "None", "Both A & B"],
+        correctAnswer: "None"
+    },
+    {
+        question: "Which operation is not performed by a computer?",
+        options: ["Inputting", "Processing", "Controlling", "Understanding"],
+        correctAnswer: "Understanding"
+    },
+    {
+        question: "Line spacing refers to.",
+        options: ["The space between the lines of text.", "The height of lines.", "The length of lines.", "Both (a) and (c)"],
+        correctAnswer: "The space between the lines of text."
+    },
+    {
+        question: "LibreOffice Calc is a powerful.",
+        options: ["Word processing software", "Spreadsheet package", "DBMS package", "Communication package"],
+        correctAnswer: "Spreadsheet package"
+    },
+    {
+        question: "A dedicated computer.",
+        options: ["Is used by one person only.", "Is assigned one and only one task.", "Uses only one kind of software.", "Is meant for application software"],
+        correctAnswer: "Is assigned one and only one task."
+    },
+    {
+        question: "MAC address is a ……… byte address.",
+        options: ["6", "4", "8", "2"],
+        correctAnswer: "6"
+    },
+    {
+        question: "The term bit is short for.",
+        options: ["Megabyte", "Binary language", "Binary digit", "Binary number"],
+        correctAnswer: "Binary digit"
+    },
+    {
+        question: "The keystrokes Ctrl+ I is used to.",
+        options: ["Increase font size", "Insert a line break", "Indicate the text show should be bold", "Applies italic format to the selected text"],
+        correctAnswer: "Applies italic format to the selected text"
+    },
+    {
+        question: "Lynx is a browser.",
+        options: ["True", "False"],
+        correctAnswer: "True"
+    },
+    {
+        question: "Safari is a web browser.",
+        options: ["True", "False"],
+        correctAnswer: "True"
+    },
+    {
+        question: "Altavista is a search engine.",
+        options: ["True", "False"],
+        correctAnswer: "True"
+    },
+    {
+        question: "How many values does a nibble have?",
+        options: ["15", "16", "20", "24"],
+        correctAnswer: "16"
+    },
+    {
+        question: "If the umask value is 0002, what will be the permissions of the new directory?",
+        options: ["777", "775", "774", "664"],
+        correctAnswer: "775"
+    },
+    {
+        question: "Which bank launched the first Rupay ATM & Micro ATM card with the Aadhaar number?",
+        options: ["SBI", "HDFC", "BOI", "ICICI"],
+        correctAnswer: "BOI"
+    }
 ];
 
 function shuffleArray(array) {
