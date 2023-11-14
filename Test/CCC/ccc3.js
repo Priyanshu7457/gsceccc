@@ -49,19 +49,19 @@ const quizData = [
 
   {
     question: "what is by default user interface in libre office writer?",
-    options: ["standard toolbar", "tabbed", "single toolbar", " none of these"],
+    options: ["standard toolbar", "tabbed", "single toolbar", "none of these"],
     correctAnswer: "standard toolbar",
   },
   //   Q8
   {
     question: "How many user interface in libre office writer?",
     options: ["7", "6", "5", "10"],
-    correctAnswer: "5",
+    correctAnswer: "7",
   },
   //   Q9
   {
     question: "what is minimum & maximum font size in libre office writer?",
-    options: [" 8,98", " 6,97", "10,100", "6,96"],
+    options: ["8,98", "6,97", "10,100", "6,96"],
     correctAnswer: "6,96",
   },
   //   Q10
@@ -70,6 +70,15 @@ const quizData = [
     options: ["28", "35", "41", "30"],
     correctAnswer: "28",
   },
+
+
+  {
+    question: "which  font size is not available in list in libre office writer?",
+    options: ["15", "16", "19", "20"],
+    correctAnswer: "19",
+  },
+
+
   //   Q11
   {
     question: "what is default font color in libre office writer?",
@@ -105,7 +114,7 @@ const quizData = [
     question:
       "The short cut key ctrl+[ in libre office writer is used to decrease the font size.By default ,size of the font is decreased by how much if we press the short cut key ctrl+[",
     options: ["4", "2", "3", "1"],
-    correctAnswer: "1",
+    correctAnswer: "2",
   },
   // Q17
   {
@@ -243,7 +252,7 @@ const quizData = [
       "collate copies",
       "print selected text",
     ],
-    correctAnswer: "print selected text",
+    correctAnswer: "print the selected pages",
   },
   //   Q31
   {
@@ -426,25 +435,25 @@ const quizData = [
   {
     question: "Shortcut key for styles or manage styles in LibreOffice Writer:",
     options: ["crtl+shift+f11", "shift+f11", "f11", "f12"],
-    correctAnswer: "f11",
+    correctAnswer: "f11"
   },
   // Q61
   {
     question: "Shortcut key for navigator in LibreOffice Writer:",
     options: ["crtl+shift+f11", "shift+f11", "f11", "f5"],
-    correctAnswer: "f5",
+    correctAnswer: "f5"
   },
   // Q62
   {
     question: "Shortcut key for full screen in LibreOffice Writer:",
-    options: ["crtl+shift+j", "shift+f11", "f11", "f5"],
-    correctAnswer: "shift+f11",
+    options: ["crtl+shift+j", "shift+f11", "ctrl+shift+c", "ctrl+shift+r"],
+    correctAnswer: "crtl+shift+j"
   },
   // Q63
   {
     question: "Shortcut key for formula bar in LibreOffice Writer:",
-    options: ["crtl+shift+j", "shift+f11", "f2", "f5"],
-    correctAnswer: "f2",
+    options: ["f12", "f11", "f2", "f5"],
+    correctAnswer: "f2"
   },
   // Q64
   {
@@ -515,20 +524,20 @@ const quizData = [
   // Q75
   {
     question: "Shortcut key of center alignment in LibreOffice Writer:",
-    options: ["ctrl+C", "ctrl+E", "CTRL+J", "CTRL+R"],
-    correctAnswer: "CTRL+J",
+    options: ["ctrl+C", "ctrl+E", "ctrl+J", "ctrl+R"],
+    correctAnswer: "ctrl+E",
   },
   // Q76
   {
     question: "Shortcut key of heading 2 in LibreOffice Writer:",
-    options: ["ctrl+C", "ctrl+E", "CTRL+2", "CTRL+1"],
-    correctAnswer: "CTRL+2",
+    options: ["ctrl+C", "ctrl+E", "ctrl+2", "ctrl+1"],
+    correctAnswer: "ctrl+2",
   },
   // Q77
   {
     question: "Shortcut key of text body in LibreOffice Writer:",
-    options: ["ctrl+C", "ctrl+E", "CTRL+2", "CTRL+0"],
-    correctAnswer: "CTRL+0",
+    options: ["ctrl+C", "ctrl+E", "ctrl+2", "ctrl+0"],
+    correctAnswer: "ctrl+0",
   },
   // Q78
   {
@@ -540,50 +549,55 @@ const quizData = [
   {
     question: "Shortcut key of update new style in LibreOffice Writer:",
     options: ["ctrl+C", "ctrl+shift+f11", "CTRL+f7", "shift+f11"],
-    correctAnswer: "ctrl+shift+f11",
+    correctAnswer: "ctrl+shift+f11"
   },
   // Q80
   {
     question: "Shortcut key of insert table in LibreOffice Writer:",
     options: ["ctrl+f12", "ctrl+shift+f11", "CTRL+f7", "shift+f11"],
-    correctAnswer: "ctrl+f12",
+    correctAnswer: "ctrl+f12"
   },
   // Q81
   {
     question: "Shortcut key of spelling check in LibreOffice Writer:",
     options: ["f1", "f11", "f8", "f7"],
-    correctAnswer: "f7",
+    correctAnswer: "f7"
   },
   // Q82
   {
     question: "Shortcut key of automatic spelling check in LibreOffice Writer:",
-    options: ["shift+f3", "shift+f7", "f8", "shift+f11"],
-    correctAnswer: "shift+f11",
+    options: ["shift+f3", "shift+f7", "shift+f12", "shift+f11"],
+    correctAnswer: "shift+f7"
   },
   // Q83
   {
     question: "Shortcut key of thesaurus in LibreOffice Writer:",
     options: ["shift+f3", "shift+f7", "ctrl+f7", "shift+f11"],
-    correctAnswer: "ctrl+f7",
+    correctAnswer: "ctrl+f7"
   },
   // Q84
   {
     question: "Shortcut key of auto text in LibreOffice Writer:",
     options: ["shift+f3", "ctrl+f3", "ctrl+f7", "shift+f11"],
-    correctAnswer: "shift+f11",
+    correctAnswer: "ctrl+f3"
   },
   // Q85
   {
     question: "Shortcut key of close current window in LibreOffice Writer:",
     options: ["shift+f3", "ctrl+f3", "ctrl+q", "ctrl+w"],
-    correctAnswer: "ctrl+w",
+    correctAnswer: "ctrl+w"
   },
   // Q86
   {
     question: "Shortcut key of help in LibreOffice Writer:",
     options: ["f1", "f2", "f12", "f11"],
-    correctAnswer: "f1",
+    correctAnswer: "f1"
   },
+  {
+    question: "How many scroll bars will appear when zooming the document to 300%?",
+    options: ["1", "2", "3", "4"],
+    correctAnswer: "2"
+  }
 ];
 
 function shuffleArray(array) {
