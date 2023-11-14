@@ -237,7 +237,7 @@ const quizData = [
     {
         question: "Which memory is called volatile as well as non-volatile?",
         options: ["RAM", "ROM", "Both RAM and ROM", "None of these"],
-        correctAnswer: "Both RAM and ROM"
+        correctAnswer: "ROM"
     },
     // Q37
     {
@@ -328,6 +328,126 @@ const quizData = [
         question: "................. represents raw facts, whereas ................... is data made meaningful.",
         options: ["Information, bits", "Information, reporting", "Records, bytes", "Data, information"],
         correctAnswer: "Data, information"
+    },
+    {
+        question: "Various applications and documents are displayed on the Windows desktop by?",
+        options: ["Mark", "Icon", "Label", "Graph"],
+        answer: "Icon"
+    },
+    {
+        question: "Which of the following is not hardware?",
+        options: ["Punch card reader", "Magnetic tape reader", "Printer", "Assembler"],
+        answer: "Assembler"
+    },
+    {
+        question: "Which of the following is the fastest, biggest, costliest computer?",
+        options: ["Notebook", "Personal computer", "Laptop", "Super computer"],
+        answer: "Super computer"
+    },
+    {
+        question: "What is the name of India’s first super computer?",
+        options: ["Saga 220", "PARAM 8000", "ENIAC", "EDVAC"],
+        answer: "PARAM 8000"
+    },
+    {
+        question: "When a computer prints a report, it is called?",
+        options: ["Hard Copy", "Soft Copy", "System Copy", "None of these"],
+        answer: "Hard Copy"
+    },
+    {
+        question: "India’s first super computer PARAM 8000 developed by which organization.",
+        options: ["C-DAC", "Microsoft", "Intel", "None of these"],
+        answer: "C-DAC"
+    },
+    {
+        question: "Interrupts are sent by ________ and received by _________.",
+        options: ["CPU, I/O Devices", "I/O Devices, CPU", "Timer, I/O Devices", "CPU, ALU"],
+        answer: "I/O Devices, CPU"
+    },
+    {
+        question: "Which among the following memories is used in Digital Camera?",
+        options: ["Virtual Memory", "Flash Memory", "Main Memory", "Cache Memory"],
+        answer: "Flash Memory"
+    },
+    {
+        question: "Which Of The Following Structures Is Followed By A USB Device?",
+        options: ["List", "Tree", "Hash", "Huffman"],
+        answer: "Tree"
+    },
+    {
+        question: "Who Among The Following Is The Founder Of 'ENIAC'?",
+        options: ["J. Presper Eckert", "John Mauchly", "A & B Both", "Hobby"],
+        answer: "A & B Both"
+    },
+    {
+        question: "Which of the following is not an 'Open Source'?",
+        options: ["Open Office", "Linux", "Ubuntu", "Windows 10"],
+        answer: "Windows 10"
+    },
+    {
+        question: "What Is The Capacity of A 3.5 Inch Floppy Disk?",
+        options: ["1.40 Mb", "1.44 Gb", "1.40 Gb", "1.44 Mb"],
+        answer: "1.44 Mb"
+    },
+    {
+        question: "Flash memory is a type of________memory",
+        options: ["Primary", "RAM", "Secondary", "All of these"],
+        answer: "Secondary"
+    },
+    {
+        question: "Which components of a computer connect the processor to the other hardware?",
+        options: ["System Bus", "CPU", "Memory", "Input Unit"],
+        answer: "System Bus"
+    },
+    {
+        question: "Which is used with stylus to produce freehand drawings?",
+        options: ["Graphics Tablet", "Drawing Pen", "Light Pen", "Reflector"],
+        answer: "Graphics Tablet"
+    },
+    {
+        question: "Which one is correct order memory in descending order",
+        options: ["TB GB MB KB", "TB MB GB KB", "GB TB MB KB", "TB GB KB MB"],
+        answer: "TB GB MB KB"
+    },
+    {
+        question: "What is the full form of EBCDIC?",
+        options: ["Executable Binary Coded Decimal Interchange Code", "Extended Binary Coded Decimal Interchange Code", "Executable Binary Coded Decimal Information Code", "Extended Binary Coded Decimal Information Code"],
+        answer: "Extended Binary Coded Decimal Interchange Code"
+    },
+    {
+        question: "A floppy disk contains …..?",
+        options: ["Sectors only", "Circular tracks", "Both circular tracks and sectors", "None of the above"],
+        answer: "Both circular tracks and sectors"
+    },
+    {
+        question: "To create large size drawings, architects and engineers often use a device called..?",
+        options: ["Dot Matrix Printer", "Line Printer", "Plotter", "Laser Printer"],
+        answer: "Plotter"
+    },
+    {
+        question: "Laser printer resolution is specified in terms of…?",
+        options: ["API", "DPI", "CPI", "LSI"],
+        answer: "DPI"
+    },
+    {
+        question: "The size of virtual memory",
+        options: ["on the database", "on the address line", "on disk space", "All of the above"],
+        answer: "on disk space"
+    },
+    {
+        question: "What will be the short name for reusable optical storage?",
+        options: ["CD", "RW", "ROM", "DVD"],
+        answer: "RW"
+    },
+    {
+        question: "Which of the following symbols is used by 'hexadecimal number system'?",
+        options: ["0-7", "0-9, A-F", "0-9", "None"],
+        answer: "0-9, A-F"
+    },
+    {
+        question: "Which of these is a type of sound file?",
+        options: ["DAT files", "LOG files", "DRV files", "WAV files"],
+        answer: "WAV files"
     }
 
 ];
