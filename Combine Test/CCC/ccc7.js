@@ -1,27 +1,494 @@
 const quizData = [
   {
-    question: "What is the code of USSD?",
-    options: ["*99#", "*#99", "#*99", "None of these"],
-    correctAnswer: "*99#"
-  },
-
-  {
-    question: "A/an ________ algorithm transforms ciphertext to plaintext.",
-    options: ["Encryption", "Decryption", "Both (A) and (B)", "None of the above"],
-    correctAnswer: "Decryption"
+    question: "Which of the following is not an 'Open Source'?",
+    options: ["Open Office", "Linux", "Ubuntu", "Windows 10"],
+    correctAnswer: "Windows 10"
   },
   {
-    question: "Which is the first artificial language?",
-    options: ["High level", "Low and high", "LISP", "None of these"],
-    correctAnswer: "LISP"
+    question: "What Is The Capacity of A 3.5 Inch Floppy Disk?",
+    options: ["1.40 Mb", "1.44 Gb", "1.40 Gb", "1.44 Mb"],
+    correctAnswer: "1.44 Mb"
   },
-
   {
-    question: "DES stands for…",
-    options: ["data encryption standard", "data elimination standard", "data encapsulation standard", "none of these"],
-    correctAnswer: "data encryption standard"
+    question: "Flash memory is a type of ________ memory",
+    options: ["Primary", "RAM", "Secondary", "All of these"],
+    correctAnswer: "Secondary"
   },
-
+  {
+    question: "Which component of a computer connects the processor to the other hardware",
+    options: ["System Bus", "CPU", "Memory", "Input Unit"],
+    correctAnswer: "System Bus"
+  },
+  {
+    question: "Which is used with a stylus to produce freehand drawings?",
+    options: ["Graphics Tablet", "Drawing pen", "Light pen", "Reflector"],
+    correctAnswer: "Graphics Tablet"
+  },
+  {
+    question: "Which one is the correct order of memory in descending order?",
+    options: ["TB GB MB KB", "TB MB GB KB", "GB TB MB KB", "TB GB KB MB"],
+    correctAnswer: "TB GB MB KB"
+  },
+  {
+    question: "What is the full form of EBCDIC?",
+    options: ["Executable Binary Coded Decimal Interchange Code", "Extended Binary Coded Decimal Interchange Code", "Executable Binary Coded Decimal Information Code", "Extended Binary Coded Decimal Information Code"],
+    correctAnswer: "Extended Binary Coded Decimal Interchange Code"
+  },
+  {
+    question: "A floppy disk contains …..?",
+    options: ["Sectors only", "Circular tracks", "Both circular tracks and sectors", "None of the above"],
+    correctAnswer: "Both circular tracks and sectors"
+  },
+  {
+    question: "To create large size drawings, architects and engineers often use a device called..?",
+    options: ["Dot Matrix Printer", "Line Printer", "Plotter", "Laser Printer"],
+    correctAnswer: "Plotter"
+  },
+  {
+    question: "Laser printer resolution is specified in terms of…?",
+    options: ["API", "DPI", "CPI", "LSI"],
+    correctAnswer: "DPI"
+  },
+  {
+    question: "The DOS command to retrieve the list of a file is",
+    options: ["DIR", "MD", "CD", "RD"],
+    correctAnswer: "DIR"
+  },
+  {
+    question: "Unix is a single-user operating system",
+    options: ["TRUE", "FALSE"],
+    correctAnswer: "FALSE"
+  },
+  {
+    question: "Railway Reservation System is an example of a Real-time Application.",
+    options: ["TRUE", "FALSE"],
+    correctAnswer: "TRUE"
+  },
+  {
+    question: "Which command is used to display the operating system name?",
+    options: ["os", "unix", "kernel", "uname"],
+    correctAnswer: "uname"
+  },
+  {
+    question: "Which option of ls command is used to view the file inode number?",
+    options: ["–l", "-o", "–a", "–i"],
+    correctAnswer: "–i"
+  },
+  {
+    question: "Which command is used to perform a backup in Unix?",
+    options: ["Backup", "cpio", "zip", "gzip"],
+    correctAnswer: "cpio"
+  },
+  {
+    question: "Which command creates an empty file if the file does not exist?",
+    options: ["cat", "touch", "ed", "read"],
+    correctAnswer: "touch"
+  },
+  {
+    question: "Which command is used to identify the file type?",
+    options: ["Type", "File", "Finfo", "Info"],
+    correctAnswer: "File"
+  },
+  {
+    question: "Command used to determine the path of an executable file is",
+    options: ["which", "where", "wexec", "what"],
+    correctAnswer: "which"
+  },
+  {
+    question: "Command used to count the number of characters in a file is",
+    options: ["grep", "wc", "count", "cut"],
+    correctAnswer: "wc"
+  },
+  {
+    question: "Shortcut key of styles or manage styles in LibreOffice Writer",
+    options: ["F12", "F5", "F11", "F10"],
+    correctAnswer: "F11"
+  },
+  {
+    question: "Shortcut key of navigator in LibreOffice Writer",
+    options: ["F12", "F5", "F10", "F11"],
+    correctAnswer: "F5"
+  },
+  {
+    question: "Shortcut key of full screen in LibreOffice Writer",
+    options: ["Ctrl+Shift+V", "Ctrl+Shift+J", "Ctrl+Shift+C", "Ctrl+Shift+R"],
+    correctAnswer: "Ctrl+Shift+J"
+  },
+  {
+    question: "Shortcut key of formula bar in LibreOffice Writer",
+    options: ["F12", "F5", "F2", "F11"],
+    correctAnswer: "F2"
+  },
+  {
+    question: "Shortcut key of comment in LibreOffice Writer",
+    options: ["Ctrl+Alt+V", "Ctrl+Alt+C", "Ctrl+Shift+C", "Ctrl+Shift+R"],
+    correctAnswer: "Ctrl+Alt+C"
+  },
+  {
+    question: "Shortcut key of hyperlink in LibreOffice Writer",
+    options: ["Ctrl+H", "Ctrl+N", "Ctrl+K", "Ctrl+Y"],
+    correctAnswer: "Ctrl+K"
+  },
+  {
+    question: "Shortcut key of clear direct formatting in LibreOffice Writer",
+    options: ["Ctrl+H", "Ctrl+N", "Ctrl+M", "Ctrl+Y"],
+    correctAnswer: "Ctrl+M"
+  },
+  {
+    question: "Shortcut key of bullet list in LibreOffice Writer",
+    options: ["Shift+F12", "Ctrl+F14", "Shift+F2", "Shift+F1"],
+    correctAnswer: "Shift+F2"
+  },
+  {
+    question: "Shortcut key of number list in LibreOffice Writer",
+    options: ["F12", "F5", "F2", "F11"],
+    correctAnswer: "F12"
+  },
+  {
+    question: "Shortcut key of double underline in LibreOffice Writer",
+    options: ["Ctrl+H", "Ctrl+D", "Ctrl+M", "Ctrl+Y"],
+    correctAnswer: "Ctrl+D"
+  },
+  {
+    question: "Are Alphabet Right and Numbers Left Aligned in LibreOffice Calc?",
+    options: ["True", "False"],
+    correctAnswer: "False"
+  },
+  {
+    question: "Is there use of a filter in LibreOffice Calc?",
+    options: ["Copy data", "Make charts", "Arrange data", "See specific data"],
+    correctAnswer: "See specific data"
+  },
+  {
+    question: "Which of the following is not a valid Zoom Percentage in LibreOffice Calc?",
+    options: ["500", "100", "400", "300"],
+    correctAnswer: "500"
+  },
+  {
+    question: "Which is not a valid operator type in LibreOffice Calc?",
+    options: ["Arithmetic", "Comparative", "Referential", "Text"],
+    correctAnswer: "Referential"
+  },
+  {
+    question: "What is the shortcut key to select the entire row in Calc?",
+    options: ["Shift+Alt", "Ctrl+Shift", "Ctrl+Spacebar", "Shift+Spacebar"],
+    correctAnswer: "Shift+Spacebar"
+  },
+  {
+    question: "What is the shortcut key to select the entire column in Calc?",
+    options: ["Shift+Alt", "Ctrl+Shift", "Ctrl+Spacebar", "Shift+Spacebar"],
+    correctAnswer: "Ctrl+Spacebar"
+  },
+  {
+    question: "What is the meaning of ### in a cell of Calc?",
+    options: ["The formula is wrong", "Cell width is not proper enough to show the data", "Calculations can be corrected", "None"],
+    correctAnswer: "Cell width is not proper enough to show the data"
+  },
+  {
+    question: "Which of the following is the shortcut key to insert cells from Calc?",
+    options: ["Ctrl+2", "Shift+ +", "Ctrl+ +", "None of these"],
+    correctAnswer: "Ctrl+ +"
+  },
+  {
+    question: "In LibreOffice Calc, the shortcut key of going at the last of the left of the cell is?",
+    options: ["Alt+Tab", "Tab", "Alt", "Shift+Tab"],
+    correctAnswer: "Shift+Tab"
+  },
+  {
+    question: "What is the combination of row and column in LibreOffice Calc?",
+    options: ["Cell", "Table", "Position", "Data"],
+    correctAnswer: "Cell"
+  },
+  {
+    question: "Which toolbar provides various options in different master views?",
+    options: ["Standard toolbar", "Formatting toolbar", "Drawing toolbar", "Common tasks toolbar"],
+    correctAnswer: "Common tasks toolbar"
+  },
+  {
+    question: "We can find any and every command on the:",
+    options: ["Menu bar", "Standard toolbar", "Formatting toolbar", "Drawing toolbar"],
+    correctAnswer: "Menu bar"
+  },
+  {
+    question: "Which of these features should one use when we want to type in the text box for notes?",
+    options: ["Insert", "Slide shows", "Zoom", "Slide master"],
+    correctAnswer: "Zoom"
+  },
+  {
+    question: "Which types of templates provide all users with a design concept, colour scheme, and fonts for presentation?",
+    options: ["Content", "Format", "Normal", "Design"],
+    correctAnswer: "Design"
+  },
+  {
+    question: "The File that consists of readymade styles that we can easily use for our presentation is known as:",
+    options: ["Pre formatting", "Template", "Wizard", "AutoStyle"],
+    correctAnswer: "Template"
+  },
+  {
+    question: "Which of these PowerPoint features would allow any user to create a given simple presentation quicker?",
+    options: ["Animations", "Chart Wizard", "Transition Wizard", "AutoContent Wizard"],
+    correctAnswer: "AutoContent Wizard"
+  },
+  {
+    question: "The Handout Master consists of placeholders for all of these except the:",
+    options: ["Title", "Slide number", "Header", "Footer"],
+    correctAnswer: "Title"
+  },
+  {
+    question: "The default template in Impress Presentation is-",
+    options: ["Image only", "Content Only", "Title and Content", "Title Only"],
+    correctAnswer: "Title and Content"
+  },
+  {
+    question: "What is the maximum number of slides that can be viewed on a page in slide shortener view in LibreOffice Impress?",
+    options: ["10", "15", "12", "14"],
+    correctAnswer: "15"
+  },
+  {
+    question: "What is the default font size in Impress?",
+    options: ["12", "16", "18", "20"],
+    correctAnswer: "18"
+  },
+  {
+    question: "……………. is meant to be online buying and selling of goods.",
+    options: ["E-commerce", "Digi Locker", "Digital Payment", "None of these"],
+    correctAnswer: "E-commerce"
+  },
+  {
+    question: "Digilocker is connected with?",
+    options: ["From Aadhar card", "From PAN card", "A & B both", "None of these"],
+    correctAnswer: "From Aadhar card"
+  },
+  {
+    question: "Which is not an advantage of using DigiLocker?",
+    options: ["Secure access to Govt. issue documents", "Document Generation", "Easy to carry", "Minimize the use of physical documents"],
+    correctAnswer: "Document Generation"
+  },
+  {
+    question: "What is the advantage of DigiLocker?",
+    options: ["Issue e-documents to citizen & eliminates physical documents", "Issue physical documents to citizen", "Both A & B", "None of these"],
+    correctAnswer: "Issue e-documents to citizen & eliminates physical documents"
+  },
+  {
+    question: "Deleted e-mails are stored in",
+    options: ["Draft", "Trash", "Inbox", "Sent mail"],
+    correctAnswer: "Trash"
+  },
+  {
+    question: "A block of text automatically added to the end of an outgoing e-mail is called",
+    options: ["Attachment", "Signature", "Decryption", "Encryption"],
+    correctAnswer: "Signature"
+  },
+  {
+    question: "USSD stands for",
+    options: ["User Sale Service Data", "User Supplementary Service Data", "Unstructured Supplementary Service Data", "Unique Supplementary Service Data"],
+    correctAnswer: "Unstructured Supplementary Service Data"
+  },
+  {
+    question: "USSD is available in how many languages",
+    options: ["10", "11", "12", "13"],
+    correctAnswer: "12"
+  },
+  {
+    question: "Prepaid Debit cards are also called",
+    options: ["Reloadable debit cards", "Loadable debit cards", "Relational debit cards", "None of these"],
+    correctAnswer: "Reloadable debit cards"
+  },
+  {
+    question: "Which digital company payment announced a new feature QR code on its app?",
+    options: ["PayU", "PayPal", "Paytm", "Payoneer"],
+    correctAnswer: "Paytm"
+  },
+  {
+    question: "POS stands for",
+    options: ["Point of Service", "Point of Sale", "Point of Satisfaction", "None of The Above"],
+    correctAnswer: "Point of Sale"
+  },
+  {
+    question: "RuPay debit card is similar to",
+    options: ["Singapore's NETS", "China's UnionPay", "Both of The Above", "None of The Above"],
+    correctAnswer: "Both of The Above"
+  },
+  {
+    question: "The prepaid bank card is also called",
+    options: ["Convenience Gift Card", "Bank Gift Card", "Suitable Gift Card", "None of The Above"],
+    correctAnswer: "Bank Gift Card"
+  },
+  {
+    question: "QR code often does not contain data for …………… the points to the website or application",
+    options: ["Tracker", "Locator", "Person", "Identifier"],
+    correctAnswer: "Person"
+  },
+  {
+    question: "NABARD was established on the recommendations of which Committee",
+    options: ["B. Sivaramman", "Ram Manohar Lohiya", "Narasimham", "None of these"],
+    correctAnswer: "B. Sivaramman"
+  },
+  {
+    question: "Which is considered as a repository of Aadhaar number?",
+    options: ["NPCI LOGGER", "NPCI FISHER", "NPCI MAPPER", "NPCI REDUCER"],
+    correctAnswer: "NPCI MAPPER"
+  },
+  {
+    question: "Which is not required for online banking?",
+    options: ["Bank interface", "Transaction password", "Customer ID", "ATM password"],
+    correctAnswer: "ATM password"
+  },
+  {
+    question: "Which of the following is not related to e-banking?",
+    options: ["Electronic clearing system", "Demand draft", "ATM", "E-challan"],
+    correctAnswer: "Demand draft"
+  },
+  {
+    question: "Which of the following cannot be tracked using POS?",
+    options: ["Pricing accuracy", "Gross revenue", "Inventory charges", "Promotions"],
+    correctAnswer: "Promotions"
+  },
+  {
+    question: "The eligible criteria for the banks which can participate in UPI is that the Bank should have approval from RBI for mobile banking service and also should be live on….",
+    options: ["AEPS", "BBPS", "CT", "IMPS"],
+    correctAnswer: "IMPS"
+  },
+  {
+    question: "Which information component is not part of e-wallet?",
+    options: ["Encryption of the data", "User name", "Amount to be paid", "User debit card details"],
+    correctAnswer: "User debit card details"
+  },
+  {
+    question: "What is the transaction charge for the RTGS amounting between 2 lakh to 5 lakhs?",
+    options: ["100", "30", "50", "25"],
+    correctAnswer: "25"
+  },
+  {
+    question: "In the context of DigiLocker, what is the role of the issuer?",
+    options: ["Issue printed documents to citizens", "Issue e-documents to citizens", "Issue e-document to government", "None of these"],
+    correctAnswer: "Issue e-documents to citizens"
+  },
+  {
+    question: "Which is not required for accessing the service of the POS system?",
+    options: ["Internet", "PIN", "Debit/Credit card", "Account number"],
+    correctAnswer: "Account number"
+  },
+  {
+    question: "Which one is not a finance company.",
+    options: ["IRDA", "Loan companies", "Mutual benefits finance companies", "Hire purchase finance company"],
+    correctAnswer: "IRDA"
+  },
+  {
+    question: "QR is the trademark for a type of?",
+    options: ["Pin", "Scratch code", "Barcode", "Pattern"],
+    correctAnswer: "Barcode"
+  },
+  {
+    question: "On smartphones, OTP can never be delivered directly through",
+    options: ["Authy", "Duo Mobile", "IM Swap", "Google Authenticator"],
+    correctAnswer: "Google Authenticator"
+  },
+  {
+    question: "In UPI, ______ is an Address that uniquely identifies a person’s bank account.",
+    options: ["Primary Address", "Unique Address", "Bank Address", "Payment Address"],
+    correctAnswer: "Payment Address"
+  },
+  {
+    question: "Which of the following terms is used for sending money in UPI?",
+    options: ["PULL", "PUSH", "TRANSFER", "PUT"],
+    correctAnswer: "PUSH"
+  },
+  {
+    question: "Which of the following terms is used for receiving money in UPI?",
+    options: ["PULL", "PUSH", "TRANSFER", "PUT"],
+    correctAnswer: "PULL"
+  },
+  {
+    question: "Hackers cannot do which of the following after compromising your phone?",
+    options: ["Shoulder surfing", "Steal your information", "Use your app credentials", "Accessing your voicemail"],
+    correctAnswer: "Shoulder surfing"
+  },
+  {
+    question: "Mobile security is also known as __________",
+    options: ["Wireless security", "OS Security", "Cloud security", "Database security"],
+    correctAnswer: "Wireless security"
+  },
+  {
+    question: "Transmits time and response time measure the ……… of the network.",
+    options: ["Performance", "Reliability", "Security", "Longevity"],
+    correctAnswer: "Performance"
+  },
+  {
+    question: "Encryption technique improves a network’s",
+    options: ["Performance", "Reliability", "Security", "Longevity"],
+    correctAnswer: "Security"
+  },
+  {
+    question: "A ………… is illicitly introduced code that damages a network device.",
+    options: ["Protocol", "Virus", "Catastrophe", "Medium"],
+    correctAnswer: "Virus"
+  },
+  {
+    question: "When a server goes down, this is a network _______ issue.",
+    options: ["Performance", "Reliability", "Security", "None of the above"],
+    correctAnswer: "Reliability"
+  },
+  {
+    question: "When an earthquake severs a fiber-optic cable, this is a network _______ issue.",
+    options: ["Performance", "Reliability", "Security", "None of the above"],
+    correctAnswer: "Performance"
+  },
+  {
+    question: "When a network upgrades to a transmission medium with a data rate that is 100 times faster, this improves the _______ of the network.",
+    options: ["Performance", "Reliability", "Security", "None of the above"],
+    correctAnswer: "Performance"
+  },
+  {
+    question: "A company doubles the number of nodes on its network. The greatest impact will be on the _______ of the network.",
+    options: ["Performance", "Reliability", "Security", "None of the above"],
+    correctAnswer: "Performance"
+  },
+  {
+    question: "A company changes its network configuration so that only one router instead of two can access the Internet. The greatest impact will be on the _______ of the network.",
+    options: ["Performance", "Reliability", "Security", "None of the above"],
+    correctAnswer: "Security"
+  },
+  {
+    question: "Face Recognition system is based on which type of approach?",
+    options: ["Weak AI approach", "Applied AI approach", "Cognitive AI approach", "Strong AI approach"],
+    correctAnswer: "Applied AI approach"
+  },
+  {
+    question: "Which of the following is an advantage of artificial intelligence?",
+    options: ["Reduces the time taken to solve the problem", "Helps in providing security", "Has the ability to think hence makes the work easier", "All of the above"],
+    correctAnswer: "All of the above"
+  },
+  {
+    question: "Which of the following can improve the performance of an AI agent?",
+    options: ["Perceiving", "Learning", "Observing", "All of the mentioned"],
+    correctAnswer: "Learning"
+  },
+  {
+    question: "Which of the following is/are the composition for AI agents?",
+    options: ["Program only", "Architecture only", "Both Program and Architecture", "None of the mentioned"],
+    correctAnswer: "Both Program and Architecture"
+  },
+  {
+    question: "On which of the following approaches is a basic line-following robot based?",
+    options: ["Applied approach", "Weak approach", "Strong approach", "Cognitive approach"],
+    correctAnswer: "Weak approach"
+  },
+  {
+    question: "Artificial Intelligence has evolved extremely in all fields except for _________",
+    options: ["Web mining", "Construction of plans in real-time dynamic systems", "Understanding natural language robustly", "All of the mentioned"],
+    correctAnswer: "All of the mentioned"
+  },
+  {
+    question: "Which of the following is an example of artificial intelligent agent/agents?",
+    options: ["Autonomous Spacecraft", "Human", "Robot", "All of the mentioned"],
+    correctAnswer: "All of the mentioned"
+  },
+  {
+    question: "Which of the following is an expansion of Artificial Intelligence application?",
+    options: ["Game Playing", "Planning and Scheduling", "Diagnosis", "All of the mentioned"],
+    correctAnswer: "All of the mentioned"
+  },
   {
     question: "Which of the following environments is strategic?",
     options: ["Rational", "Deterministic", "Partial", "Stochastic"],
@@ -33,557 +500,6 @@ const quizData = [
     correctAnswer: "Fuzzy logic"
   },
 
-  {
-    question: "Minimum zoom in LibreOffice Calc?",
-    options: ["10%", "20%", "30%", "5%"],
-    correctAnswer: "10%"
-  },
-  {
-    question: "Which of the following is not a networking device?",
-    options: ["Gateway", "Router", "Switch", "Linux"],
-    correctAnswer: "Linux"
-  },
-
-  {
-    question: "Which of the following is an application of AI?",
-    options: ["Gaming", "Expert Systems", "Vision Systems", "All of the above"],
-    correctAnswer: "All of the above"
-  },
-  {
-    question: "The ________ is the original message before transmission.",
-    options: ["Ciphertext", "Plaintext", "Secret-text", "None of the above"],
-    correctAnswer: "Plaintext"
-  },
-
-  {
-    question: "Which option can be used to set custom timings for slides in a presentation?",
-    options: ["Slide Timings", "Slide Timer", "Rehearsal", "Slide show setup"],
-    correctAnswer: "Rehearsal",
-  },
-  {
-    question: "In presentations, which of the following can be inserted?",
-    options: ["Sound Clips", "Movie Clips", "Both (A) & (B)", "None of the above"],
-    correctAnswer: "Both (A) & (B)",
-  },
-  {
-    question: "Which of the following is the shortcut key to start a slide show from the current slide?",
-    options: ["f5", "shift+f5", "ctrl+f5", "none of the above"],
-    correctAnswer: "shift+f5",
-  },
-  {
-    question: "Which of the following menu has the Background in Libre Impress",
-    options: ["Insert", "Slide", "Slide Show", "view"],
-    correctAnswer: "Slide",
-  },
-  {
-    question: "Pressing Which Of The Following Does Not Advance 'slide Show'?",
-    options: ["Esc Key", "F5 Key", "Mouse Button", "None of These"],
-    correctAnswer: "Esc Key",
-  },
-  {
-    question: "Libreoffice Impress Can Also Be Known As 'open Source Presentation Software Module'?",
-    options: ["TRUE", "FALSE"],
-    correctAnswer: "TRUE",
-  },
-  {
-    question: "ECB stands for",
-    options: ["electronic code book", "electronic cipher book", "C electronic clear book", "none of these"],
-    correctAnswer: "electronic code book"
-  },
-  {
-    question: "What is the loopback IP address?",
-    options: ["127.0.0.1", "127.0.0.0", "127.1.1.0", "NONE OF THESE"],
-    correctAnswer: "127.0.0.1"
-  },
-
-  {
-    question: "UMANG stands for:",
-    options: [
-      "Unified Mobile Application for New Age Governance",
-      "Unified Mobile Application for New Age Government",
-      "Ultimate Mobile Application for New Age Governance",
-      "User Mobile Application for New Age Governance"
-    ],
-    correctAnswer: "Unified Mobile Application for New Age Governance"
-  },
-
-  {
-    question: "What are the main components of the CPU?",
-    options: ["Hard Disk, Monitor, Keyboard", "RAM, ROM, Printer", "CD, DVD, Pendrive", "Control Unit, Memory Unit, ALU"],
-    correctAnswer: "Control Unit, Memory Unit, ALU"
-  },
-  {
-    question: "Which of the following devices can be used to convert characters of printed text into an image?",
-    options: ["OCR", "MICR", "OMR", "All of the options"],
-    correctAnswer: "All of the options"
-  },
-
-  {
-    question: "If Maruti company purchases a tire from MRF company, this business is called as:",
-    options: ["B2B", "C2C", "B2C", "G2G"],
-    correctAnswer: "B2B"
-  },
-
-  {
-    question: "What characteristics of read-only memory (ROM) makes it useful?",
-    options: [
-      "ROM information can be easily updated",
-      "ROM provides very large amounts of inexpensive data storage",
-      "ROM chips are easily swapped between different brands of computers",
-      "Data in ROM is non-volatile, that is, it remains there even without electrical power"
-    ],
-    correctAnswer: "Data in ROM is non-volatile, that is, it remains there even without electrical power"
-  },
-  {
-    question: "One nibble is equal to?",
-    options: ["Half a byte", "One byte", "Both a & b", "None of these"],
-    correctAnswer: "Half a byte"
-  },
-  // Q23
-  {
-    question: "What is the full form of UNIVAC?",
-    options: ["Universal Automatic Computer", "Uniary All Communication", "Both a & b", "None of these"],
-    correctAnswer: "Universal Automatic Computer"
-  },
-
-  {
-    question: "A/an ________ algorithm transforms plaintext to ciphertext.",
-    options: ["Encryption", "Decryption", "Both (A) and (B)", "None of the above"],
-    correctAnswer: "Encryption"
-  },
-  {
-    question: "1000 gigabytes is equal to?",
-    options: ["1 PB", "1 ZB", "1 TB", "1 MB"],
-    correctAnswer: "1 TB"
-  },
-  // Q15
-  {
-    question: "Apple company used chips from which company for its computer?",
-    options: ["Motorola", "Intel", "Both a & b", "None of these"],
-    correctAnswer: "Both a & b"
-  },
-
-
-  {
-    question: "Which command prints the directory stack?",
-    options: ["cd", "dirs", "popd", "pushd"],
-    correctAnswer: "dirs"
-  },
-  {
-    question: "Shortcut key of increase font size in LibreOffice Writer:",
-    options: ["crtl+]", "ctrl+[", "ctrl++", "ctrl+1"],
-    correctAnswer: "ctrl+]",
-  },
-
-  {
-    question: "Which of the following protocols is recommended to be turned off because it transmits usernames and passwords in plaintext?",
-    options: ["TELECOMMUNICATION NETWORK (TELNET)", "HTTPS (HYPER TEXT TRANSFER PROTOCOL SECURED)", "SSL (SECURE SOCKET LAYER)", "TFTP (TRIVIAL FILE TRANSFER PROTOCOL)"],
-    correctAnswer: "TELECOMMUNICATION NETWORK (TELNET)"
-  },
-  {
-    question: "Which command removes a directory from the directory stack?",
-    options: ["dirs", "popd", "pushd", "rm"],
-    correctAnswer: "popd"
-  },
-
-  {
-    question: "What idea did American Express come up with in 2000 to combat identity theft?",
-    options: ["none of the options", "a disposable transaction number", "a no-hack website", "an online-fraud detective service"],
-    correctAnswer: "an online-fraud detective service"
-  },
-  {
-    question: "Arrange memory units in ascending order.",
-    options: ["ZB, KB, GB, MB", "KB, MB, GB, ZB", "GB, MB, KB, ZB", "MB, KB, ZB, GB"],
-    correctAnswer: "KB, MB, GB, ZB"
-  },
-  // Q17
-  {
-    question: "In which year did DVDs come into the market?",
-    options: ["1999", "1982", "1995", "1991"],
-    correctAnswer: "1995"
-  },
-  // Q18
-
-  {
-    question: "Which app is used for ticket booking from IRCTC?",
-    options: ["Rail Tail", "Rail Connect", "Rail Sarthi", "None of these"],
-    correctAnswer: "Rail Connect"
-  },
-  {
-    question: "The ________ is the message after transformation.",
-    options: ["Plaintext", "Secret-text", "Ciphertext", "None of the above"],
-    correctAnswer: "Ciphertext"
-  },
-  // Q19
-  {
-    question: "What is the correct sequence of a working computer?",
-    options: ["Output, Storage, Input, Process", "Process, Output, Storage, Input", "Input, Process, Output, Storage", "Storage, Input, Process, Output"],
-    correctAnswer: "Input, Process, Output, Storage"
-  },
-  {
-    question: "Which of the following is not a typical characteristic of an ethical hacker?",
-    options: ["Excellent knowledge of Windows", "Understands the process of exploiting network vulnerabilities", "Patience, persistence, and perseverance", "Has the highest level of security for the organization"],
-    correctAnswer: "Has the highest level of security for the organization"
-  },
-
-  // Q20
-  {
-    question: "When you start up the computer, the screen at which the BIOS version, manufacturer, and data are displayed is called?",
-    options: ["Kernel Loading", "Power On Self Test (POST)", "System Configuration", "Bootstrap"],
-    correctAnswer: "Power On Self Test (POST)"
-  },
-  // Q21
-
-
-  {
-    question: "The certificate authority signs the digital certificate with...",
-    options: ["user’s private key", "it’s own public key", "it’s own private key", "user’s public key"],
-    correctAnswer: "it’s own public key"
-  },
-
-
-  // Q25
-  {
-    question: "What are the input devices?",
-    options: ["Printer", "Hard disk", "Keyboard, Mouse", "Monitor"],
-    correctAnswer: "Keyboard, Mouse"
-  },
-
-  // Q29
-  {
-    question: "In which year did CDs come into the market?",
-    options: ["1999", "1982", "1985", "1991"],
-    correctAnswer: "1982"
-  },
-  // Q30
-  {
-    question: "Which command is used to bring the background process to forground?",
-    options: ["bg", "fg", "background", "forground"],
-    correctAnswer: "fg"
-  },
-
-
-
-
-  {
-    question: "The initial state and successor function implicitly define the state space of the problem.",
-    options: ["Initial state", "State-space", "problem space", "problem place"],
-    correctAnswer: "State-space"
-  },
-  {
-    question: "Which guided media provides the highest mode of speed?",
-    options: ["COAXIAL CABLE", "FIBER OPTIC CABLE", "UNSHIELDED TWISTED PAIR", "NONE OF THESE"],
-    correctAnswer: "FIBER OPTIC CABLE"
-  },
-
-  {
-    question:
-      "Which feature in libre office write remove extra spaces between pages.",
-    options: [
-      "Edit -> Hide White space",
-      "view -> Hide White space",
-      "file -> Hide White space",
-      "tools -> Hide White space",
-    ],
-    correctAnswer: "view -> Hide White space",
-  },
-
-  {
-    question: "................. represents raw facts, whereas ................... is data made meaningful.",
-    options: ["Information, bits", "Information, reporting", "Records, bytes", "Data, information"],
-    correctAnswer: "Data, information"
-  },
-
-
-  {
-    question: "Shortcut key insert textbox in libreoffice impress.",
-    options: ["F5", "F2", "F3", "F4"],
-    correctAnswer: "F2",
-  },
-  {
-    question: "How many keys are required if two parties communicate using Symmetric Cryptography?",
-    options: ["One", "Two", "Three", "Four"],
-    correctAnswer: "One"
-  },
-  //   Q26
-  {
-    question:
-      "There are six rows in an inserted table in a document of libre office writer.Height of the third row and fourth row are 1 cm and 2 cm if the updated heights of both rows if you choose the option distribute rows evenly of size subme.",
-    options: [
-      "height of both rows will be 2 cm",
-      "height of both rows will be 1.5 cm",
-      "height of both rows will be 1 cm",
-      "height of both rows will be 3 cm",
-    ],
-    correctAnswer: "height of both rows will be 1.5 cm",
-  },
-  {
-    question: "Navigator key in Libre office impress.",
-    options: ["ctrl+shift+f3", "ctrl+shift+f4", "ctrl+shift+f7", "ctrl+shift+f5"],
-    correctAnswer: "ctrl+shift+f5"
-  },
-  {
-    question: "A/an ________ algorithm transforms ciphertext to plaintext.",
-    options: ["Encryption", "Decryption", "Both (A) and (B)", "None of the above"],
-    correctAnswer: "Decryption"
-  },
-  {
-    question: "A/an ________ algorithm transforms plaintext to ciphertext.",
-    options: ["Encryption", "Decryption", "Both (A) and (B)", "None of the above"],
-    correctAnswer: "Encryption"
-  },
-
-
-  {
-    question: "What is the purpose of the id command?",
-    options: ["Print effective and real UID", "Print effective and real GID", "Print effective and real UID and GID", "None of these"],
-    correctAnswer: "Print effective and real UID and GID"
-  },
-  // Q3
-  {
-    question: "Which is not an impact printer?",
-    options: ["Dot Matrix Printer", "Drum Printer", "Chain Printer", "Laser Printer"],
-    correctAnswer: "Laser Printer"
-  },
-  {
-    question: "The default name of the Impress presentation is ................",
-    options: ["Calc", "Slide 1", "Writer", "Untitled 1"],
-    correctAnswer: "Untitled 1",
-  },
-
-  {
-    question: "To protect against phishing, what is the recommendation for changing your finance password?",
-    options: ["no need to change", "every 2 months", "every 6 months", "every 12 months"],
-    correctAnswer: "every 6 months"
-  },
-
-  {
-    question: "The shell used for Single user mode shell is:",
-    options: ["bash", "Csh", "ksh", "sh"],
-    correctAnswer: "sh"
-  },
-
-  // Q78
-  {
-    question: "Shortcut key of new style in LibreOffice Writer:",
-    options: ["ctrl+C", "shift+12", "CTRL+f7", "shift+f11"],
-    correctAnswer: "shift+f11",
-  },
-
-  {
-    question: "Which of these is not a major type of cloud computing usage?",
-    options: ["Hardware as a service", "Platform as a service", "Software as a service", "Infrastructure as a service"],
-    correctAnswer: "Hardware as a service"
-  },
-  {
-    question: "The initial state and successor function implicitly define the state space of the problem.",
-    options: ["Initial state", "State-space", "problem space", "problem place"],
-    correctAnswer: "State-space"
-  },
-  {
-    question: "Shortcut key of open new document in libre office writer",
-    options: ["crtl+z", "ctrl+m", "crtl+n", "ctrl+y"],
-    correctAnswer: "crtl+n",
-  },
-  {
-    question: "Which of these should be avoided in an E-mail?",
-    options: ["Writes a wrong e-mail address", "Subject line", "Smiley’s", "Re-reading"],
-    correctAnswer: "Writes a wrong e-mail address"
-  },
-  {
-    question: "E-payments can be done through",
-    options: ["Wallets", "Digital Wallets", "Cash", "None of the above"],
-    correctAnswer: "Digital Wallets"
-  },
-  {
-    question: "Which of the following is a strong password?",
-    options: ["123456", "P@ssw0rd", "ILoveYou123", "All of the above"],
-    correctAnswer: "P@ssw0rd"
-  },
-  {
-    question: "Is email case sensitive?",
-    options: ["True", "False"],
-    correctAnswer: "False"
-  },
-  {
-    question: "What is HTTP?",
-    options: ["HYPER TEXT TRANSMISSION PROTOCOL.", "HIGH TEXT TRANSMISSION PROTOCOL.", "HYPER TEXT TRANSFER PROTOCOL.", "NONE OF THESE"],
-    correctAnswer: "HYPER TEXT TRANSFER PROTOCOL."
-  },
-  {
-    question: "In which menu option export as pdf in libre office write",
-    options: ["file", "format", "tools", "edit"],
-    correctAnswer: "file",
-  },
-  {
-    question: "How to start a new presentation in impress in using",
-    options: ["New presentation", "Create presentation", "Open presentation", "Presentation wizard"],
-    correctAnswer: "New presentation",
-  },
-  {
-    question: "Which device was used in the first generation of computers?",
-    options: ["IC", "Transistor", "Vacuum Tubes", "None of these"],
-    correctAnswer: "Vacuum Tubes"
-  },
-  {
-    question: "How many sections in the sidebar of impress",
-    options: ["9", "5", "3", "7"],
-    correctAnswer: "7",
-  },
-
-  {
-    question: "ISP exchanges internet traffic between their networks by?",
-    options: ["INTERNET EXCHANGE POINT", "ISP END POINT", "BOTH A & B", "NONE OF THESE"],
-    correctAnswer: "INTERNET EXCHANGE POINT"
-  },
-
-
-  {
-    question: "Which of the following command is used to see the content of the tar(backup.tar) file without extracting it?",
-    options: ["tar -xvf backup.tar", "tar -svf backup.tar", "tar -tvf backup.tar", "none of these"],
-    correctAnswer: "tar -tvf backup.tar"
-  },
-  {
-    question: "What is the purpose of the id command?",
-    options: ["Print effective and real UID", "Print effective and real GID", "Print effective and real UID and GID", "None of these"],
-    correctAnswer: "Print effective and real UID and GID"
-  },
-  {
-    question: "Which command is used to print the login shell of a user?",
-    options: ["echo $SHELL", "echo $LOGIN", "echo $LSHELL", "None of the Above"],
-    correctAnswer: "echo $SHELL"
-  },
-  {
-    question: "Rehearse time will start counting in units.",
-    options: ["Mini seconds", "Hours", "Minutes", "Seconds"],
-    correctAnswer: "Seconds",
-  },
-
-  {
-    question: "What is flashing or blinking light called on the screen?",
-    options: ["An icon", "A cursor", "A pixel", "None"],
-    correctAnswer: "A cursor"
-  },
-
-
-
-  {
-    question: "Which of the following is not a sub-module of an e-wallet?",
-    options: ["Digital cash", "Profile manager", "Transaction manager", "Communication manager"],
-    correctAnswer: "Digital cash"
-  },
-  {
-    question: "Is it safe to click on links in promotional emails, open attachments and to share personal information?",
-    options: ["false", "true"],
-    correctAnswer: "false"
-  },
-  {
-    question: "NPCI was launched in which year?",
-    options: ["2008", "2010", "2006", "2015"],
-    correctAnswer: "2008"
-  },
-  {
-    question: "DHCP stands for?",
-    options: ["DYNAMIC HOST CONFIGURATION PROTOCOL", "DYNAMIC HIGH CONTROL PROTOCOL", "BOTH A & B", "NONE OF THESE"],
-    correctAnswer: "DYNAMIC HOST CONFIGURATION PROTOCOL"
-  },
-  {
-    question: "Which one is not a key stakeholder of Digilocker?",
-    options: ["Citizens", "Requesters", "Issuers", "Government"],
-    correctAnswer: "Issuers"
-  },
-
-  {
-    question: "What is S/MIME?",
-    options: ["Secure Multipurpose Intranet Mail Extensions", "Secure Multipurpose Internet Mail Extensions", "Secure Multipurpose Internet Message Extensions", "Secure Multipurpose Intranet Message Extensions"],
-    correctAnswer: "Secure Multipurpose Internet Mail Extensions"
-  },
-
-  {
-    question: "What is minimum zoom percentage in libreoffice impress",
-    options: ["20%", "5%", "2%", "10%"],
-    correctAnswer: "5%",
-  },
-
-  {
-    question: "Which feature is not supported in Windows 10?",
-    options: ["Trusted Boot", "Windows Hello", "Microsoft Passport", "Windows Hi"],
-    correctAnswer: "Windows Hi"
-  },
-  {
-    question: "The size of packet is larger than the size of frame?",
-    options: ["true", "false"],
-    correctAnswer: "false"
-  },
-  {
-    question: "Shortcut key for position and size in libreoffice impress",
-    options: ["F1", "F3", "F2", "F4"],
-    correctAnswer: "F4",
-  },
-  {
-    question: "The correct combination of e-wallet components is...",
-    options: ["Software and hardware", "Software and information", "Hardware and internet", "Hardware and information"],
-    correctAnswer: "Software and information"
-  },
-  // Q31
-  {
-    question: "How many bits and characters are there in ASCII?",
-    options: ["7 bits & 128 characters", "9 bits & 120 characters", "8 bits & 256 characters", "None of these"],
-    correctAnswer: "7 bits & 128 characters"
-  },
-  {
-    question: "Which one is least Secure?",
-    options: [" Password", "Keycard", "Retina", "Fingerprint"],
-    correctAnswer: " Keycard"
-  },
-  {
-    question: "Which command is used to show process hierarchy in tree format?",
-    options: ["ps –tree", "pstree", "ps –t", "none of these"],
-    correctAnswer: "pstree",
-  },
-  {
-    question: "The ________ is the original message before transmission.",
-    options: ["Ciphertext", "Plaintext", "Secret-text", "None of the above"],
-    correctAnswer: "Plaintext"
-  },
-  {
-    question: "What is the Full Form of ‘IIOT’?",
-    options: ["INFORMATION IOT", "INDUSTRIAL IOT", "INTELLIGENT IOT", "INNOVATIVE IOT"],
-    correctAnswer: "INDUSTRIAL IOT"
-  },
-  {
-    question: "Duplicate shape key in Libre office impress.",
-    options: ["shift+f3", "ctrl+f2", "shift+f1", "ctrl+f3"],
-    correctAnswer: "shift+f3"
-  },
-
-  {
-    question: "In symmetric key cryptography, the key used by the sender and receiver is...",
-    options: ["different", "never shared", "Two keys are used", "shared"],
-    correctAnswer: "shared"
-  },
-
-  {
-    question: "Which of the following detection processes is not used by antivirus software?",
-    options: ["Signature-based detection", "Heuristic detection", "Behavioral-based detection", "Signature-less detection"],
-    correctAnswer: "Signature-less detection"
-  },
-  {
-    question: "Which of these are fairly secure online payment services?",
-    options: ["ePostMe and Post me later", "eBillMe and Bill me later", "epayMe and pay me later", "all of the above"],
-    correctAnswer: "eBillMe and Bill me later"
-  },
-
-  {
-    question: "Libre office impress is called….",
-    options: ["word processor", "writer", "calc", "presentation"],
-    correctAnswer: "presentation",
-  },
-  {
-    question: "Protecting information from being disclosed to unauthorized parties is known as...",
-    options: ["information technology", "confidentiality", "availability", "integrity"],
-    correctAnswer: "confidentiality"
-  },
 ];
 
 function shuffleArray(array) {
